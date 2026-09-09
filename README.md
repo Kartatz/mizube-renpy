@@ -57,3 +57,12 @@ The `--scripts` directory is produced by
 ## Content warning
 
 mizube is an adult (18+) game; the extracted artwork reflects that.
+
+Speaker attribution is heuristic for the unprefixed quoted lines:
+`tools/attribute_speakers.py` classifies each source script into the
+Yurika arc (home chapters, `case qq1 of`) or the Riko arc
+(school/confinement chapters, `case ssina of`), then applies register
+cues (politeness for Riko, お兄ちゃん address for Yurika, imperative
+speech for the protagonist) to attribute the heroine lines; ambiguous
+and ellipsis lines stay narrator. Conflicting attributions across
+contexts also fall back to narrator.

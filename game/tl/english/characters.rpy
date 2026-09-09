@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2026-09-09 19:36
+﻿# TODO: Translation updated at 2026-09-09 19:51
 
 translate english strings:
 
@@ -33,4 +33,12 @@ translate english strings:
     # game/characters.rpy:12
     old "通行人B"
     new "Passerby B"
+
+    # game/characters.rpy:14
+    old "ゆりか"
+    new "Yurika"
+
+    # game/characters.rpy:15
+    old "りこ"
+    new "Riko"
 

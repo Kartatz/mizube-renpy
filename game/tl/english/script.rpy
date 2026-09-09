@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2026-09-09 19:36
+﻿# TODO: Translation updated at 2026-09-09 19:51
 
 # game/script.rpy:10
 translate english start_1a40244d:
@@ -3097,10 +3097,10 @@ translate english misc_dialogue_4e9b2fcd:
     n "\"The truth is, on the last test you were dead last in the class.\""
 
 # game/script.rpy:572
-translate english misc_dialogue_8bb3646c:
+translate english misc_dialogue_4c8cc924:
 
-    # n "「え、でも・・りこ、ちゃんとがんばりました」　"
-    n "\"B-but... I really did try my best.\""
+    # riko "え、でも・・りこ、ちゃんとがんばりました"
+    riko "B-but... I really did try my best."
 
 # game/script.rpy:573
 translate english misc_dialogue_7321790d:
@@ -3121,10 +3121,10 @@ translate english misc_dialogue_49e3020b:
     n "\"You were zoning out in class, thinking about something else, weren't you?\""
 
 # game/script.rpy:576
-translate english misc_dialogue_5db9b3f3:
+translate english misc_dialogue_224e9412:
 
-    # n "「いえ、違います。」　"
-    n "\"No, that's not it.\""
+    # riko "いえ、違います。"
+    riko "No, that's not it."
 
 # game/script.rpy:577
 translate english misc_dialogue_0b574a77:
@@ -3133,10 +3133,10 @@ translate english misc_dialogue_0b574a77:
     n "\"To cure your slacking-off sickness, Riko, a strict punishment is necessary.\""
 
 # game/script.rpy:578
-translate english misc_dialogue_e215ebd7:
+translate english misc_dialogue_6b8bef32:
 
-    # n "「すみません。こ、今度はテストがんばります」　"
-    n "\"I'm sorry. I-I'll do better on the next test.\""
+    # riko "すみません。こ、今度はテストがんばります"
+    riko "I'm sorry. I-I'll do better on the next test."
 
 # game/script.rpy:579
 translate english misc_dialogue_8408d6a3:
@@ -3145,10 +3145,10 @@ translate english misc_dialogue_8408d6a3:
     n "\"No. A punishment is a punishment.\""
 
 # game/script.rpy:580
-translate english misc_dialogue_08fd04f7:
+translate english misc_dialogue_43a3c376:
 
-    # n "「本当です。ちゃんと勉強して・・いい点取りますから」"
-    n "\"Really. I'll study properly... and get good marks, I promise.\""
+    # riko "本当です。ちゃんと勉強して・・いい点取りますから"
+    riko "Really. I'll study properly... and get good marks, I promise."
 
 # game/script.rpy:581
 translate english misc_dialogue_e037f697:
@@ -3169,10 +3169,10 @@ translate english misc_dialogue_379681a7:
     n "\"Or should I switch to an even harsher punishment for a bad girl who won't obey her teacher?\""
 
 # game/script.rpy:584
-translate english misc_dialogue_0c42dfdf:
+translate english misc_dialogue_a332aef6:
 
-    # n "「先生の罰をうけます・・」　"
-    n "\"I'll accept your punishment, sir...\""
+    # riko "先生の罰をうけます・・"
+    riko "I'll accept your punishment, sir..."
 
 # game/script.rpy:585
 translate english misc_dialogue_6b2aefd9:
@@ -3181,10 +3181,10 @@ translate english misc_dialogue_6b2aefd9:
     n "\"Stay still and don't fight it. Got it?\""
 
 # game/script.rpy:586
-translate english misc_dialogue_ed3d8deb:
+translate english misc_dialogue_5c7ce7f4:
 
-    # n "「はい、逆らいません」　"
-    n "\"Yes. I won't resist.\""
+    # riko "はい、逆らいません"
+    riko "Yes. I won't resist."
 
 # game/script.rpy:587
 translate english misc_dialogue_40488444_27:
@@ -3685,10 +3685,10 @@ translate english misc_dialogue_d861c9fe:
     staff "Are you the one who's agreed to volunteer?"
 
 # game/script.rpy:670
-translate english misc_dialogue_ee150156:
+translate english misc_dialogue_08ae2c7a:
 
-    # n "「はい。お手伝します」　"
-    n "\"Yes. I'll help.\""
+    # riko "はい。お手伝します"
+    riko "Yes. I'll help."
 
 # game/script.rpy:671
 translate english misc_dialogue_a91cadcd:
@@ -3703,10 +3703,10 @@ translate english misc_dialogue_1f5089c7:
     staff "I know it's sudden, but it would be a great help if you could start right away. What do you say?"
 
 # game/script.rpy:673
-translate english misc_dialogue_f4d26582:
+translate english misc_dialogue_9cb9f4d4:
 
-    # n "「分かりました。何をすればいいですか？」"
-    n "\"Understood. What should I do?\""
+    # riko "分かりました。何をすればいいですか？"
+    riko "Understood. What should I do?"
 
 # game/script.rpy:674
 translate english misc_dialogue_7c6b51ff:
@@ -3727,10 +3727,10 @@ translate english misc_dialogue_eb9d799f:
     staff "The children are confused — please become their substitute teacher and look after them."
 
 # game/script.rpy:677
-translate english misc_dialogue_14d4c5ad:
+translate english misc_dialogue_df29b4c1:
 
-    # n "「こんな状況で帰宅してない子が居るんですか？」　"
-    n "\"You're saying some children still haven't made it home in this situation?\""
+    # riko "こんな状況で帰宅してない子が居るんですか？"
+    riko "You're saying some children still haven't made it home in this situation?"
 
 # game/script.rpy:678
 translate english misc_dialogue_0d1faa6f:
@@ -3769,10 +3769,10 @@ translate english misc_dialogue_9f242638:
     staff "This is Mr. ○○, who will be looking after everyone as of today, temporarily. You will all listen to what your teacher says."
 
 # game/script.rpy:684
-translate english misc_dialogue_6e301c21:
+translate english misc_dialogue_b54cafb4:
 
-    # n "「○○です。みなさんが安全にお家に帰れるまで、どうぞよろしく」　"
-    n "\"This is ○○. Please look after everyone until they can get home safely.\""
+    # riko "○○です。みなさんが安全にお家に帰れるまで、どうぞよろしく"
+    riko "This is ○○. Please look after everyone until they can get home safely."
 
 # game/script.rpy:685
 translate english misc_dialogue_16d3957f:
@@ -3847,16 +3847,16 @@ translate english misc_dialogue_659a9531:
     n "...It's a dangerous gamble, but let's give it a try."
 
 # game/script.rpy:697
-translate english misc_dialogue_e71ee6c9:
+translate english misc_dialogue_5a956249:
 
-    # n "「ちょっとみんな聞いて。実はこの災害で心の病気になる人が出ている」　"
-    n "\"Everyone, listen. The truth is, this disaster has been causing mental illness in some people.\""
+    # riko "ちょっとみんな聞いて。実はこの災害で心の病気になる人が出ている"
+    riko "Everyone, listen. The truth is, this disaster has been causing mental illness in some people."
 
 # game/script.rpy:698
-translate english misc_dialogue_64650da2:
+translate english misc_dialogue_de4d8c25:
 
-    # n "「そこで、この時間はみんなの心のケアをする事にした」　"
-    n "\"So for this period, we're going to look after everyone's hearts.\""
+    # riko "そこで、この時間はみんなの心のケアをする事にした"
+    riko "So for this period, we're going to look after everyone's hearts."
 
 # game/script.rpy:699
 translate english misc_dialogue_e5617353:
@@ -3865,10 +3865,10 @@ translate english misc_dialogue_e5617353:
     n "From the backpack I'd brought from home, I took out the blindfold I'd prepared."
 
 # game/script.rpy:700
-translate english misc_dialogue_0f823915:
+translate english misc_dialogue_e160bf48:
 
-    # n "「この目隠しをして、手は椅子の後ろで組んで」　"
-    n "\"Put this blindfold on, and put your hands behind the chair.\""
+    # riko "この目隠しをして、手は椅子の後ろで組んで"
+    riko "Put this blindfold on, and put your hands behind the chair."
 
 # game/script.rpy:701
 translate english misc_dialogue_3a450eec:
@@ -3877,22 +3877,22 @@ translate english misc_dialogue_3a450eec:
     n "My abrupt orders caused some unease — but these were a teacher's words. One by one, they obediently tied on their blindfolds."
 
 # game/script.rpy:702
-translate english misc_dialogue_8efdeced:
+translate english misc_dialogue_314771ff:
 
-    # n "「先生が見てるから、ゆっくり深く深呼吸を続けて」　"
-    n "\"I'm watching, so keep breathing slowly and deeply.\""
+    # riko "先生が見てるから、ゆっくり深く深呼吸を続けて"
+    riko "I'm watching, so keep breathing slowly and deeply."
 
 # game/script.rpy:703
-translate english misc_dialogue_61430bd3:
+translate english misc_dialogue_458c8a65:
 
-    # n "「動いたら検査にならないから、絶対に動かないように」　"
-    n "\"If you move, the examination won't count — so whatever you do, don't move.\""
+    # riko "動いたら検査にならないから、絶対に動かないように"
+    riko "If you move, the examination won't count — so whatever you do, don't move."
 
 # game/script.rpy:704
-translate english misc_dialogue_b61b82c4:
+translate english misc_dialogue_731d919c:
 
-    # n "「先生が見てて病気かもしれない子には、少し触れるけど、動かないように我慢してな」　"
-    n "\"As your teacher, I'll have to touch you a little to check for the illness. Be a good girl and hold still.\""
+    # riko "先生が見てて病気かもしれない子には、少し触れるけど、動かないように我慢してな"
+    riko "As your teacher, I'll have to touch you a little to check for the illness. Be a good girl and hold still."
 
 # game/script.rpy:705
 translate english misc_dialogue_1cf5736b:
@@ -4039,22 +4039,22 @@ translate english misc_dialogue_138d6634:
     n "The next day"
 
 # game/script.rpy:729
-translate english misc_dialogue_393baa3c:
+translate english misc_dialogue_f2f4aae7:
 
-    # n "「教員：あ、君。野田先生を見なかったかい？」　"
-    n "\"Teacher: Ah, you there. Have you seen Mr. Noda?\""
+    # staff "あ、君。野田先生を見なかったかい？"
+    staff "Teacher: Ah, you there. Have you seen Mr. Noda?"
 
 # game/script.rpy:730
-translate english misc_dialogue_65e568d9:
+translate english misc_dialogue_0140a805:
 
-    # n "「いいえ、何かあったのですか？」　"
-    n "\"No. Did something happen?\""
+    # riko "いいえ、何かあったのですか？"
+    riko "No. Did something happen?"
 
 # game/script.rpy:731
-translate english misc_dialogue_7e4d263b:
+translate english misc_dialogue_24be9f91:
 
-    # n "「教員：実は、こんなメモを残して無断で消えてしまったんだ」　"
-    n "\"Teacher: The thing is, he left this note and vanished without a word.\""
+    # staff "実は、こんなメモを残して無断で消えてしまったんだ"
+    staff "Teacher: The thing is, he left this note and vanished without a word."
 
 # game/script.rpy:732
 translate english misc_dialogue_bd2652bc:
@@ -4063,16 +4063,16 @@ translate english misc_dialogue_bd2652bc:
     n "The note read: \"Worried for our family, we have gone to our parents' home in ○ prefecture for a while. Forgive our selfishness.\""
 
 # game/script.rpy:733
-translate english misc_dialogue_5534350c:
+translate english misc_dialogue_5830b5ec:
 
-    # n "「教員：昨日は、また災害があるかも。と怯えていたからね」　"
-    n "\"Teacher: He was terrified yesterday, saying another disaster might come.\""
+    # staff "昨日は、また災害があるかも。と怯えていたからね"
+    staff "Teacher: He was terrified yesterday, saying another disaster might come."
 
 # game/script.rpy:734
-translate english misc_dialogue_9b751a1c:
+translate english misc_dialogue_42c65f5b:
 
-    # n "「教員：正直私だって怖いよ」　"
-    n "\"Teacher: Honestly, I'm scared too.\""
+    # staff "正直私だって怖いよ"
+    staff "Teacher: Honestly, I'm scared too."
 
 # game/script.rpy:735
 translate english misc_dialogue_40488444_50:
@@ -4219,10 +4219,10 @@ translate english misc_dialogue_02acb504:
     n "\"Remember the mental health check we did in class the other day? I'm sorry, Riko, but you've come down with an illness.\""
 
 # game/script.rpy:759
-translate english misc_dialogue_aaa350f1:
+translate english misc_dialogue_c434c87c:
 
-    # n "「直に病院に行かないといけないけど、災害で病院も機能してないんだ」　"
-    n "\"You need to go to a hospital right away, but with the disaster, they aren't functioning.\""
+    # riko "直に病院に行かないといけないけど、災害で病院も機能してないんだ"
+    riko "You need to go to a hospital right away, but with the disaster, they aren't functioning."
 
 # game/script.rpy:760
 translate english misc_dialogue_503a7d40:
@@ -4231,10 +4231,10 @@ translate english misc_dialogue_503a7d40:
     n "\"But don't worry. I know the cure, so I can treat you.\""
 
 # game/script.rpy:761
-translate english misc_dialogue_44a1e328:
+translate english misc_dialogue_bdb96b3f:
 
-    # n "「どこか痛くなる病気ですか？」　"
-    n "\"Is it an illness that hurts somewhere?\""
+    # riko "どこか痛くなる病気ですか？"
+    riko "Is it an illness that hurts somewhere?"
 
 # game/script.rpy:762
 translate english misc_dialogue_35342523:
@@ -4249,10 +4249,10 @@ translate english misc_dialogue_aa365e00:
     n "\"It's a rare illness, so for your sake I'll keep it secret. We'll treat it in here. Come in.\""
 
 # game/script.rpy:764
-translate english misc_dialogue_76a9faf0:
+translate english misc_dialogue_68153a40:
 
-    # n "「え、これ治療ですか？」　"
-    n "\"Huh? Is this some kind of treatment?\""
+    # riko "え、これ治療ですか？"
+    riko "Huh? Is this some kind of treatment?"
 
 # game/script.rpy:765
 translate english misc_dialogue_54c3c7bb:
@@ -4261,34 +4261,34 @@ translate english misc_dialogue_54c3c7bb:
     n "\"That's right. It's for your body's sake, Riko. We must treat you right away.\""
 
 # game/script.rpy:766
-translate english misc_dialogue_93ae57d5:
+translate english misc_dialogue_a06e470a:
 
-    # n "「で、でも。これって・・・」　"
-    n "\"B-but. This is...\""
+    # riko "で、でも。これって・・・"
+    riko "B-but. This is..."
 
 # game/script.rpy:767
-translate english misc_dialogue_16746b1c:
+translate english misc_dialogue_bba2ee38:
 
-    # n "「すぐすむよ。怖くないから。」　"
-    n "\"It'll be over soon. There's nothing to be scared of.\""
+    # riko "すぐすむよ。怖くないから。"
+    riko "It'll be over soon. There's nothing to be scared of."
 
 # game/script.rpy:768
-translate english misc_dialogue_0fb62fba:
+translate english misc_dialogue_76e5ea6d:
 
-    # n "「先生、これ治療じゃないです」　"
-    n "\"Sir, this isn't treatment.\""
+    # riko "先生、これ治療じゃないです"
+    riko "Sir, this isn't treatment."
 
 # game/script.rpy:769
-translate english misc_dialogue_efbf91ec:
+translate english misc_dialogue_bf46957e:
 
-    # n "「いいから、早くここに入りなさい！」　"
-    n "\"Never mind that — get in here, quick!\""
+    # riko "いいから、早くここに入りなさい！"
+    riko "Never mind that — get in here, quick!"
 
 # game/script.rpy:770
-translate english misc_dialogue_283d7b99:
+translate english misc_dialogue_7c71e1e6:
 
-    # n "「先生、手をはなして下さい」　"
-    n "\"Sir, please let go of me.\""
+    # riko "先生、手をはなして下さい"
+    riko "Sir, please let go of me."
 
 # game/script.rpy:771
 translate english misc_dialogue_73565a8e:
@@ -4303,10 +4303,10 @@ translate english misc_dialogue_de1d3fff:
     n "\"Are you saying you won't listen to your teacher, too?!\""
 
 # game/script.rpy:773
-translate english misc_dialogue_32c95bba:
+translate english misc_dialogue_4c1af81e:
 
-    # n "「え、はい。分かりました」　"
-    n "\"Oh. Yes. Understood.\""
+    # riko "え、はい。分かりました"
+    riko "Oh. Yes. Understood."
 
 # game/script.rpy:774
 translate english misc_dialogue_d6a3db8d:
@@ -4315,10 +4315,10 @@ translate english misc_dialogue_d6a3db8d:
     n "\"Keep still. The boys will notice.\""
 
 # game/script.rpy:775
-translate english misc_dialogue_f99b8a29:
+translate english misc_dialogue_30bdbf7f:
 
-    # n "「はい」　"
-    n "\"Yes.\""
+    # riko "はい"
+    riko "Yes."
 
 # game/script.rpy:776
 translate english misc_dialogue_40488444_54:
@@ -4495,22 +4495,22 @@ translate english misc_dialogue_bfe8df61:
     n "Absolutely no one saw the moment I took her. It seriously worked!"
 
 # game/script.rpy:805
-translate english misc_dialogue_d7bde423:
+translate english misc_dialogue_32ffbd57:
 
-    # n "「ここ、どこ・・」　"
-    n "\"Where... am I...?\""
+    # riko "ここ、どこ・・"
+    riko "Where... am I...?"
 
 # game/script.rpy:806
-translate english misc_dialogue_1725355f:
+translate english misc_dialogue_6e21295f:
 
-    # n "「その鎖は絶対外せないし、誰も君を助けに来ない」　"
-    n "\"Those chains will never come off, and no one is coming to save you.\""
+    # riko "その鎖は絶対外せないし、誰も君を助けに来ない"
+    riko "Those chains will never come off, and no one is coming to save you."
 
 # game/script.rpy:807
-translate english misc_dialogue_0f7022ea:
+translate english misc_dialogue_c8547c97:
 
-    # n "「自分がどういう状況にあるか理解できるな」　"
-    n "\"You understand the situation you're in, don't you?\""
+    # riko "自分がどういう状況にあるか理解できるな"
+    riko "You understand the situation you're in, don't you?"
 
 # game/script.rpy:808
 translate english misc_dialogue_6cd57f8b:
@@ -4519,10 +4519,10 @@ translate english misc_dialogue_6cd57f8b:
     n "\"...\""
 
 # game/script.rpy:809
-translate english misc_dialogue_a36d7f12:
+translate english misc_dialogue_16672b46:
 
-    # n "「分かるよな」　"
-    n "\"You do understand.\""
+    # riko "分かるよな"
+    riko "You do understand."
 
 # game/script.rpy:810
 translate english misc_dialogue_0788b6b7:
@@ -4531,16 +4531,16 @@ translate english misc_dialogue_0788b6b7:
     n "\"Stay quiet and behave. It's for your own good.\""
 
 # game/script.rpy:811
-translate english misc_dialogue_a2a42f38:
+translate english misc_dialogue_43d717b1:
 
-    # n "「もし俺に逆らえば、どうなるかも分かるよな」　"
-    n "\"You do understand what will happen if you defy me, don't you?\""
+    # riko "もし俺に逆らえば、どうなるかも分かるよな"
+    riko "You do understand what will happen if you defy me, don't you?"
 
 # game/script.rpy:812
-translate english misc_dialogue_ae1b40f1:
+translate english misc_dialogue_69563969:
 
-    # n "「そうだ。こういう時は素直なのが、身のためだ」　"
-    n "\"That's right. Cooperating at a time like this is for your own good.\""
+    # riko "そうだ。こういう時は素直なのが、身のためだ"
+    riko "That's right. Cooperating at a time like this is for your own good."
 
 # game/script.rpy:813
 translate english misc_dialogue_40488444_57:
@@ -4597,10 +4597,10 @@ translate english misc_dialogue_a3b0e497:
     n "\"Good girl.\""
 
 # game/script.rpy:822
-translate english misc_dialogue_714de2f7:
+translate english misc_dialogue_2fc1bde3:
 
-    # n "「騒いだり抵抗したら、どうなるか良く分かってるみたいだね」　"
-    n "\"You seem to understand perfectly what happens if you scream or struggle.\""
+    # riko "騒いだり抵抗したら、どうなるか良く分かってるみたいだね"
+    riko "You seem to understand perfectly what happens if you scream or struggle."
 
 # game/script.rpy:823
 translate english misc_dialogue_9377a1ef:
@@ -4609,10 +4609,10 @@ translate english misc_dialogue_9377a1ef:
     n "\"Mister, I always wanted a girl just like you, Riko.\""
 
 # game/script.rpy:824
-translate english misc_dialogue_9f7e35fa:
+translate english misc_dialogue_71db6fde:
 
-    # n "「いろいろ、楽しい遊びを教えてあげるよ」　"
-    n "\"I'll teach you all sorts of fun games.\""
+    # riko "いろいろ、楽しい遊びを教えてあげるよ"
+    riko "I'll teach you all sorts of fun games."
 
 # game/script.rpy:825
 translate english misc_dialogue_40488444_60:
@@ -4681,10 +4681,10 @@ translate english misc_dialogue_40488444_61:
     n "…"
 
 # game/script.rpy:836
-translate english misc_dialogue_044709a1:
+translate english misc_dialogue_5753e8eb:
 
-    # n "「お父さんお母さんにお兄さんの事は絶対言いません。ここであった事も秘密にします、約束しますから」"
-    n "\"I'll never tell Mom and Dad about you. I'll keep everything that happened here secret. I promise.\""
+    # riko "お父さんお母さんにお兄さんの事は絶対言いません。ここであった事も秘密にします、約束しますから"
+    riko "I'll never tell Mom and Dad about you. I'll keep everything that happened here secret. I promise."
 
 # game/script.rpy:837
 translate english misc_dialogue_5836b076:
@@ -4693,10 +4693,10 @@ translate english misc_dialogue_5836b076:
     n "\"If you quietly do as I say, I might consider it later.\""
 
 # game/script.rpy:838
-translate english misc_dialogue_7b963d96:
+translate english misc_dialogue_c152d36a:
 
-    # n "「家に帰りたいなら、何すべきか分かるな」　"
-    n "\"If you want to go home, you know what you have to do.\""
+    # riko "家に帰りたいなら、何すべきか分かるな"
+    riko "If you want to go home, you know what you have to do."
 
 # game/script.rpy:839
 translate english misc_dialogue_40488444_62:
@@ -4705,16 +4705,16 @@ translate english misc_dialogue_40488444_62:
     n "…"
 
 # game/script.rpy:840
-translate english misc_dialogue_ee24e7b0:
+translate english misc_dialogue_471fb2e9:
 
-    # n "「お願いします」　"
-    n "\"Please.\""
+    # riko "お願いします"
+    riko "Please."
 
 # game/script.rpy:841
-translate english misc_dialogue_60341126:
+translate english misc_dialogue_c635c852:
 
-    # n "「そこまで言うなら」　"
-    n "\"If you insist...\""
+    # riko "そこまで言うなら"
+    riko "If you insist..."
 
 # game/script.rpy:842
 translate english misc_dialogue_fd7ee597:
@@ -4729,10 +4729,10 @@ translate english misc_dialogue_40488444_63:
     n "…"
 
 # game/script.rpy:844
-translate english misc_dialogue_72fee734:
+translate english misc_dialogue_7d9047f4:
 
-    # n "「ただいま、お兄ちゃん」　"
-    n "\"I'm home, big brother.\""
+    # yurika "ただいま、お兄ちゃん"
+    yurika "I'm home, big brother."
 
 # game/script.rpy:845
 translate english misc_dialogue_d36da9a7:
@@ -4759,16 +4759,16 @@ translate english misc_dialogue_40488444_64:
     n "…"
 
 # game/script.rpy:849
-translate english misc_dialogue_f6025387:
+translate english misc_dialogue_aa5b088b:
 
-    # n "「なんだ、今夜はご機嫌ななめか？」　"
-    n "\"What's with the attitude tonight?\""
+    # riko "なんだ、今夜はご機嫌ななめか？"
+    riko "What's with the attitude tonight?"
 
 # game/script.rpy:850
-translate english misc_dialogue_b614424f:
+translate english misc_dialogue_192d0558:
 
-    # n "「あとで泣いて後悔しても、遅いんだから」　"
-    n "\"It'll be too late to cry and regret it later.\""
+    # riko "あとで泣いて後悔しても、遅いんだから"
+    riko "It'll be too late to cry and regret it later."
 
 # game/script.rpy:851
 translate english misc_dialogue_08ed674a:
@@ -4777,10 +4777,10 @@ translate english misc_dialogue_08ed674a:
     n "\"I'll tell everyone you kidnapped me!\""
 
 # game/script.rpy:852
-translate english misc_dialogue_a46a9a26:
+translate english misc_dialogue_ce19fe10:
 
-    # n "「無理だと思うよ」　"
-    n "\"I'd say it's impossible.\""
+    # riko "無理だと思うよ"
+    riko "I'd say it's impossible."
 
 # game/script.rpy:853
 translate english misc_dialogue_9b5a6238:
@@ -4825,16 +4825,16 @@ translate english misc_dialogue_4a77aeda:
     n "\"Your mouth says no, but down there it feels good, doesn't it? Say it out loud.\""
 
 # game/script.rpy:860
-translate english misc_dialogue_f2882ed7:
+translate english misc_dialogue_f8da2d36:
 
-    # n "「そんなことないです」　"
-    n "\"That's not true.\""
+    # riko "そんなことないです"
+    riko "That's not true."
 
 # game/script.rpy:861
-translate english misc_dialogue_5938774c:
+translate english misc_dialogue_9e682637:
 
-    # n "「犯されてるのに気持ちいいなんて、恥ずかしくて言えないよな」　"
-    n "\"Being raped and liking it — too embarrassing to admit, isn't it?\""
+    # riko "犯されてるのに気持ちいいなんて、恥ずかしくて言えないよな"
+    riko "Being raped and liking it — too embarrassing to admit, isn't it?"
 
 # game/script.rpy:862
 translate english misc_dialogue_09899c76:
@@ -4897,10 +4897,10 @@ translate english misc_dialogue_40488444_67:
     n "…"
 
 # game/script.rpy:872
-translate english misc_dialogue_27f02875:
+translate english misc_dialogue_884041e6:
 
-    # n "「やってくれるじゃないか！」　"
-    n "\"Well, aren't you bold!\""
+    # riko "やってくれるじゃないか！"
+    riko "Well, aren't you bold!"
 
 # game/script.rpy:873
 translate english misc_dialogue_15794433:
@@ -4909,40 +4909,40 @@ translate english misc_dialogue_15794433:
     n "\"You were planning to run, weren't you?\""
 
 # game/script.rpy:874
-translate english misc_dialogue_1fd97b6f:
+translate english misc_dialogue_4111d655:
 
-    # n "「なんとか言えよ！」　"
-    n "\"Say something!\""
+    # riko "なんとか言えよ！"
+    riko "Say something!"
 
 # game/script.rpy:875
-translate english misc_dialogue_98d9a348:
+translate english misc_dialogue_ee6aff32:
 
-    # n "「ごめんなさい」　"
-    n "\"I'm sorry.\""
+    # riko "ごめんなさい"
+    riko "I'm sorry."
 
 # game/script.rpy:876
-translate english misc_dialogue_44900ad8:
+translate english misc_dialogue_fda4be53:
 
-    # n "「ただでは済ませない」　"
-    n "\"I won't let you off with just that.\""
+    # riko "ただでは済ませない"
+    riko "I won't let you off with just that."
 
 # game/script.rpy:877
-translate english misc_dialogue_26ed9513:
+translate english misc_dialogue_350624f1:
 
-    # n "「許してください」　"
-    n "\"Please forgive me.\""
+    # riko "許してください"
+    riko "Please forgive me."
 
 # game/script.rpy:878
-translate english misc_dialogue_913ba7ec:
+translate english misc_dialogue_36542590:
 
-    # n "「許さない」　"
-    n "\"I won't forgive you.\""
+    # riko "許さない"
+    riko "I won't forgive you."
 
 # game/script.rpy:879
-translate english misc_dialogue_83d818ae:
+translate english misc_dialogue_2bcc79ac:
 
-    # n "「誘拐されて、命の保障もない状況で勇気あるね」　"
-    n "\"Kidnapped, with no guarantee you'll survive — and yet so brave.\""
+    # riko "誘拐されて、命の保障もない状況で勇気あるね"
+    riko "Kidnapped, with no guarantee you'll survive — and yet so brave."
 
 # game/script.rpy:880
 translate english misc_dialogue_d874b428:
@@ -4951,22 +4951,22 @@ translate english misc_dialogue_d874b428:
     n "\"You broke your promise, so I don't have to let you go home. Brace yourself.\""
 
 # game/script.rpy:881
-translate english misc_dialogue_a6719b62:
+translate english misc_dialogue_c6129b8b:
 
-    # n "「ごめんなさいって言ってるのに」　"
-    n "\"I said I was sorry!\""
+    # riko "ごめんなさいって言ってるのに"
+    riko "I said I was sorry!"
 
 # game/script.rpy:882
-translate english misc_dialogue_1464ce7c:
+translate english misc_dialogue_58a02a5a:
 
-    # n "「自分の置かれた状況が理解できるまで犯して続けてやる！」　"
-    n "\"I'll keep going until you understand exactly what situation you're in!\""
+    # riko "自分の置かれた状況が理解できるまで犯して続けてやる！"
+    riko "I'll keep going until you understand exactly what situation you're in!"
 
 # game/script.rpy:883
-translate english misc_dialogue_2fdb007e:
+translate english misc_dialogue_ddca23b7:
 
-    # n "「いやだ。いや！」　"
-    n "\"No. No!\""
+    # riko "いやだ。いや！"
+    riko "No. No!"
 
 # game/script.rpy:884
 translate english misc_dialogue_7e548a8c:
@@ -5185,10 +5185,10 @@ translate english misc_dialogue_40488444_75:
     n "…"
 
 # game/script.rpy:920
-translate english misc_dialogue_8f474521:
+translate english misc_dialogue_ce96154f:
 
-    # n "「いっ！」　"
-    n "\"Ngh!\""
+    # riko "いっ！"
+    riko "Ngh!"
 
 # game/script.rpy:921
 translate english misc_dialogue_1fe74803:
@@ -5485,10 +5485,10 @@ translate english misc_dialogue_b714f1f6:
     n "\"Mochizuki, I need a word. Over here.\""
 
 # game/script.rpy:970
-translate english misc_dialogue_f99b8a29_1:
+translate english misc_dialogue_30bdbf7f_1:
 
-    # n "「はい」　"
-    n "\"Yes.\""
+    # riko "はい"
+    riko "Yes."
 
 # game/script.rpy:971
 translate english misc_dialogue_40488444_86:
@@ -5503,16 +5503,16 @@ translate english misc_dialogue_40488444_87:
     n "…"
 
 # game/script.rpy:973
-translate english misc_dialogue_1de5a471:
+translate english misc_dialogue_a05a029a:
 
-    # n "「先生、きました」　"
-    n "\"Here, sir.\""
+    # riko "先生、きました"
+    riko "Here, sir."
 
 # game/script.rpy:974
-translate english misc_dialogue_9bc05df6:
+translate english misc_dialogue_438adeae:
 
-    # n "「来たか。自習中に呼び出したのは・・・」　"
-    n "\"You came. The reason I called you out of self-study is...\""
+    # riko "来たか。自習中に呼び出したのは・・・"
+    riko "You came. The reason I called you out of self-study is..."
 
 # game/script.rpy:975
 translate english misc_dialogue_de7fe1bf:
@@ -5527,10 +5527,10 @@ translate english misc_dialogue_c3cd6952:
     n "\"We're going to review the lesson once more, so take your seat.\""
 
 # game/script.rpy:977
-translate english misc_dialogue_f99b8a29_2:
+translate english misc_dialogue_30bdbf7f_2:
 
-    # n "「はい」　"
-    n "\"Yes.\""
+    # riko "はい"
+    riko "Yes."
 
 # game/script.rpy:978
 translate english misc_dialogue_40488444_88:
@@ -5545,10 +5545,10 @@ translate english misc_dialogue_40488444_89:
     n "…"
 
 # game/script.rpy:980
-translate english misc_dialogue_fc69b1c6:
+translate english misc_dialogue_4a873174:
 
-    # n "「」　"
-    n "\"...\""
+    # riko ""
+    riko "..."
 
 # game/script.rpy:981
 translate english misc_dialogue_71e470cb:
@@ -5665,10 +5665,10 @@ translate english misc_dialogue_40488444_97:
     n "…"
 
 # game/script.rpy:1000
-translate english misc_dialogue_d43e84b7:
+translate english misc_dialogue_208fc043:
 
-    # n "「自己紹介してよ」　"
-    n "\"Introduce yourself.\""
+    # riko "自己紹介してよ"
+    riko "Introduce yourself."
 
 # game/script.rpy:1001
 translate english misc_dialogue_6cd57f8b_3:
@@ -5677,10 +5677,10 @@ translate english misc_dialogue_6cd57f8b_3:
     n "\"...\""
 
 # game/script.rpy:1002
-translate english misc_dialogue_6d4b361c:
+translate english misc_dialogue_f7a81fab:
 
-    # n "「お名前は？さぁ！」　"
-    n "\"Your name? Come on!\""
+    # riko "お名前は？さぁ！"
+    riko "Your name? Come on!"
 
 # game/script.rpy:1003
 translate english misc_dialogue_685d281a:
@@ -5689,40 +5689,40 @@ translate english misc_dialogue_685d281a:
     n "\"Mochizuki Riko...\""
 
 # game/script.rpy:1004
-translate english misc_dialogue_1950d5fb:
+translate english misc_dialogue_214f200f:
 
-    # n "「何歳？」　"
-    n "\"How old are you?\""
+    # riko "何歳？"
+    riko "How old are you?"
 
 # game/script.rpy:1005
-translate english misc_dialogue_4d460c85:
+translate english misc_dialogue_e35df0ff:
 
-    # n "「じゅう・・☆才」　"
-    n "\"Ten... years old...\""
+    # riko "じゅう・・☆才"
+    riko "Ten... years old..."
 
 # game/script.rpy:1006
-translate english misc_dialogue_60ec9d8d:
+translate english misc_dialogue_101ad3d4:
 
-    # n "「どこの学校の何年何組？」　"
-    n "\"What school, what year, what class?\""
+    # riko "どこの学校の何年何組？"
+    riko "What school, what year, what class?"
 
 # game/script.rpy:1007
-translate english misc_dialogue_d6132d93:
+translate english misc_dialogue_ed1f3f0a:
 
-    # n "「し、私立青山☆学校の☆年、に・・・２組です・・」　"
-    n "\"I-it's Shiritsu Aoyama School... year... um, class 2...\""
+    # riko "し、私立青山☆学校の☆年、に・・・２組です・・"
+    riko "I-it's Shiritsu Aoyama School... year... um, class 2..."
 
 # game/script.rpy:1008
-translate english misc_dialogue_a0c07d3b:
+translate english misc_dialogue_c3f2acb7:
 
-    # n "「学校の勉強は何が好き？」　"
-    n "\"What's your favorite subject at school?\""
+    # riko "学校の勉強は何が好き？"
+    riko "What's your favorite subject at school?"
 
 # game/script.rpy:1009
-translate english misc_dialogue_295d4061:
+translate english misc_dialogue_c98b7a33:
 
-    # n "「こくご・・」　"
-    n "\"Language arts...\""
+    # riko "こくご・・"
+    riko "Language arts..."
 
 # game/script.rpy:1010
 translate english misc_dialogue_6d8c1084:
@@ -5749,10 +5749,10 @@ translate english misc_dialogue_12d3896b:
     n "\"Mister, I can't hold back anymore.\""
 
 # game/script.rpy:1014
-translate english misc_dialogue_f45d4b81:
+translate english misc_dialogue_2e47c166:
 
-    # n "「本当はもっと後で話そうと思ってたんだけど」　"
-    n "\"Actually, I'd meant to talk to you about this later.\""
+    # riko "本当はもっと後で話そうと思ってたんだけど"
+    riko "Actually, I'd meant to talk to you about this later."
 
 # game/script.rpy:1015
 translate english misc_dialogue_0cab4d93:
@@ -5779,10 +5779,10 @@ translate english misc_dialogue_54cdea36:
     n "\"You'd make such a cute little sister, Riko.\""
 
 # game/script.rpy:1019
-translate english misc_dialogue_76c19b4b:
+translate english misc_dialogue_f78e2354:
 
-    # n "「奴隷ってのが、どういうものか教えてあげるよ」　"
-    n "\"I'll teach you what it means to be a slave.\""
+    # riko "奴隷ってのが、どういうものか教えてあげるよ"
+    riko "I'll teach you what it means to be a slave."
 
 # game/script.rpy:1020
 translate english misc_dialogue_7b6697bb:
@@ -5791,10 +5791,10 @@ translate english misc_dialogue_7b6697bb:
     n "\"You'd make such an obedient little maid, Riko.\""
 
 # game/script.rpy:1021
-translate english misc_dialogue_7f39e1fd:
+translate english misc_dialogue_d497b9f6:
 
-    # n "「妄想してたら、なんか我慢できなくなってきた」　"
-    n "\"All that fantasizing — I don't think I can hold back anymore.\""
+    # riko "妄想してたら、なんか我慢できなくなってきた"
+    riko "All that fantasizing — I don't think I can hold back anymore."
 
 # game/script.rpy:1022
 translate english misc_dialogue_96ee2dd5:
@@ -5803,10 +5803,10 @@ translate english misc_dialogue_96ee2dd5:
     n "\"Do you think my big c*ck will fit all the way inside you, Riko?\""
 
 # game/script.rpy:1023
-translate english misc_dialogue_36fedfd0:
+translate english misc_dialogue_695db0ee:
 
-    # n "「全部は入らないかもしれないけど、試してみようね」　"
-    n "\"It might not all fit, but let's try anyway.\""
+    # riko "全部は入らないかもしれないけど、試してみようね"
+    riko "It might not all fit, but let's try anyway."
 
 # game/script.rpy:1024
 translate english misc_dialogue_40488444_100:
@@ -5827,10 +5827,10 @@ translate english misc_dialogue_6cd57f8b_4:
     n "\"...\""
 
 # game/script.rpy:1027
-translate english misc_dialogue_1919b303:
+translate english misc_dialogue_1ebf4942:
 
-    # n "「もう俺の言いなりなるしかないんだ。残念だが諦めな」　"
-    n "\"You have no choice but to do as I say now. Too bad — give up.\""
+    # riko "もう俺の言いなりなるしかないんだ。残念だが諦めな"
+    riko "You have no choice but to do as I say now. Too bad — give up."
 
 # game/script.rpy:1028
 translate english misc_dialogue_3c1220c6:
@@ -5941,9 +5941,9 @@ translate english misc_dialogue_41c1f921:
     n "In exchange for two conditions, Yurika agreed to forgive me."
 
 # game/script.rpy:1046
-translate english misc_dialogue_c9e32aed:
+translate english misc_dialogue_d1d1e520:
 
-    # n "「本当にいいのかい？」　"
+    # n "「本当にいいのかい？」"
     n "\"Are you sure about that?\""
 
 # game/script.rpy:1047
@@ -6001,10 +6001,10 @@ translate english misc_dialogue_4e9b2fcd_1:
     n "\"The truth is, on the last test you were dead last in the class.\""
 
 # game/script.rpy:1056
-translate english misc_dialogue_8bb3646c_1:
+translate english misc_dialogue_4c8cc924_1:
 
-    # n "「え、でも・・りこ、ちゃんとがんばりました」　"
-    n "\"B-but... I really did try my best.\""
+    # riko "え、でも・・りこ、ちゃんとがんばりました"
+    riko "B-but... I really did try my best."
 
 # game/script.rpy:1057
 translate english misc_dialogue_7321790d_1:
@@ -6025,10 +6025,10 @@ translate english misc_dialogue_49e3020b_1:
     n "\"You were zoning out in class, thinking about something else, weren't you?\""
 
 # game/script.rpy:1060
-translate english misc_dialogue_5db9b3f3_1:
+translate english misc_dialogue_224e9412_1:
 
-    # n "「いえ、違います。」　"
-    n "\"No, that's not it.\""
+    # riko "いえ、違います。"
+    riko "No, that's not it."
 
 # game/script.rpy:1061
 translate english misc_dialogue_0b574a77_1:
@@ -6037,10 +6037,10 @@ translate english misc_dialogue_0b574a77_1:
     n "\"To cure your slacking-off sickness, Riko, a strict punishment is necessary.\""
 
 # game/script.rpy:1062
-translate english misc_dialogue_e215ebd7_1:
+translate english misc_dialogue_6b8bef32_1:
 
-    # n "「すみません。こ、今度はテストがんばります」　"
-    n "\"I'm sorry. I-I'll do better on the next test.\""
+    # riko "すみません。こ、今度はテストがんばります"
+    riko "I'm sorry. I-I'll do better on the next test."
 
 # game/script.rpy:1063
 translate english misc_dialogue_8408d6a3_1:
@@ -6049,10 +6049,10 @@ translate english misc_dialogue_8408d6a3_1:
     n "\"No. A punishment is a punishment.\""
 
 # game/script.rpy:1064
-translate english misc_dialogue_08fd04f7_1:
+translate english misc_dialogue_43a3c376_1:
 
-    # n "「本当です。ちゃんと勉強して・・いい点取りますから」"
-    n "\"Really. I'll study properly... and get good marks, I promise.\""
+    # riko "本当です。ちゃんと勉強して・・いい点取りますから"
+    riko "Really. I'll study properly... and get good marks, I promise."
 
 # game/script.rpy:1065
 translate english misc_dialogue_e037f697_1:
@@ -6073,10 +6073,10 @@ translate english misc_dialogue_379681a7_1:
     n "\"Or should I switch to an even harsher punishment for a bad girl who won't obey her teacher?\""
 
 # game/script.rpy:1068
-translate english misc_dialogue_0c42dfdf_1:
+translate english misc_dialogue_a332aef6_1:
 
-    # n "「先生の罰をうけます・・」　"
-    n "\"I'll accept your punishment, sir...\""
+    # riko "先生の罰をうけます・・"
+    riko "I'll accept your punishment, sir..."
 
 # game/script.rpy:1069
 translate english misc_dialogue_6b2aefd9_1:
@@ -6085,10 +6085,10 @@ translate english misc_dialogue_6b2aefd9_1:
     n "\"Stay still and don't fight it. Got it?\""
 
 # game/script.rpy:1070
-translate english misc_dialogue_ed3d8deb_1:
+translate english misc_dialogue_5c7ce7f4_1:
 
-    # n "「はい、逆らいません」　"
-    n "\"Yes. I won't resist.\""
+    # riko "はい、逆らいません"
+    riko "Yes. I won't resist."
 
 # game/script.rpy:1071
 translate english misc_dialogue_40488444_105:
@@ -6937,10 +6937,10 @@ translate english misc_dialogue_1781cd56:
     n "\"Brother and sister means nothing...\""
 
 # game/script.rpy:1212
-translate english misc_dialogue_677c6f04:
+translate english misc_dialogue_96d991c5:
 
-    # n "「うん、お兄ちゃん・・・・」　"
-    n "\"Okay, big brother.....\""
+    # yurika "うん、お兄ちゃん・・・・"
+    yurika "Okay, big brother....."
 
 # game/script.rpy:1213
 translate english misc_dialogue_40488444_128:
@@ -7339,10 +7339,10 @@ translate english misc_dialogue_0ceb0cbb:
     n "No good — I can't find it. It's already late; I'm heading back."
 
 # game/script.rpy:1279
-translate english misc_dialogue_abe3e716:
+translate english misc_dialogue_d7b2ffae:
 
-    # n "「ただいま」　"
-    n "\"I'm home.\""
+    # yurika "ただいま"
+    yurika "I'm home."
 
 # game/script.rpy:1280
 translate english misc_dialogue_40488444_141:
@@ -7957,10 +7957,10 @@ translate english misc_dialogue_40488444_152:
     n "…"
 
 # game/script.rpy:1382
-translate english misc_dialogue_abe3e716_1:
+translate english misc_dialogue_d7b2ffae_1:
 
-    # n "「ただいま」　"
-    n "\"I'm home.\""
+    # yurika "ただいま"
+    yurika "I'm home."
 
 # game/script.rpy:1383
 translate english misc_dialogue_f5394ce6:
@@ -8239,10 +8239,10 @@ translate english misc_dialogue_40488444_163:
     n "…"
 
 # game/script.rpy:1429
-translate english misc_dialogue_84a90386:
+translate english misc_dialogue_4db3dd28:
 
-    # n "「ただいま～」　"
-    n "\"I'm hooome~\""
+    # yurika "ただいま～"
+    yurika "I'm hooome~"
 
 # game/script.rpy:1430
 translate english misc_dialogue_6912d71a:
@@ -9803,5 +9803,4 @@ translate english story_flow_8b9a90fd:
 
     # "— end of converted scenario —"
     "— end of converted scenario —"
-
 

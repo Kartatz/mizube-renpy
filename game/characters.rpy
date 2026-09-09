@@ -10,3 +10,6 @@ define parents = Character(_("父母"), who_color="#9a8fc0", what_prefix="“", 
 define student = Character(_("生徒"), who_color="#629276", what_prefix="“", what_suffix="”")
 define passerby_a = Character(_("通行人A"), who_color="#8899aa", what_prefix="“", what_suffix="”")
 define passerby_b = Character(_("通行人B"), who_color="#99aabb", what_prefix="“", what_suffix="”")
+
+define yurika = Character(_("ゆりか"), who_color="#ff809f", what_prefix="“", what_suffix="”")
+define riko = Character(_("りこ"), who_color="#a7d8f0", what_prefix="“", what_suffix="”")
