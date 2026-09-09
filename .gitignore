@@ -1,0 +1,10 @@
+# Ren'Py build artifacts
+game/**/*.rpyc
+game/cache/
+game/saves/
+game/persistent/
+test-results/
+errors.txt
+log.txt
+traceback.txt
+*.bak
