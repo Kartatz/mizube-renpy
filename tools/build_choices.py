@@ -91,11 +91,11 @@ BRANCHES = {
     "breakin_yes": ("fn_4", "anim_mov_3", "mov",
                     [([], ["家宅侵入|妹部屋の鍵|鍵がかかってない|勝手に部屋に入って|パンツ盗|盗撮って、どんな"])]),
     "breakin_no":  ("cbs8end", None, None, []),
-    "ohs10": ("ohs10", "anim_mov2_10", "mov2",
+    "ohs10": ("ohs10", "anim_mov_2", "mov5",
               [([], ["媚薬を渡した|旅行日程|媚薬の効果は凄い|数日すれば|両親を排除|好都合"])]),
     "ohs20": ("ohs20", "anim_mov6_22", "mov6",
               [([], ["結婚記念|温泉旅行|食事＆ホテル|照れくさい|そのうち行かせ|素直に受け取り|一晩中語る"])]),
-    "ohs30": ("ohs30", "anim_mov2_8", "mov2",
+    "ohs30": ("ohs30", "anim_mov_2", "mov5",
               [([], ["コレクション|白日の下に|エロゲー、エロアニメの中でも|兄と妹が恋におちて|兄妹の禁じられた|神ゲー"])]),
     "route_kidnap": ("yukai", "anim_mov3_1", "mov3",
                      [([], ["誘拐に必要な|誘拐に関する|誘拐場所|誘拐できたなら|監禁場所|四六時中|年齢も住所も|完全犯罪|あの娘だな|手錠を外した|誘拐の瞬間"])]),
@@ -181,12 +181,18 @@ def select(lines, spec, used):
     return out
 
 
+# Story-correct art, keyed by the author's own member naming:
+#   mov5 '背景オレの部屋' = the protagonist's room background (home arc)
+#   mov2 'BG410c' = school background, 'X_3' = park
+#   mov3 'eki_*' = the station (stalking), '1_*' = scene 1 (960x720)
+#   mov '2_*' = the long H loop, '3_*' = scene 3
+#   mov6 'fera1HOTEL_*' = the love-hotel chapter
 BG_FRAMES = {
-    "mov": "images/mov/2_00021.jpg",
-    "mov2": "images/mov2/00036.jpg",
-    "mov3": "images/mov3/00001.jpg",
-    "mov5": "images/mov5/00021.jpg",
-    "mov6": "images/mov6/00022.jpg",
+    "mov": "images/mov/2_00000.jpg",
+    "mov2": "images/mov2/BG410c.jpg",
+    "mov3": "images/mov3/1_00000.jpg",
+    "mov5": "images/mov5/member0012.jpg",
+    "mov6": "images/mov6/fera1HOTEL_00000.jpg",
 }
 
 
@@ -290,7 +296,7 @@ def main():
     # chapters ---------------------------------------------------------
     w('label chapter_opening:')
     w('    scene black')
-    w('    show expression "images/mov/2_00021.jpg" as bg')
+    w('    show expression "images/mov5/member0012.jpg" as bg')
     w('    with fade')
     intro = select(lines, ([], ["これが最近一緒に|妹といっても父の再婚|最初は人見知り|突然、この見知らぬ少女|PCからジャック"]), used)
     emit_says(out, intro, lines_index)
@@ -298,10 +304,10 @@ def main():
     w('')
     # ---- day-structured home arc (qq1 chapters)
     days = [
-        ('day1', [10, 15, 18], 'images/mov/2_00021.jpg', None),
-        ('day2', [20, 21, 25, 27, 30, 34], 'images/mov2/00036.jpg', None),
-        ('day3', [37, 39, 40, 42], 'images/mov3/00001.jpg', 'anim_mov_2'),
-        ('day4', [50, 51, 52, 54, 55, 60], 'images/mov6/00022.jpg', None),
+        ('day1', [10, 15, 18], 'images/mov5/member0012.jpg', None),
+        ('day2', [20, 21, 25, 27, 30, 34], 'images/mov2/X_3.jpg', None),
+        ('day3', [37, 39, 40, 42], 'images/mov3/1_00000.jpg', 'anim_mov3_1'),
+        ('day4', [50, 51, 52, 54, 55, 60], 'images/mov/2_00000.jpg', 'anim_mov_2'),
     ]
     for name, qqs, bg, anim in days:
         w(f'label chapter_{name}:')
@@ -317,7 +323,7 @@ def main():
     w('label chapter_rico_intro:')
     w('    hide act')
     w('    scene black')
-    w('    show expression "images/mov3/00001.jpg" as bg')
+    w('    show expression "images/mov3/eki_00000.jpg" as bg')
     w('    with fade')
     intro2 = select(lines, ([], ["あの娘だな|年齢も住所も|通学路なら|人目に付かない場所|誘拐する瞬間さえ|完全犯罪ができる"]), used)
     emit_says(out, intro2, lines_index)

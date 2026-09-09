@@ -83,7 +83,7 @@ label story_flow:
 
 label chapter_opening:
     scene black
-    show expression "images/mov/2_00021.jpg" as bg
+    show expression "images/mov5/member0012.jpg" as bg
     with fade
     n "PCからジャックが抜けたヘッドフォンが床に投げ捨てられている"
     n "■これが最近一緒に暮らしだした俺の妹だ■"
@@ -94,7 +94,7 @@ label chapter_opening:
 
 label chapter_day1:
     scene black
-    show expression "images/mov/2_00021.jpg" as bg
+    show expression "images/mov5/member0012.jpg" as bg
     with fade
     call scene_010
     call scene_015
@@ -103,7 +103,7 @@ label chapter_day1:
 
 label chapter_day2:
     scene black
-    show expression "images/mov2/00036.jpg" as bg
+    show expression "images/mov2/X_3.jpg" as bg
     with fade
     call scene_020
     call scene_021
@@ -115,9 +115,9 @@ label chapter_day2:
 
 label chapter_day3:
     scene black
-    show expression "images/mov3/00001.jpg" as bg
+    show expression "images/mov3/1_00000.jpg" as bg
     with fade
-    show anim_mov_2 as act
+    show anim_mov3_1 as act
     call scene_037
     call scene_039
     call scene_040
@@ -126,8 +126,9 @@ label chapter_day3:
 
 label chapter_day4:
     scene black
-    show expression "images/mov6/00022.jpg" as bg
+    show expression "images/mov/2_00000.jpg" as bg
     with fade
+    show anim_mov_2 as act
     call scene_050
     call scene_051
     call scene_052
@@ -139,7 +140,7 @@ label chapter_day4:
 label chapter_rico_intro:
     hide act
     scene black
-    show expression "images/mov3/00001.jpg" as bg
+    show expression "images/mov3/eki_00000.jpg" as bg
     with fade
     n "あの娘だな。思ってたより随分若いな"
     n "人目に付かない場所となると‥一人で出かける時か、登下校時しかない。"
@@ -201,7 +202,7 @@ label reply_grown:
 # branch breakin_yes: original marker "fn_4"
 label breakin_yes:
     scene black
-    show expression "images/mov/2_00021.jpg" as bg
+    show expression "images/mov/2_00000.jpg" as bg
     with fade
     show anim_mov_3 as act
     passerby_b "変態家宅侵入者を通報しますた！"
@@ -222,9 +223,9 @@ label breakin_no:
 # branch ohs10: original marker "ohs10"
 label ohs10:
     scene black
-    show expression "images/mov2/00036.jpg" as bg
+    show expression "images/mov5/member0012.jpg" as bg
     with fade
-    show anim_mov2_10 as act
+    show anim_mov_2 as act
     n "媚薬の効果は凄いっ"
     n "できるだけ長い旅行日程で、親父らが好きそうなプランにしないと。"
     n "媚薬を渡した。"
@@ -235,7 +236,7 @@ label ohs10:
 # branch ohs20: original marker "ohs20"
 label ohs20:
     scene black
-    show expression "images/mov6/00022.jpg" as bg
+    show expression "images/mov6/fera1HOTEL_00000.jpg" as bg
     with fade
     show anim_mov6_22 as act
     n "結婚記念なら親父らも素直に受け取り、外出するはずだ"
@@ -248,9 +249,9 @@ label ohs20:
 # branch ohs30: original marker "ohs30"
 label ohs30:
     scene black
-    show expression "images/mov2/00036.jpg" as bg
+    show expression "images/mov5/member0012.jpg" as bg
     with fade
-    show anim_mov2_8 as act
+    show anim_mov_2 as act
     n "エロゲー、エロアニメの中でも特に選りすぐりのは・・これだ！"
     n "「兄妹の禁じられた快楽」俺が神ゲーと崇めるタイトルだ。"
     n "俺のお宝コレクションだよ。集めるのに数年もかかったんだ。"
@@ -260,7 +261,7 @@ label ohs30:
 # branch route_kidnap: original marker "yukai"
 label route_kidnap:
     scene black
-    show expression "images/mov3/00001.jpg" as bg
+    show expression "images/mov3/1_00000.jpg" as bg
     with fade
     show anim_mov3_1 as act
     n "誘拐に関する書籍や、犯罪の記事をネットで調べた。"
@@ -277,7 +278,7 @@ label route_kidnap:
 # branch route_school: original marker "fera1"
 label route_school:
     scene black
-    show expression "images/mov2/00036.jpg" as bg
+    show expression "images/mov2/BG410c.jpg" as bg
     with fade
     show anim_mov2_10 as act
     n "災害後に○学校へ侵入する。"
@@ -294,7 +295,7 @@ label route_school:
 # branch kidnap_go: original marker "yuukai-kihon"
 label kidnap_go:
     scene black
-    show expression "images/mov3/00001.jpg" as bg
+    show expression "images/mov3/1_00000.jpg" as bg
     with fade
     show anim_mov3_10 as act
     n "玄関の扉を開くりこちゃんの横顔を見ながら、俺は路上にひざをついた。"
@@ -311,7 +312,7 @@ label kidnap_stop:
 # branch act_lick: original marker "kf08"
 label act_lick:
     scene black
-    show expression "images/mov/2_00021.jpg" as bg
+    show expression "images/mov/2_00000.jpg" as bg
     with fade
     show anim_mov_2 as act
     n "ちゃんとなめないと、どうなるか分かってるんだろうな！？"
@@ -322,7 +323,7 @@ label act_lick:
 # branch act_suck: original marker "kff08"
 label act_suck:
     scene black
-    show expression "images/mov/2_00021.jpg" as bg
+    show expression "images/mov/2_00000.jpg" as bg
     with fade
     show anim_mov_2 as act
     n "もっと奥までくわえてごらん。"
@@ -333,7 +334,7 @@ label act_suck:
 # branch act_rough: original marker "iv5_26"
 label act_rough:
     scene black
-    show expression "images/mov5/00021.jpg" as bg
+    show expression "images/mov5/member0012.jpg" as bg
     with fade
     show anim_mov5_00003 as act
     n "その後も、俺は一晩中ゆりかを犯し続けた。"
@@ -346,7 +347,7 @@ label act_rough:
 # branch act_gentle: original marker "iv5_25"
 label act_gentle:
     scene black
-    show expression "images/mov5/00021.jpg" as bg
+    show expression "images/mov5/member0012.jpg" as bg
     with fade
     show anim_mov5_00003 as act
     father "一緒に暮らして間がないから仕方ないかもしれないが、妹なんだから優しくしてやるんだぞ"
@@ -357,7 +358,7 @@ label act_gentle:
 # chapter confinement: yukai family
 label chapter_confinement:
     scene black
-    show expression "images/mov3/00001.jpg" as bg
+    show expression "images/mov3/1_00000.jpg" as bg
     with fade
     show anim_mov3_1 as act
     n "そして、その美少女を無理やり犯したにも、かかわらず罪に問われないなんて…"
@@ -379,7 +380,7 @@ label chapter_confinement:
 # chapter school: fera1 family
 label chapter_school:
     scene black
-    show expression "images/mov2/00036.jpg" as bg
+    show expression "images/mov2/BG410c.jpg" as bg
     with fade
     show anim_mov2_10 as act
     n "りこちゃんは泣いて教室を出て行った"
