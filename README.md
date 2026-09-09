@@ -90,3 +90,22 @@ original structure. Branch dialogue is selected from the recovered
 stn() lines by content family (the exact marker->frame->handler
 mapping needs the Director score, which is not yet parsed); choice
 texts and jump targets are exact.
+
+## Overlay sprite system
+
+`tools/extract_overlays.py` decodes the Director overlay sprites
+(BITD/ediM pixels + ALFA alpha masks, PackBits) into transparent PNGs in
+`game/images/overlays/` — 1,482 sprites. `game/overlays.rpy` layers them
+natively:
+
+- **Blink cycle** (`ov_face_blink`) — the original 瞬き system
+  (MovieScript 210): the 13-frame heroine face patch animates over the
+  home scenes, hold-and-blink timing like the original
+- **Expression cycles** (`ov_face_k1`, `ov_face_hotel`) — the mov3/mov6
+  state cycles for the H chapters and the love-hotel branch
+- **Interactive icon bar** — the recovered interactive-mode icons
+  (hand / rope / aphrodisiac, from system.cxt) as clickable toggles that
+  composite the effect sprites (the hand, saliva, sweat) over the scene,
+  mirroring the original icon screen's activate/deactivate behavior
+- **NPC sprites** — the grandpa and little brother sprites wander the
+  day-2 scenes (the readme's "family will catch on" mechanic)

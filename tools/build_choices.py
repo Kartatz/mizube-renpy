@@ -93,7 +93,7 @@ BRANCHES = {
     "breakin_no":  ("cbs8end", None, None, []),
     "ohs10": ("ohs10", "anim_mov_2", "mov5",
               [([], ["媚薬を渡した|旅行日程|媚薬の効果は凄い|数日すれば|両親を排除|好都合"])]),
-    "ohs20": ("ohs20", "anim_mov6_22", "mov6",
+    "ohs20": ("ohs20", None, "mov6",
               [([], ["結婚記念|温泉旅行|食事＆ホテル|照れくさい|そのうち行かせ|素直に受け取り|一晩中語る"])]),
     "ohs30": ("ohs30", "anim_mov_2", "mov5",
               [([], ["コレクション|白日の下に|エロゲー、エロアニメの中でも|兄と妹が恋におちて|兄妹の禁じられた|神ゲー"])]),
@@ -233,6 +233,7 @@ def main():
     w('    call chapter_day3')
     w('    n "■６日後■"')
     w('    call chapter_day4')
+    w('    call overlays_off()')
     w('    # ---- choice 1441: father asks about Yurika (converges: iziru101)')
     for l in ['妹はどこ行った。']:
         w(f'    n "{esc(l)}"')
@@ -314,10 +315,21 @@ def main():
         w(f'    scene black')
         w(f'    show expression "{bg}" as bg')
         w('    with fade')
+        if name in ('day1', 'day2'):
+            w('    show ov_face_blink at face_pos')
+        else:
+            w('    call overlays_on("k1")')
+        if name == 'day2':
+            # the wandering family (readme: "the girl's family will
+            # wander around nearby - if you aren't careful, they catch on")
+            w('    show ov_grandpa at npc_left')
+            w('    show ov_brother at npc_right')
         if anim:
             w(f'    show {anim} as act')
         for qq in qqs:
             w(f'    call scene_{qq:03d}')
+        if name in ('day3', 'day4'):
+            w('    call overlays_off()')
         w('    return')
         w('')
     w('label chapter_rico_intro:')
@@ -346,6 +358,8 @@ def main():
             w(f'    scene black')
             w(f'    show expression "{BG_FRAMES[bg]}" as bg')
             w('    with fade')
+        if label == 'ohs20':
+            w('    call overlays_on("hotel")')
         if anim:
             w(f'    show {anim} as act')
         keys = []
@@ -362,6 +376,7 @@ def main():
     for label, (doc, anim, bg, keywords) in CHAPTERS.items():
         w(f'# chapter {label}: {doc}')
         w(f'label chapter_{label}:')
+        w('    call overlays_on("k1")')
         if bg:
             w(f'    scene black')
             w(f'    show expression "{BG_FRAMES[bg]}" as bg')
@@ -370,6 +385,7 @@ def main():
             w(f'    show {anim} as act')
         keys = select(lines, ([], keywords), used)
         emit_says(out, keys, lines_index)
+        w('    call overlays_off()')
         w('    return')
         w('')
 

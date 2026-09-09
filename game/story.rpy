@@ -16,6 +16,7 @@ label story_flow:
     call chapter_day3
     n "■６日後■"
     call chapter_day4
+    call overlays_off()
     # ---- choice 1441: father asks about Yurika (converges: iziru101)
     n "妹はどこ行った。"
     menu c1441:
@@ -96,6 +97,7 @@ label chapter_day1:
     scene black
     show expression "images/mov5/member0012.jpg" as bg
     with fade
+    show ov_face_blink at face_pos
     call scene_010
     call scene_015
     call scene_018
@@ -105,6 +107,9 @@ label chapter_day2:
     scene black
     show expression "images/mov2/X_3.jpg" as bg
     with fade
+    show ov_face_blink at face_pos
+    show ov_grandpa at npc_left
+    show ov_brother at npc_right
     call scene_020
     call scene_021
     call scene_025
@@ -117,17 +122,20 @@ label chapter_day3:
     scene black
     show expression "images/mov3/1_00000.jpg" as bg
     with fade
+    call overlays_on("k1")
     show anim_mov3_1 as act
     call scene_037
     call scene_039
     call scene_040
     call scene_042
+    call overlays_off()
     return
 
 label chapter_day4:
     scene black
     show expression "images/mov/2_00000.jpg" as bg
     with fade
+    call overlays_on("k1")
     show anim_mov_2 as act
     call scene_050
     call scene_051
@@ -135,6 +143,7 @@ label chapter_day4:
     call scene_054
     call scene_055
     call scene_060
+    call overlays_off()
     return
 
 label chapter_rico_intro:
@@ -235,10 +244,11 @@ label ohs10:
 
 # branch ohs20: original marker "ohs20"
 label ohs20:
+    hide act
     scene black
     show expression "images/mov6/fera1HOTEL_00000.jpg" as bg
     with fade
-    show anim_mov6_22 as act
+    call overlays_on("hotel")
     n "結婚記念なら親父らも素直に受け取り、外出するはずだ"
     n "両親を前に今夜は一晩中語るぞ。"
     n "照れくさいけど、これさ、結婚記念プレゼント"
@@ -357,6 +367,7 @@ label act_gentle:
 
 # chapter confinement: yukai family
 label chapter_confinement:
+    call overlays_on("k1")
     scene black
     show expression "images/mov3/1_00000.jpg" as bg
     with fade
@@ -375,10 +386,12 @@ label chapter_confinement:
     n "誘拐監禁するんだから、鎖でつないで俺の命令に服従させてやる。"
     n "泣いてても、仕方ないだろ"
     riko "もう俺の言いなりなるしかないんだ。残念だが諦めな"
+    call overlays_off()
     return
 
 # chapter school: fera1 family
 label chapter_school:
+    call overlays_on("k1")
     scene black
     show expression "images/mov2/BG410c.jpg" as bg
     with fade
@@ -434,5 +447,6 @@ label chapter_school:
     n "そうすれば、お兄ちゃんの病気が良くなるんだよね"
     n "仕方ない！お兄ちゃんの秘密を教えよう。実は病気なんだ。しかもいろんな意味で重病だ"
     n "でも、ゆりかが手伝ってくれるなら、お兄ちゃんの病気は少し良くなるんだ"
+    call overlays_off()
     return
 
