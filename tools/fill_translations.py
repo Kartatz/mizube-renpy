@@ -21,7 +21,8 @@ def normalize(s):
 
 
 def esc(s):
-    return s.replace('\\', '\\\\').replace('"', '\\"')
+    return (s.replace('\\', '\\\\').replace('"', '\\"')
+            .replace('[', '[['))
 
 
 def unesc(s):

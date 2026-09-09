@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2026-09-09 20:14
+﻿# TODO: Translation updated at 2026-09-09 20:18
 
 # game/story.rpy:13
 translate english story_flow_853e7a5d:
@@ -28,7 +28,7 @@ translate english c1431_876124cc:
 translate english chapter_opening_02c69363:
 
     # n "■説明■マウス上下/任意の場所で左クリック、そのまま移動で挿入"
-    n "[How to play] Move the mouse up and down. Left-click anywhere and drag to insert."
+    n "[[How to play] Move the mouse up and down. Left-click anywhere and drag to insert."
 
 # game/story.rpy:79
 translate english chapter_opening_609230da:
@@ -190,7 +190,7 @@ translate english breakin_yes_2d687687:
 translate english breakin_yes_ba8c4ec5:
 
     # n "【妹部屋の鍵】を使用。ドアの開閉はドアをクリック"
-    n "Used the [Sister's Room Key]. Click the door to open and close it."
+    n "Used the [[Sister's Room Key]. Click the door to open and close it."
 
 # game/story.rpy:170
 translate english breakin_yes_8db121fd:
@@ -208,7 +208,7 @@ translate english breakin_yes_3e7f6041:
 translate english breakin_yes_d59a756b:
 
     # n "「妹部屋の鍵」GET!"
-    n "Got the [Sister's Room Key]!"
+    n "Got the [[Sister's Room Key]!"
 
 # game/story.rpy:173
 translate english breakin_yes_a4736130:
