@@ -10,3 +10,7 @@ init python:
     gui.interface_text_font = "fonts/main.ttf"
     gui.name_text_font = "fonts/main.ttf"
     gui.default_font = "fonts/main.ttf"
+
+# Close/quit directly without a confirmation prompt (the minimal
+# classic layout this project uses does not provide a yesno screen).
+define config.quit_action = Quit(False)
