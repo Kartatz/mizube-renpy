@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2026-09-09 19:15
+﻿# TODO: Translation updated at 2026-09-09 19:36
 
 # game/script.rpy:10
 translate english start_1a40244d:
@@ -37,10 +37,10 @@ translate english scene_015_48f0f8f1:
     n "...."
 
 # game/script.rpy:21
-translate english scene_015_1120ca8a:
+translate english scene_015_316ee201:
 
-    # n "父「飯だ」　"
-    n "\"Father: Dinner.\""
+    # father "飯だ"
+    father "Dinner."
 
 # game/script.rpy:22
 translate english scene_015_20080164:
@@ -61,10 +61,10 @@ translate english scene_015_74c1313c:
     n "\"What to do...\""
 
 # game/script.rpy:25
-translate english scene_015_eb673eed:
+translate english scene_015_df9adadd:
 
-    # n "父「母さんがな。ゆりかの下着が足りないと言ってたぞ」　"
-    n "\"Father: Your mother says some of Yurika's underwear has gone missing.\""
+    # father "母さんがな。ゆりかの下着が足りないと言ってたぞ"
+    father "Your mother says some of Yurika's underwear has gone missing."
 
 # game/script.rpy:26
 translate english scene_015_53f7daa3:
@@ -73,10 +73,10 @@ translate english scene_015_53f7daa3:
     n "..."
 
 # game/script.rpy:27
-translate english scene_015_78dc8737:
+translate english scene_015_5ce7f479:
 
-    # n "父「下着ドロボーでも来たのかと心配して。で、ゆりかに聞いたそうだ」　"
-    n "\"Father: We worried some underwear thief had broken in. So we asked Yurika about it.\""
+    # father "下着ドロボーでも来たのかと心配して。で、ゆりかに聞いたそうだ"
+    father "We worried some underwear thief had broken in. So we asked Yurika about it."
 
 # game/script.rpy:28
 translate english scene_015_48f0f8f1_1:
@@ -91,10 +91,10 @@ translate english scene_015_170b51cc:
     n "\"And what did Yurika say?\""
 
 # game/script.rpy:30
-translate english scene_015_e0202671:
+translate english scene_015_55601adc:
 
-    # n "父「何も答えなかったそうだが、どうも何か隠してる。というか犯人を知ってるみたいだ」　"
-    n "\"Father: She said nothing, apparently — but she's hiding something. In fact, it seems she knows the culprit.\""
+    # father "何も答えなかったそうだが、どうも何か隠してる。というか犯人を知ってるみたいだ"
+    father "She said nothing, apparently — but she's hiding something. In fact, it seems she knows the culprit."
 
 # game/script.rpy:31
 translate english scene_015_061bc17b:
@@ -103,16 +103,16 @@ translate english scene_015_061bc17b:
     n "\"O-oh, I see.\""
 
 # game/script.rpy:32
-translate english scene_015_7340dae1:
+translate english scene_015_c80f4f61:
 
-    # n "父「あんな小さい子の下着を盗むとは許せん！その変態を必ず捕まえて警察に突き出してやる！」　"
-    n "\"Father: Stealing underwear from such a young girl — unforgivable! I'll catch that pervert and hand him straight to the police!\""
+    # father "あんな小さい子の下着を盗むとは許せん！その変態を必ず捕まえて警察に突き出してやる！"
+    father "Stealing underwear from such a young girl — unforgivable! I'll catch that pervert and hand him straight to the police!"
 
 # game/script.rpy:33
-translate english scene_015_5b80ded2:
+translate english scene_015_51d4e56d:
 
-    # n "父「お前も目を光らせて、犯人を見つけてくれ！見つけたらすぐ警察に電話だ！頼むぞ！」　"
-    n "\"Father: You keep your eyes open too, and find the culprit! The moment you find him, call the police! I'm counting on you!\""
+    # father "お前も目を光らせて、犯人を見つけてくれ！見つけたらすぐ警察に電話だ！頼むぞ！"
+    father "You keep your eyes open too, and find the culprit! The moment you find him, call the police! I'm counting on you!"
 
 # game/script.rpy:34
 translate english scene_015_87048bb6:
@@ -124,7 +124,7 @@ translate english scene_015_87048bb6:
 translate english scene_015_40488444:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:39
 translate english scene_018_6fdef45d:
@@ -157,10 +157,10 @@ translate english scene_018_11bc58e9:
     n "\"You've got a nice body.\""
 
 # game/script.rpy:44
-translate english scene_018_1120ca8a:
+translate english scene_018_316ee201:
 
-    # n "父「飯だ」　"
-    n "\"Father: Dinner.\""
+    # father "飯だ"
+    father "Dinner."
 
 # game/script.rpy:45
 translate english scene_018_6ffa5c53:
@@ -199,10 +199,10 @@ translate english scene_018_e7190987:
     n "Something on her mind, perhaps..."
 
 # game/script.rpy:51
-translate english scene_018_eb673eed:
+translate english scene_018_df9adadd:
 
-    # n "父「母さんがな。ゆりかの下着が足りないと言ってたぞ」　"
-    n "\"Father: Your mother says some of Yurika's underwear has gone missing.\""
+    # father "母さんがな。ゆりかの下着が足りないと言ってたぞ"
+    father "Your mother says some of Yurika's underwear has gone missing."
 
 # game/script.rpy:52
 translate english scene_018_53b2ce7b:
@@ -214,19 +214,19 @@ translate english scene_018_53b2ce7b:
 translate english scene_018_40488444:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:54
-translate english scene_018_78dc8737:
+translate english scene_018_5ce7f479:
 
-    # n "父「下着ドロボーでも来たのかと心配して。で、ゆりかに聞いたそうだ」　"
-    n "\"Father: We worried some underwear thief had broken in. So we asked Yurika about it.\""
+    # father "下着ドロボーでも来たのかと心配して。で、ゆりかに聞いたそうだ"
+    father "We worried some underwear thief had broken in. So we asked Yurika about it."
 
 # game/script.rpy:55
 translate english scene_018_40488444_1:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:56
 translate english scene_018_48f0f8f1:
@@ -241,10 +241,10 @@ translate english scene_018_170b51cc:
     n "\"And what did Yurika say?\""
 
 # game/script.rpy:58
-translate english scene_018_e0202671:
+translate english scene_018_55601adc:
 
-    # n "父「何も答えなかったそうだが、どうも何か隠してる。というか犯人を知ってるみたいだ」　"
-    n "\"Father: She said nothing, apparently — but she's hiding something. In fact, it seems she knows the culprit.\""
+    # father "何も答えなかったそうだが、どうも何か隠してる。というか犯人を知ってるみたいだ"
+    father "She said nothing, apparently — but she's hiding something. In fact, it seems she knows the culprit."
 
 # game/script.rpy:59
 translate english scene_018_061bc17b:
@@ -253,16 +253,16 @@ translate english scene_018_061bc17b:
     n "\"O-oh, I see.\""
 
 # game/script.rpy:60
-translate english scene_018_e0283a6d:
+translate english scene_018_52025c4e:
 
-    # n "父「あんな小さい子の下着盗むとは許せん！その変態を必ず捕まえて警察に突き出してやる！」　"
-    n "\"Father: Stealing underwear from such a young girl — unforgivable! I'll catch that pervert and hand him straight to the police!\""
+    # father "あんな小さい子の下着盗むとは許せん！その変態を必ず捕まえて警察に突き出してやる！"
+    father "Stealing underwear from such a young girl — unforgivable! I'll catch that pervert and hand him straight to the police!"
 
 # game/script.rpy:61
-translate english scene_018_5b80ded2:
+translate english scene_018_51d4e56d:
 
-    # n "父「お前も目を光らせて、犯人を見つけてくれ！見つけたらすぐ警察に電話だ！頼むぞ！」　"
-    n "\"Father: You keep your eyes open too, and find the culprit! The moment you find him, call the police! I'm counting on you!\""
+    # father "お前も目を光らせて、犯人を見つけてくれ！見つけたらすぐ警察に電話だ！頼むぞ！"
+    father "You keep your eyes open too, and find the culprit! The moment you find him, call the police! I'm counting on you!"
 
 # game/script.rpy:62
 translate english scene_018_87048bb6:
@@ -274,7 +274,7 @@ translate english scene_018_87048bb6:
 translate english scene_018_40488444_2:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:67
 translate english scene_020_ba5d59aa:
@@ -283,10 +283,10 @@ translate english scene_020_ba5d59aa:
     n "Knock, knock!"
 
 # game/script.rpy:68
-translate english scene_020_ecd41a74:
+translate english scene_020_55bff8a9:
 
-    # n "父「母さんか聞いたぞ。お前、ゆりかとなんかあったんだってな」　"
-    n "\"Father: I heard it from your mother. Something happened between you and Yurika, didn't it?\""
+    # father "母さんか聞いたぞ。お前、ゆりかとなんかあったんだってな"
+    father "I heard it from your mother. Something happened between you and Yurika, didn't it?"
 
 # game/script.rpy:69
 translate english scene_020_f14729fa:
@@ -295,16 +295,16 @@ translate english scene_020_f14729fa:
     n "Oh — yes? What is it?"
 
 # game/script.rpy:70
-translate english scene_020_0ab12a72:
+translate english scene_020_280a2206:
 
-    # n "父「一緒に暮らして間がないから仕方ないかもしれないが、妹なんだから優しくしてやるんだぞ」　"
-    n "\"Father: You've hardly lived together, so perhaps it can't be helped — but she's your sister. Treat her kindly.\""
+    # father "一緒に暮らして間がないから仕方ないかもしれないが、妹なんだから優しくしてやるんだぞ"
+    father "You've hardly lived together, so perhaps it can't be helped — but she's your sister. Treat her kindly."
 
 # game/script.rpy:71
-translate english scene_020_2779eeb0:
+translate english scene_020_54efe4cd:
 
-    # n "母「起きた？」　"
-    n "\"Mother: Are you awake?\""
+    # mother "起きた？"
+    mother "Are you awake?"
 
 # game/script.rpy:72
 translate english scene_020_53f7daa3:
@@ -313,16 +313,16 @@ translate english scene_020_53f7daa3:
     n "..."
 
 # game/script.rpy:73
-translate english scene_020_e10cf8f3:
+translate english scene_020_299acca3:
 
-    # n "母「妹と仲良くしてあげてね。新しいお兄ちゃんにまだ戸惑ってるみたいだから」　"
-    n "\"Mother: Do get along with your sister. She still seems unsure about having a new big brother.\""
+    # mother "妹と仲良くしてあげてね。新しいお兄ちゃんにまだ戸惑ってるみたいだから"
+    mother "Do get along with your sister. She still seems unsure about having a new big brother."
 
 # game/script.rpy:74
-translate english scene_020_6af61a78:
+translate english scene_020_0bfda7f2:
 
-    # n "父「しかし毎日選挙報道番組ばかりだな」　"
-    n "\"Father: Nothing but election coverage on TV every single day.\""
+    # father "しかし毎日選挙報道番組ばかりだな"
+    father "Nothing but election coverage on TV every single day."
 
 # game/script.rpy:75
 translate english scene_020_93d82a27:
@@ -331,10 +331,10 @@ translate english scene_020_93d82a27:
     n "~ No, forget confused — she's being WAY too familiar here ~"
 
 # game/script.rpy:76
-translate english scene_020_140cdf78:
+translate english scene_020_9a860915:
 
-    # n "父「ここはどうなってんだ」　"
-    n "\"Father: What on earth is going on here?\""
+    # father "ここはどうなってんだ"
+    father "What on earth is going on here?"
 
 # game/script.rpy:77
 translate english scene_020_54a49334:
@@ -349,16 +349,16 @@ translate english scene_020_7855cde2:
     n "....."
 
 # game/script.rpy:79
-translate english scene_020_16a6bd18:
+translate english scene_020_c9d4aa4f:
 
-    # n "母「異性だから、その点も分かってるよね」　"
-    n "\"Mother: And she's a girl, so I trust you understand that sort of thing.\""
+    # mother "異性だから、その点も分かってるよね"
+    mother "And she's a girl, so I trust you understand that sort of thing."
 
 # game/script.rpy:80
 translate english scene_020_40488444:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:81
 translate english scene_020_5bd6eb9a:
@@ -403,10 +403,10 @@ translate english scene_027_5423a032:
     n "Could it be that she..."
 
 # game/script.rpy:94
-translate english scene_027_ecd41a74:
+translate english scene_027_55bff8a9:
 
-    # n "父「母さんか聞いたぞ。お前、ゆりかとなんかあったんだってな」　"
-    n "\"Father: I heard it from your mother. Something happened between you and Yurika, didn't it?\""
+    # father "母さんか聞いたぞ。お前、ゆりかとなんかあったんだってな"
+    father "I heard it from your mother. Something happened between you and Yurika, didn't it?"
 
 # game/script.rpy:95
 translate english scene_027_29f03b0e:
@@ -421,16 +421,16 @@ translate english scene_027_f4ac0073:
     n "That must be it."
 
 # game/script.rpy:97
-translate english scene_027_0ab12a72:
+translate english scene_027_280a2206:
 
-    # n "父「一緒に暮らして間がないから仕方ないかもしれないが、妹なんだから優しくしてやるんだぞ」　"
-    n "\"Father: You've hardly lived together, so perhaps it can't be helped — but she's your sister. Treat her kindly.\""
+    # father "一緒に暮らして間がないから仕方ないかもしれないが、妹なんだから優しくしてやるんだぞ"
+    father "You've hardly lived together, so perhaps it can't be helped — but she's your sister. Treat her kindly."
 
 # game/script.rpy:98
-translate english scene_027_81881ded:
+translate english scene_027_df9b4205:
 
-    # n "父「ん？何でもないさ。ただ喉がかわいてな」　"
-    n "\"Father: Hm? It's nothing. My throat's just dry, that's all.\""
+    # father "ん？何でもないさ。ただ喉がかわいてな"
+    father "Hm? It's nothing. My throat's just dry, that's all."
 
 # game/script.rpy:99
 translate english scene_027_2bce7f05:
@@ -457,16 +457,16 @@ translate english scene_027_ec4f6237:
     n "Would a girl her age really have such a fierce sex drive?"
 
 # game/script.rpy:103
-translate english scene_027_6af61a78:
+translate english scene_027_0bfda7f2:
 
-    # n "父「しかし毎日選挙報道番組ばかりだな」　"
-    n "\"Father: Nothing but election coverage on TV every single day.\""
+    # father "しかし毎日選挙報道番組ばかりだな"
+    father "Nothing but election coverage on TV every single day."
 
 # game/script.rpy:104
-translate english scene_027_46d1c4cb:
+translate english scene_027_1129f448:
 
-    # n "父「それより、母さんに世話かけるなよ。」　"
-    n "\"Father: And don't go troubling your mother.\""
+    # father "それより、母さんに世話かけるなよ。"
+    father "And don't go troubling your mother."
 
 # game/script.rpy:105
 translate english scene_027_135857cf:
@@ -475,16 +475,16 @@ translate english scene_027_135857cf:
     n "Hmm, what could it be? Something feels off."
 
 # game/script.rpy:106
-translate english scene_027_f27e5bbd:
+translate english scene_027_81b571aa:
 
-    # n "父「ところで、用事がないなら、もう行きなさい」　"
-    n "\"Father: Anyway — if there's nothing else, off you go.\""
+    # father "ところで、用事がないなら、もう行きなさい"
+    father "Anyway — if there's nothing else, off you go."
 
 # game/script.rpy:107
-translate english scene_027_4496502b:
+translate english scene_027_dc1c5458:
 
-    # n "父「それでなくても、新しい家族が始まり今は大変なんだ」　"
-    n "\"Father: Things are hectic enough as it is, what with our new family just beginning.\""
+    # father "それでなくても、新しい家族が始まり今は大変なんだ"
+    father "Things are hectic enough as it is, what with our new family just beginning."
 
 # game/script.rpy:108
 translate english scene_027_c9ff8163:
@@ -514,7 +514,7 @@ translate english scene_027_7c0fb756:
 translate english scene_027_40488444:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:113
 translate english scene_027_44c2fa94:
@@ -529,10 +529,10 @@ translate english scene_027_de65a335:
     n "Where could my favorite eroge have gone? How strange..."
 
 # game/script.rpy:115
-translate english scene_027_cea6390f:
+translate english scene_027_a3e36385:
 
-    # n "父「ゆりかか？年頃だからな。元気に見えるが内心はどうだろう」　"
-    n "\"Father: Yurika, you say? She's at that age. She seems cheerful, but who knows what's inside.\""
+    # father "ゆりかか？年頃だからな。元気に見えるが内心はどうだろう"
+    father "Yurika, you say? She's at that age. She seems cheerful, but who knows what's inside."
 
 # game/script.rpy:116
 translate english scene_027_acb278a3_1:
@@ -541,16 +541,16 @@ translate english scene_027_acb278a3_1:
     n "?"
 
 # game/script.rpy:117
-translate english scene_027_14e85141:
+translate english scene_027_b77c96d0:
 
-    # n "父「混乱してるんじゃないか？なにせ突然年頃の男性、つまりお前と暮らす事になったのだし」　"
-    n "\"Father: She must be confused. After all, she's suddenly living with a grown boy — that is, with you.\""
+    # father "混乱してるんじゃないか？なにせ突然年頃の男性、つまりお前と暮らす事になったのだし"
+    father "She must be confused. After all, she's suddenly living with a grown boy — that is, with you."
 
 # game/script.rpy:118
-translate english scene_027_1870243c:
+translate english scene_027_f587cb58:
 
-    # n "父「可愛がってやれよ」　"
-    n "\"Father: Treat her well.\""
+    # father "可愛がってやれよ"
+    father "Treat her well."
 
 # game/script.rpy:119
 translate english scene_027_53f7daa3_1:
@@ -562,7 +562,7 @@ translate english scene_027_53f7daa3_1:
 translate english scene_027_40488444_1:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:124
 translate english scene_030_fe886a64:
@@ -601,10 +601,10 @@ translate english scene_034_f7858150:
     n "Oh, you're here."
 
 # game/script.rpy:132
-translate english scene_034_5878fc8d:
+translate english scene_034_aeb55c4e:
 
-    # n "父「おお、ちょっといいか？」　"
-    n "\"Father: Ohh — got a moment?\""
+    # father "おお、ちょっといいか？"
+    father "Ohh — got a moment?"
 
 # game/script.rpy:133
 translate english scene_034_7c4a4372:
@@ -625,10 +625,10 @@ translate english scene_034_b374f0dd:
     n "\"You're teasing me for fun, aren't you.\""
 
 # game/script.rpy:136
-translate english scene_034_ebcc8bf7:
+translate english scene_034_1b1d1283:
 
-    # n "父「いたんだとは何だ？」　"
-    n "\"Father: What do you mean, 'she was there'?\""
+    # father "いたんだとは何だ？"
+    father "What do you mean, 'she was there'?"
 
 # game/script.rpy:137
 translate english scene_034_a85f1144:
@@ -685,16 +685,16 @@ translate english scene_034_920d0a0b:
     n "Maybe I should give her one good, hard punishment."
 
 # game/script.rpy:146
-translate english scene_034_581284f2:
+translate english scene_034_2b6f63ca:
 
-    # n "父「さっき２Fへ誰かが上げってく足音は聞こえたが、ゆりかかどうかわからんな」　"
-    n "\"Father: I heard footsteps going up to the second floor just now, but I can't say whether it was Yurika.\""
+    # father "さっき２Fへ誰かが上げってく足音は聞こえたが、ゆりかかどうかわからんな"
+    father "I heard footsteps going up to the second floor just now, but I can't say whether it was Yurika."
 
 # game/script.rpy:147
-translate english scene_034_ee3ecdf4:
+translate english scene_034_b2ab0997:
 
-    # n "父「これくらいの赤い小瓶を見なかったか？」　"
-    n "\"Father: Have you seen a small red vial, about this size?\""
+    # father "これくらいの赤い小瓶を見なかったか？"
+    father "Have you seen a small red vial, about this size?"
 
 # game/script.rpy:148
 translate english scene_034_2c3d1ba7:
@@ -706,13 +706,13 @@ translate english scene_034_2c3d1ba7:
 translate english scene_034_40488444:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:150
-translate english scene_034_4e912b5d:
+translate english scene_034_72c23850:
 
-    # n "父「そういや、ゆりかが部屋の鍵無くしたとか言ってたな。お前知らないか？」　"
-    n "\"Father: Come to think of it, Yurika said she lost her room key. You haven't seen it?\""
+    # father "そういや、ゆりかが部屋の鍵無くしたとか言ってたな。お前知らないか？"
+    father "Come to think of it, Yurika said she lost her room key. You haven't seen it?"
 
 # game/script.rpy:151
 translate english scene_034_6945fb16:
@@ -724,7 +724,7 @@ translate english scene_034_6945fb16:
 translate english scene_034_40488444_1:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:153
 translate english scene_034_c8896ac9:
@@ -733,16 +733,16 @@ translate english scene_034_c8896ac9:
     n "N-no. I don't know."
 
 # game/script.rpy:154
-translate english scene_034_276d919c:
+translate english scene_034_17944860:
 
-    # n "父「見てないならいい。今の言葉は忘れてくれ」　"
-    n "\"Father: If you haven't seen it, fine. Forget what I just said.\""
+    # father "見てないならいい。今の言葉は忘れてくれ"
+    father "If you haven't seen it, fine. Forget what I just said."
 
 # game/script.rpy:155
-translate english scene_034_b267dcc7:
+translate english scene_034_a07a45e5:
 
-    # n "父「そうか」　"
-    n "\"Father: I see.\""
+    # father "そうか"
+    father "I see."
 
 # game/script.rpy:156
 translate english scene_034_eb11429b:
@@ -754,13 +754,13 @@ translate english scene_034_eb11429b:
 translate english scene_034_40488444_2:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:158
-translate english scene_034_9d4a6099:
+translate english scene_034_50ba9474:
 
-    # n "父「母さんやゆりかが小瓶らしいの持ってそうなら、こっそりワシに知らせてくれ。たのむぞ」　"
-    n "\"Father: If your mother or Yurika seems to have something like a small vial, tell me quietly. I'm begging you.\""
+    # father "母さんやゆりかが小瓶らしいの持ってそうなら、こっそりワシに知らせてくれ。たのむぞ"
+    father "If your mother or Yurika seems to have something like a small vial, tell me quietly. I'm begging you."
 
 # game/script.rpy:159
 translate english scene_034_5f1fa746:
@@ -769,10 +769,10 @@ translate english scene_034_5f1fa746:
     n "\"Let me guess — you bought another weird thing off the internet.\""
 
 # game/script.rpy:160
-translate english scene_034_bf978404:
+translate english scene_034_b85c7e69:
 
-    # n "父「それとお前にヒントをやろう…いや、また別に機会にしよう」　"
-    n "\"Father: And I'll give you a hint... no, better leave it for another time.\""
+    # father "それとお前にヒントをやろう…いや、また別に機会にしよう"
+    father "And I'll give you a hint... no, better leave it for another time."
 
 # game/script.rpy:161
 translate english scene_034_b5055b2b:
@@ -784,7 +784,7 @@ translate english scene_034_b5055b2b:
 translate english scene_034_40488444_3:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:166
 translate english scene_037_b7382beb:
@@ -850,13 +850,13 @@ translate english scene_037_2c3d1ba7:
 translate english scene_037_40488444:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:177
 translate english scene_037_40488444_1:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:180
 translate english scene_039_9311a4e6:
@@ -865,10 +865,10 @@ translate english scene_039_9311a4e6:
     n "Once Yurika was sure Dad was gone, she left the room with a complicated look on her face."
 
 # game/script.rpy:181
-translate english scene_039_ef6e8b5e:
+translate english scene_039_f1cdfe23:
 
-    # n "父「さっき洗面所をのぞいたらゆりかは居たんだが。ん・・・」　"
-    n "\"Father: I looked in the washroom a moment ago and Yurika was there. Hmm...\""
+    # father "さっき洗面所をのぞいたらゆりかは居たんだが。ん・・・"
+    father "I looked in the washroom a moment ago and Yurika was there. Hmm..."
 
 # game/script.rpy:182
 translate english scene_039_6efc263b:
@@ -895,16 +895,16 @@ translate english scene_039_98d06233:
     n "If only Dad weren't home..."
 
 # game/script.rpy:186
-translate english scene_039_fae936da:
+translate english scene_039_ca15e04c:
 
-    # n "父「前らケンカしただろ？」　"
-    n "\"Father: You two were fighting before, weren't you?\""
+    # father "前らケンカしただろ？"
+    father "You two were fighting before, weren't you?"
 
 # game/script.rpy:187
-translate english scene_039_15bb948c:
+translate english scene_039_cccf7be5:
 
-    # n "父「よく会うな？」　"
-    n "\"Father: You two see each other often, do you?\""
+    # father "よく会うな？"
+    father "You two see each other often, do you?"
 
 # game/script.rpy:188
 translate english scene_039_6ffa5c53:
@@ -955,16 +955,16 @@ translate english scene_039_a1b7779e:
     n "I nearly plucked that forbidden fruit... and now I've had a taste of it."
 
 # game/script.rpy:196
-translate english scene_039_f669afde:
+translate english scene_039_27fb4604:
 
-    # n "父「そうか？確かに泣いてたんだがな。目が真っ赤だったし」　"
-    n "\"Father: Is that so? She was certainly crying — her eyes were bright red.\""
+    # father "そうか？確かに泣いてたんだがな。目が真っ赤だったし"
+    father "Is that so? She was certainly crying — her eyes were bright red."
 
 # game/script.rpy:197
-translate english scene_039_c2c2e051:
+translate english scene_039_d5d53e01:
 
-    # n "父「違う。お前に忠告しとく」　"
-    n "\"Father: No. I'm giving you a word of advice.\""
+    # father "違う。お前に忠告しとく"
+    father "No. I'm giving you a word of advice."
 
 # game/script.rpy:198
 translate english scene_039_53b2ce7b:
@@ -976,7 +976,7 @@ translate english scene_039_53b2ce7b:
 translate english scene_039_40488444:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:200
 translate english scene_039_a0d1db52:
@@ -985,22 +985,22 @@ translate english scene_039_a0d1db52:
     n "Something inside me broke."
 
 # game/script.rpy:201
-translate english scene_039_374d538e:
+translate english scene_039_9d41654b:
 
-    # n "父「ほんとうか？あの様子は普通じゃないぞ」　"
-    n "\"Father: Really? She didn't look normal at all.\""
+    # father "ほんとうか？あの様子は普通じゃないぞ"
+    father "Really? She didn't look normal at all."
 
 # game/script.rpy:202
-translate english scene_039_12182bfa:
+translate english scene_039_88f37bfe:
 
-    # n "父「アイテムは全部揃えないと、全シナリオクリアはできない」　"
-    n "\"Father: You can't clear every scenario unless you collect all the items.\""
+    # father "アイテムは全部揃えないと、全シナリオクリアはできない"
+    father "You can't clear every scenario unless you collect all the items."
 
 # game/script.rpy:203
 translate english scene_039_40488444_1:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:204
 translate english scene_039_ebc19093:
@@ -1015,22 +1015,22 @@ translate english scene_039_9efd784a:
     n "N-no... y-yeah. Thanks."
 
 # game/script.rpy:206
-translate english scene_039_82ea71a0:
+translate english scene_039_d880dbe6:
 
-    # n "父「お父さんが話しかけようとしたら、外に飛び出していったんだ」　"
-    n "\"Father: The moment I tried to speak to her, she bolted out of the house.\""
+    # father "お父さんが話しかけようとしたら、外に飛び出していったんだ"
+    father "The moment I tried to speak to her, she bolted out of the house."
 
 # game/script.rpy:207
-translate english scene_039_9cdb943b:
+translate english scene_039_be441d9d:
 
-    # n "父「媚薬は手に入れたか？あれなくして楽しめまい」　"
-    n "\"Father: Did you get your hands on the aphrodisiac? No fun without it.\""
+    # father "媚薬は手に入れたか？あれなくして楽しめまい"
+    father "Did you get your hands on the aphrodisiac? No fun without it."
 
 # game/script.rpy:208
-translate english scene_039_82c95cce:
+translate english scene_039_91e1a246:
 
-    # n "父「すまんが探してきてくれ。」　"
-    n "\"Father: Sorry, but go look for her, will you?\""
+    # father "すまんが探してきてくれ。"
+    father "Sorry, but go look for her, will you?"
 
 # game/script.rpy:209
 translate english scene_039_ce9cccfd:
@@ -1042,7 +1042,7 @@ translate english scene_039_ce9cccfd:
 translate english scene_039_40488444_2:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:212
 translate english scene_039_39088339:
@@ -1051,10 +1051,10 @@ translate english scene_039_39088339:
     n "\"You go, Dad. All you ever do is watch election coverage anyway!\""
 
 # game/script.rpy:213
-translate english scene_039_de9884d3:
+translate english scene_039_2e3e373e:
 
-    # n "父「私たちは忙しいんだ。頼むぞ」　"
-    n "\"Father: We're busy people. We're counting on you.\""
+    # father "私たちは忙しいんだ。頼むぞ"
+    father "We're busy people. We're counting on you."
 
 # game/script.rpy:214
 translate english scene_039_bb4a9db7:
@@ -1066,7 +1066,7 @@ translate english scene_039_bb4a9db7:
 translate english scene_039_40488444_3:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:218
 translate english scene_040_1bb6312b:
@@ -1075,10 +1075,10 @@ translate english scene_040_1bb6312b:
     n "All that walking has worn me out."
 
 # game/script.rpy:219
-translate english scene_040_2bc69c57:
+translate english scene_040_7749509f:
 
-    # n "父「お疲れ。すまないな」　"
-    n "\"Father: Welcome home. Sorry about all this.\""
+    # father "お疲れ。すまないな"
+    father "Welcome home. Sorry about all this."
 
 # game/script.rpy:220
 translate english scene_040_64df3f42:
@@ -1087,10 +1087,10 @@ translate english scene_040_64df3f42:
     n "It was Yurika in the bath just now, wasn't it."
 
 # game/script.rpy:221
-translate english scene_040_93df9291:
+translate english scene_040_f05c4212:
 
-    # n "父「ゆりかは、さっき帰ってきたよ。浮かない顔してたがな」　"
-    n "\"Father: Yurika came home a while ago. Looking rather glum, though.\""
+    # father "ゆりかは、さっき帰ってきたよ。浮かない顔してたがな"
+    father "Yurika came home a while ago. Looking rather glum, though."
 
 # game/script.rpy:222
 translate english scene_040_96e5f804:
@@ -1099,16 +1099,16 @@ translate english scene_040_96e5f804:
     n "Our parents are home — what now? Give it a try anyway?"
 
 # game/script.rpy:223
-translate english scene_040_8611c0ce:
+translate english scene_040_aa39a947:
 
-    # n "父「どうも、さっきからゆりかの様子がおかしいんだ」　"
-    n "\"Father: Something's been off about Yurika all evening.\""
+    # father "どうも、さっきからゆりかの様子がおかしいんだ"
+    father "Something's been off about Yurika all evening."
 
 # game/script.rpy:224
-translate english scene_040_84a64cc7:
+translate english scene_040_42315fd0:
 
-    # n "父「お前、何かしたのか？」　"
-    n "\"Father: Did you do something?\""
+    # father "お前、何かしたのか？"
+    father "Did you do something?"
 
 # game/script.rpy:225
 translate english scene_040_1fa5ab37:
@@ -1123,10 +1123,10 @@ translate english scene_042_162bf616:
     n "I've finally done it."
 
 # game/script.rpy:229
-translate english scene_042_3c21d520:
+translate english scene_042_bcda110f:
 
-    # n "父「さっきはすまなかったな。どうした。目が血走ってるぞ」　"
-    n "\"Father: Sorry about earlier. What's wrong? Your eyes are bloodshot.\""
+    # father "さっきはすまなかったな。どうした。目が血走ってるぞ"
+    father "Sorry about earlier. What's wrong? Your eyes are bloodshot."
 
 # game/script.rpy:230
 translate english scene_042_50f2c8d6:
@@ -1135,10 +1135,10 @@ translate english scene_042_50f2c8d6:
     n "Will she keep quiet around my parents? I'm worried about what comes next."
 
 # game/script.rpy:231
-translate english scene_042_30ac4648:
+translate english scene_042_0835596c:
 
-    # n "母「風呂上りかい？」　"
-    n "\"Mother: Fresh from the bath, are you?\""
+    # mother "風呂上りかい？"
+    mother "Fresh from the bath, are you?"
 
 # game/script.rpy:232
 translate english scene_042_c60aed2c:
@@ -1213,10 +1213,10 @@ translate english scene_050_f13c24a5:
     n "Once our parents felt the drug's effect, they'd be too preoccupied with themselves."
 
 # game/script.rpy:246
-translate english scene_050_1533261b:
+translate english scene_050_866ddc79:
 
-    # n "父「！」　"
-    n "\"Father: !\""
+    # father "！"
+    father "!"
 
 # game/script.rpy:247
 translate english scene_050_af153b75:
@@ -1225,10 +1225,10 @@ translate english scene_050_af153b75:
     n "For that, I'll pour a little of this aphrodisiac into another vial... there."
 
 # game/script.rpy:248
-translate english scene_050_98634ecb:
+translate english scene_050_0adc70f3:
 
-    # n "父「どこにあった」　"
-    n "\"Father: Where did you find it?\""
+    # father "どこにあった"
+    father "Where did you find it?"
 
 # game/script.rpy:249
 translate english scene_050_c1f8601d:
@@ -1243,10 +1243,10 @@ translate english scene_050_8958161d:
     n "The washroom."
 
 # game/script.rpy:251
-translate english scene_050_d21b67da:
+translate english scene_050_3feb2f29:
 
-    # n "父「そうか。本当にあったとはな。伝説とばかり思って信じてなかった」　"
-    n "\"Father: I see. So it truly exists. I'd thought it a legend — never believed it.\""
+    # father "そうか。本当にあったとはな。伝説とばかり思って信じてなかった"
+    father "I see. So it truly exists. I'd thought it a legend — never believed it."
 
 # game/script.rpy:252
 translate english scene_050_47e5846c:
@@ -1255,10 +1255,10 @@ translate english scene_050_47e5846c:
     n "Huh?"
 
 # game/script.rpy:253
-translate english scene_050_79a1c694:
+translate english scene_050_6f48d60f:
 
-    # n "父「い、いや。こちらの話だ。忘れてくれ」　"
-    n "\"Father: N-no, never mind. Forget I said anything.\""
+    # father "い、いや。こちらの話だ。忘れてくれ"
+    father "N-no, never mind. Forget I said anything."
 
 # game/script.rpy:254
 translate english scene_050_9e7b5221:
@@ -1267,10 +1267,10 @@ translate english scene_050_9e7b5221:
     n "\"Try using this...\""
 
 # game/script.rpy:255
-translate english scene_050_e826c56e:
+translate english scene_050_8d445db6:
 
-    # n "父「お、お前！これ飲んだのか？！」　"
-    n "\"Father: Y-you! Did you drink this?!\""
+    # father "お、お前！これ飲んだのか？！"
+    father "Y-you! Did you drink this?!"
 
 # game/script.rpy:256
 translate english scene_050_1c5717a6:
@@ -1285,10 +1285,10 @@ translate english scene_050_187d6da5:
     n "\"I didn't drink it. I just happened to find it.\""
 
 # game/script.rpy:258
-translate english scene_050_f38c2b91:
+translate english scene_050_9556307f:
 
-    # n "父「そうか。じゃそれはお父さんが預かる。そこへ置いていけ」　"
-    n "\"Father: I see. Then I'll hold onto that. Leave it there.\""
+    # father "そうか。じゃそれはお父さんが預かる。そこへ置いていけ"
+    father "I see. Then I'll hold onto that. Leave it there."
 
 # game/script.rpy:259
 translate english scene_050_97646415:
@@ -1303,10 +1303,10 @@ translate english scene_051_fcc44741:
     n "Framed as an anniversary gift, they'd accept it gladly and go on the trip."
 
 # game/script.rpy:263
-translate english scene_051_3c403a9d:
+translate english scene_051_e5b6ab83:
 
-    # n "父「どうした？」　"
-    n "\"Father: What's the matter?\""
+    # father "どうした？"
+    father "What's the matter?"
 
 # game/script.rpy:264
 translate english scene_051_6a2a8fc5:
@@ -1327,10 +1327,10 @@ translate english scene_051_40964c39:
     n "I'll order it online right away."
 
 # game/script.rpy:267
-translate english scene_051_ccfd300d:
+translate english scene_051_5a454189:
 
-    # n "父「え！ワシらにか？珍しい事もあるもんだな」　"
-    n "\"Father: What, me and your mother? Well, that's a rare treat.\""
+    # father "え！ワシらにか？珍しい事もあるもんだな"
+    father "What, me and your mother? Well, that's a rare treat."
 
 # game/script.rpy:268
 translate english scene_051_c85ef888:
@@ -1345,22 +1345,22 @@ translate english scene_051_7e4119b4:
     n "\"It's a hot spring trip. You two should absolutely go!\""
 
 # game/script.rpy:270
-translate english scene_051_611cad2e:
+translate english scene_051_e75335b5:
 
-    # n "母「ありがとう、でもね。今はちょっと・・」　"
-    n "\"Mother: Thank you, but... right now is a little...\""
+    # mother "ありがとう、でもね。今はちょっと・・"
+    mother "Thank you, but... right now is a little..."
 
 # game/script.rpy:271
-translate english scene_051_dcea4423:
+translate english scene_051_bda9de0d:
 
-    # n "父「ゆりかが元気ないだろ。かあさん心配してるんだよ」　"
-    n "\"Father: Yurika's been down, hasn't she? Your mother is worried.\""
+    # father "ゆりかが元気ないだろ。かあさん心配してるんだよ"
+    father "Yurika's been down, hasn't she? Your mother is worried."
 
 # game/script.rpy:272
-translate english scene_051_64874164:
+translate english scene_051_541e9793:
 
-    # n "母「そのうち行かせてもらうわ。ありがとうね」　"
-    n "\"Mother: We'll take you up on that someday. Thank you, dear.\""
+    # mother "そのうち行かせてもらうわ。ありがとうね"
+    mother "We'll take you up on that someday. Thank you, dear."
 
 # game/script.rpy:273
 translate english scene_051_b170e52f:
@@ -1369,10 +1369,10 @@ translate english scene_051_b170e52f:
     n "\"Don't say that — just go, right away. It's fun!\""
 
 # game/script.rpy:274
-translate english scene_051_25542bfc:
+translate english scene_051_b8baa2a1:
 
-    # n "父「ん？やけに勧めるじゃないか？ワシらが家に居ると何か不都合な事でもあるのか？」　"
-    n "\"Father: Hm? You're awfully eager to push this trip. Is our being home... inconvenient for you somehow?\""
+    # father "ん？やけに勧めるじゃないか？ワシらが家に居ると何か不都合な事でもあるのか？"
+    father "Hm? You're awfully eager to push this trip. Is our being home... inconvenient for you somehow?"
 
 # game/script.rpy:275
 translate english scene_051_af440e90:
@@ -1399,10 +1399,10 @@ translate english scene_052_7833f213:
     n "\"The Forbidden Pleasures of Brother and Sister\" — the title I revere as a god-tier game."
 
 # game/script.rpy:281
-translate english scene_052_19b58e88:
+translate english scene_052_672a2e01:
 
-    # n "父母「な、なんだ！突然大声で」　"
-    n "\"Parents: Wh-what was that! Shouting all of a sudden.\""
+    # parents "な、なんだ！突然大声で"
+    parents "Wh-what was that! Shouting all of a sudden."
 
 # game/script.rpy:282
 translate english scene_052_0697f0fb:
@@ -1423,10 +1423,10 @@ translate english scene_052_7eee6073:
     n "I'll spend tonight talking it all out with our parents."
 
 # game/script.rpy:285
-translate english scene_052_cd296eb1:
+translate english scene_052_0cde33c8:
 
-    # n "母「こ、これは・・」　"
-    n "\"Mother: Wh-what is this...\""
+    # mother "こ、これは・・"
+    mother "Wh-what is this..."
 
 # game/script.rpy:286
 translate english scene_052_8709ca1f:
@@ -1435,10 +1435,10 @@ translate english scene_052_8709ca1f:
     n "Here goes—!"
 
 # game/script.rpy:287
-translate english scene_052_c6ea4130:
+translate english scene_052_424761b1:
 
-    # n "父「・・・・」　"
-    n "\"Father: ....\""
+    # father "・・・・"
+    father "...."
 
 # game/script.rpy:288
 translate english scene_052_00dc26c3:
@@ -1447,10 +1447,10 @@ translate english scene_052_00dc26c3:
     n "\"This is my treasure collection. It took me years to build it up.\""
 
 # game/script.rpy:289
-translate english scene_052_5d1d4c72:
+translate english scene_052_d17b2738:
 
-    # n "父母「・・・・」　"
-    n "\"Parents: ....\""
+    # parents "・・・・"
+    parents "...."
 
 # game/script.rpy:290
 translate english scene_052_78eca122:
@@ -1459,10 +1459,10 @@ translate english scene_052_78eca122:
     n "\"And I'm lending Dad this game — it captures that surging lust for one's sister in magnificent detail!\""
 
 # game/script.rpy:291
-translate english scene_052_ac045d73:
+translate english scene_052_911b86b3:
 
-    # n "父「こ、これは・・」　"
-    n "\"Father: Wh-what is this...\""
+    # father "こ、これは・・"
+    father "Wh-what is this..."
 
 # game/script.rpy:292
 translate english scene_052_090d2b80:
@@ -1471,10 +1471,10 @@ translate english scene_052_090d2b80:
     n "\"It's a super-lewd game where brother and sister fall in love and tumble into a physical relationship.\""
 
 # game/script.rpy:293
-translate english scene_052_0fa87a0d:
+translate english scene_052_efade62c:
 
-    # n "父「そうか…分かった…今日はもう寝なさい。また明日話し合おう」　"
-    n "\"Father: I see... Understood... Go to bed for today. We'll talk again tomorrow.\""
+    # father "そうか…分かった…今日はもう寝なさい。また明日話し合おう"
+    father "I see... Understood... Go to bed for today. We'll talk again tomorrow."
 
 # game/script.rpy:294
 translate english scene_052_65afc883:
@@ -1483,10 +1483,10 @@ translate english scene_052_65afc883:
     n "\"I predicted the little-sister boom ages before it arrived. And this... this is it!\""
 
 # game/script.rpy:295
-translate english scene_052_c162369a:
+translate english scene_052_c4f0f280:
 
-    # n "父「全部没収だ。・・・いいから、今日はもう寝なさい」　"
-    n "\"Father: Everything's confiscated. ...Never mind — just go to bed.\""
+    # father "全部没収だ。・・・いいから、今日はもう寝なさい"
+    father "Everything's confiscated. ...Never mind — just go to bed."
 
 # game/script.rpy:296
 translate english scene_052_1869ac37:
@@ -1495,10 +1495,10 @@ translate english scene_052_1869ac37:
     n "...No, listen. If I play this thing, I'll be glued to it for two or three days straight."
 
 # game/script.rpy:297
-translate english scene_052_e835b3b7:
+translate english scene_052_a8d98113:
 
-    # n "父「母さんの顔見てみろ。目に光るものが見えるだろ。親を悲しませるな」　"
-    n "\"Father: Look at your mother's face. You can see the tears in her eyes. Don't make your parents sad.\""
+    # father "母さんの顔見てみろ。目に光るものが見えるだろ。親を悲しませるな"
+    father "Look at your mother's face. You can see the tears in her eyes. Don't make your parents sad."
 
 # game/script.rpy:298
 translate english scene_052_d2d2429e:
@@ -1549,10 +1549,10 @@ translate english scene_054_88531016:
     n "! "
 
 # game/script.rpy:308
-translate english scene_054_c9f88592:
+translate english scene_054_0af3ae59:
 
-    # n "母「ねえ、居る？」"
-    n "\"Mother: Hey, are you in there?\""
+    # mother "ねえ、居る？"
+    mother "Hey, are you in there?"
 
 # game/script.rpy:309
 translate english scene_054_ee2d36f9:
@@ -1561,10 +1561,10 @@ translate english scene_054_ee2d36f9:
     n "\"Yeah? What is it?\""
 
 # game/script.rpy:310
-translate english scene_054_48af1d2b:
+translate english scene_054_75b7e251:
 
-    # n "母「ちょっと出てきて。話があるの」　　"
-    n "\"Mother: Come out for a moment. We need to talk.\""
+    # mother "ちょっと出てきて。話があるの"
+    mother "Come out for a moment. We need to talk."
 
 # game/script.rpy:313
 translate english scene_055_fb19374a:
@@ -1612,7 +1612,7 @@ translate english misc_dialogue_b267cd13:
 translate english misc_dialogue_40488444:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:325
 translate english misc_dialogue_b4666156:
@@ -1624,13 +1624,13 @@ translate english misc_dialogue_b4666156:
 translate english misc_dialogue_40488444_1:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:327
 translate english misc_dialogue_40488444_2:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:328
 translate english misc_dialogue_891f585a:
@@ -1708,7 +1708,7 @@ translate english misc_dialogue_ba27cfbe:
 translate english misc_dialogue_40488444_3:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:341
 translate english misc_dialogue_c7d46fc3:
@@ -1762,13 +1762,13 @@ translate english misc_dialogue_4f0be8fd:
 translate english misc_dialogue_40488444_4:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:350
 translate english misc_dialogue_40488444_5:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:351
 translate english misc_dialogue_061f9290:
@@ -1780,7 +1780,7 @@ translate english misc_dialogue_061f9290:
 translate english misc_dialogue_d5e214d1:
 
     # n "　　"
-    n "..."
+    n "…"
 
 # game/script.rpy:353
 translate english misc_dialogue_e757be42:
@@ -1846,7 +1846,7 @@ translate english misc_dialogue_41e37401:
 translate english misc_dialogue_40488444_6:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:364
 translate english misc_dialogue_517dc4f2:
@@ -1882,13 +1882,13 @@ translate english misc_dialogue_63cbb920_1:
 translate english misc_dialogue_40488444_7:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:370
 translate english misc_dialogue_40488444_8:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:371
 translate english misc_dialogue_54f87392:
@@ -1900,7 +1900,7 @@ translate english misc_dialogue_54f87392:
 translate english misc_dialogue_40488444_9:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:373
 translate english misc_dialogue_500de9ca:
@@ -1912,7 +1912,7 @@ translate english misc_dialogue_500de9ca:
 translate english misc_dialogue_40488444_10:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:375
 translate english misc_dialogue_3f9eb43c:
@@ -1960,7 +1960,7 @@ translate english misc_dialogue_cd22c1d0:
 translate english misc_dialogue_40488444_11:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:383
 translate english misc_dialogue_ffedf737:
@@ -1984,7 +1984,7 @@ translate english misc_dialogue_9dcca442:
 translate english misc_dialogue_40488444_12:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:387
 translate english misc_dialogue_8fbb50e5:
@@ -2110,19 +2110,19 @@ translate english misc_dialogue_9bd30a98:
 translate english misc_dialogue_40488444_13:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:408
-translate english misc_dialogue_b8321eee:
+translate english misc_dialogue_82c3be50:
 
-    # n "父「何やってんだ！このバカ者が！」　"
-    n "\"Father: What are you doing, you idiot!\""
+    # father "何やってんだ！このバカ者が！"
+    father "What are you doing, you idiot!"
 
 # game/script.rpy:409
-translate english misc_dialogue_7e0adbf5:
+translate english misc_dialogue_18d27a7b:
 
-    # n "父「お前の行動が気になって早く帰ってきたら、心配したとおりだ！」　"
-    n "\"Father: I came home early because you've been acting strange — and sure enough, just as I feared!\""
+    # father "お前の行動が気になって早く帰ってきたら、心配したとおりだ！"
+    father "I came home early because you've been acting strange — and sure enough, just as I feared!"
 
 # game/script.rpy:410
 translate english misc_dialogue_9acea23a:
@@ -2356,7 +2356,7 @@ translate english misc_dialogue_3500e19c:
 translate english misc_dialogue_40488444_14:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:449
 translate english misc_dialogue_202fe19f:
@@ -2401,10 +2401,10 @@ translate english misc_dialogue_882e9382:
     n "\"Yurika, that spot... feels amazing. ...You're good at this.\""
 
 # game/script.rpy:456
-translate english misc_dialogue_ecb9dde7:
+translate english misc_dialogue_5b422fa4:
 
-    # n "父「お前、ゆりかを見なかったか？！部屋にもどこにも居ないんだ」　"
-    n "\"Father: Have you seen Yurika?! She's not in her room — not anywhere.\""
+    # father "お前、ゆりかを見なかったか？！部屋にもどこにも居ないんだ"
+    father "Have you seen Yurika?! She's not in her room — not anywhere."
 
 # game/script.rpy:457
 translate english misc_dialogue_6d5f7d4c:
@@ -2419,16 +2419,16 @@ translate english misc_dialogue_b45406a8:
     n "! Oh no. I have to run!"
 
 # game/script.rpy:459
-translate english misc_dialogue_cdf26015:
+translate english misc_dialogue_63130756:
 
-    # n "父「お前、いったい何やってるんだ！」　"
-    n "\"Father: What on earth have you been doing!\""
+    # father "お前、いったい何やってるんだ！"
+    father "What on earth have you been doing!"
 
 # game/script.rpy:460
-translate english misc_dialogue_f53a8409:
+translate english misc_dialogue_10590a94:
 
-    # n "父「そうか。・・・」　"
-    n "\"Father: I see...\""
+    # father "そうか。・・・"
+    father "I see..."
 
 # game/script.rpy:461
 translate english misc_dialogue_25534349:
@@ -2437,16 +2437,16 @@ translate english misc_dialogue_25534349:
     n "If only I'd opened the door slowly and quietly, she never would have noticed."
 
 # game/script.rpy:462
-translate english misc_dialogue_848d28d4:
+translate english misc_dialogue_ef2a5b83:
 
-    # n "父「ここを開けなさい！」　"
-    n "\"Father: Open this door right now!\""
+    # father "ここを開けなさい！"
+    father "Open this door right now!"
 
 # game/script.rpy:463
-translate english misc_dialogue_13d49876:
+translate english misc_dialogue_4cdbe750:
 
-    # n "父「おい！何やってるんだ！」　"
-    n "\"Father: Hey! What are you doing!\""
+    # father "おい！何やってるんだ！"
+    father "Hey! What are you doing!"
 
 # game/script.rpy:464
 translate english misc_dialogue_8018988b:
@@ -2461,10 +2461,10 @@ translate english misc_dialogue_3dfc1a78:
     n "A few things sit on the shelf."
 
 # game/script.rpy:466
-translate english misc_dialogue_d1080dd8:
+translate english misc_dialogue_97bb6e0e:
 
-    # n "通行人A「ロリコンなう！」　"
-    n "\"Passerby A: 'Currently being a lolicon!'\""
+    # passerby_a "ロリコンなう！"
+    passerby_a "'Currently being a lolicon!'"
 
 # game/script.rpy:467
 translate english misc_dialogue_42c4df4f:
@@ -2479,10 +2479,10 @@ translate english misc_dialogue_45a6e6ae:
     n "Clothes hang there. Nothing else of note."
 
 # game/script.rpy:469
-translate english misc_dialogue_5012c085:
+translate english misc_dialogue_2d687687:
 
-    # n "通行人B「変態家宅侵入者を通報しますた！」　"
-    n "\"Passerby B: 'Reporting the pervert home intruder!'\""
+    # passerby_b "変態家宅侵入者を通報しますた！"
+    passerby_b "'Reporting the pervert home intruder!'"
 
 # game/script.rpy:470
 translate english misc_dialogue_b55c290f:
@@ -2506,7 +2506,7 @@ translate english misc_dialogue_abbc6ff0:
 translate english misc_dialogue_40488444_15:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:474
 translate english misc_dialogue_e3fb9276:
@@ -2521,10 +2521,10 @@ translate english misc_dialogue_f507d23a:
     n "And after that, I kept having my way with Yurika all night long."
 
 # game/script.rpy:476
-translate english misc_dialogue_dad20d21:
+translate english misc_dialogue_89aec892:
 
-    # n "父「おい、居るんだろ。ちょっといいか？」　"
-    n "\"Father: Hey, you in there? Got a minute?\""
+    # father "おい、居るんだろ。ちょっといいか？"
+    father "Hey, you in there? Got a minute?"
 
 # game/script.rpy:477
 translate english misc_dialogue_2e4c3ba6:
@@ -2638,7 +2638,7 @@ translate english misc_dialogue_53f7daa3_1:
 translate english misc_dialogue_40488444_16:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:496
 translate english misc_dialogue_18d2edcd:
@@ -2746,7 +2746,7 @@ translate english misc_dialogue_500aec42:
 translate english misc_dialogue_40488444_17:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:514
 translate english misc_dialogue_f66c7435:
@@ -2782,7 +2782,7 @@ translate english misc_dialogue_8400c0dd:
 translate english misc_dialogue_40488444_18:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:520
 translate english misc_dialogue_f1706dba:
@@ -2836,7 +2836,7 @@ translate english misc_dialogue_165da2ff:
 translate english misc_dialogue_40488444_19:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:529
 translate english misc_dialogue_bb4c2ce5:
@@ -2866,13 +2866,13 @@ translate english misc_dialogue_efff883b:
 translate english misc_dialogue_40488444_20:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:534
 translate english misc_dialogue_40488444_21:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:535
 translate english misc_dialogue_977dc499:
@@ -2902,7 +2902,7 @@ translate english misc_dialogue_5b0f7fa8:
 translate english misc_dialogue_40488444_22:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:540
 translate english misc_dialogue_b6b6a83a:
@@ -2992,7 +2992,7 @@ translate english misc_dialogue_7dd11ed1:
 translate english misc_dialogue_40488444_23:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:555
 translate english misc_dialogue_c6fca87a:
@@ -3034,13 +3034,13 @@ translate english misc_dialogue_48f0f8f1_1:
 translate english misc_dialogue_40488444_24:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:562
 translate english misc_dialogue_40488444_25:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:563
 translate english misc_dialogue_f9172226:
@@ -3082,7 +3082,7 @@ translate english misc_dialogue_caa75a1c:
 translate english misc_dialogue_40488444_26:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:570
 translate english misc_dialogue_70690002:
@@ -3190,13 +3190,13 @@ translate english misc_dialogue_ed3d8deb:
 translate english misc_dialogue_40488444_27:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:588
 translate english misc_dialogue_40488444_28:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:589
 translate english misc_dialogue_7ea21fa6:
@@ -3214,7 +3214,7 @@ translate english misc_dialogue_9c9d6e46:
 translate english misc_dialogue_40488444_29:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:592
 translate english misc_dialogue_2bccc840:
@@ -3250,7 +3250,7 @@ translate english misc_dialogue_a867fc33:
 translate english misc_dialogue_40488444_30:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:598
 translate english misc_dialogue_24053a95:
@@ -3304,13 +3304,13 @@ translate english misc_dialogue_48f0f8f1_4:
 translate english misc_dialogue_40488444_31:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:607
 translate english misc_dialogue_40488444_32:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:608
 translate english misc_dialogue_a65e4e64_2:
@@ -3334,7 +3334,7 @@ translate english misc_dialogue_a65e4e64_3:
 translate english misc_dialogue_40488444_33:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:612
 translate english misc_dialogue_3da145d9:
@@ -3436,7 +3436,7 @@ translate english misc_dialogue_3c20d6db:
 translate english misc_dialogue_40488444_34:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:629
 translate english misc_dialogue_301b60d0:
@@ -3460,7 +3460,7 @@ translate english misc_dialogue_b55bb09c:
 translate english misc_dialogue_40488444_35:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:633
 translate english misc_dialogue_5bef14bf:
@@ -3490,7 +3490,7 @@ translate english misc_dialogue_74aafcdd:
 translate english misc_dialogue_40488444_36:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:638
 translate english misc_dialogue_8e378eca_1:
@@ -3520,7 +3520,7 @@ translate english misc_dialogue_731441f8:
 translate english misc_dialogue_40488444_37:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:643
 translate english misc_dialogue_48798e34:
@@ -3550,7 +3550,7 @@ translate english misc_dialogue_cb930bc5:
 translate english misc_dialogue_40488444_38:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:648
 translate english misc_dialogue_48798e34_1:
@@ -3586,7 +3586,7 @@ translate english misc_dialogue_aee4461d:
 translate english misc_dialogue_40488444_39:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:654
 translate english misc_dialogue_26ca01cb:
@@ -3622,7 +3622,7 @@ translate english misc_dialogue_ed36696c:
 translate english misc_dialogue_40488444_40:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:660
 translate english misc_dialogue_2118eaac:
@@ -3646,7 +3646,7 @@ translate english misc_dialogue_98124230:
 translate english misc_dialogue_40488444_41:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:664
 translate english misc_dialogue_e45d412a:
@@ -3676,13 +3676,13 @@ translate english misc_dialogue_e8024ea5:
 translate english misc_dialogue_40488444_42:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:669
-translate english misc_dialogue_d74e5a41:
+translate english misc_dialogue_d861c9fe:
 
-    # n "教員「ボランティアを引き受けてくれるというのは君ですか？」　"
-    n "\"Teacher: Are you the one who's agreed to volunteer?\""
+    # staff "ボランティアを引き受けてくれるというのは君ですか？"
+    staff "Are you the one who's agreed to volunteer?"
 
 # game/script.rpy:670
 translate english misc_dialogue_ee150156:
@@ -3691,16 +3691,16 @@ translate english misc_dialogue_ee150156:
     n "\"Yes. I'll help.\""
 
 # game/script.rpy:671
-translate english misc_dialogue_89384540:
+translate english misc_dialogue_a91cadcd:
 
-    # n "教員「大変ありがたい。職員や子供達の保護者にも連絡がつかなくて人手が全く足りてないんでね」"
-    n "\"Teacher: We're deeply grateful. We can't reach the staff or the children's guardians — we're completely short-handed.\""
+    # staff "大変ありがたい。職員や子供達の保護者にも連絡がつかなくて人手が全く足りてないんでね"
+    staff "We're deeply grateful. We can't reach the staff or the children's guardians — we're completely short-handed."
 
 # game/script.rpy:672
-translate english misc_dialogue_7757520c:
+translate english misc_dialogue_1f5089c7:
 
-    # n "教員「早速ですけど、今からお願いできたら助かるんだけど、どうですか？」"
-    n "\"Teacher: I know it's sudden, but it would be a great help if you could start right away. What do you say?\""
+    # staff "早速ですけど、今からお願いできたら助かるんだけど、どうですか？"
+    staff "I know it's sudden, but it would be a great help if you could start right away. What do you say?"
 
 # game/script.rpy:673
 translate english misc_dialogue_f4d26582:
@@ -3709,22 +3709,22 @@ translate english misc_dialogue_f4d26582:
     n "\"Understood. What should I do?\""
 
 # game/script.rpy:674
-translate english misc_dialogue_43121d7f:
+translate english misc_dialogue_7c6b51ff:
 
-    # n "教員「個人事情などで学校に出てこれる職員がわずか２人なんです」"
-    n "\"Teacher: Due to personal circumstances, only two of our staff were able to come in.\""
+    # staff "個人事情などで学校に出てこれる職員がわずか２人なんです"
+    staff "Due to personal circumstances, only two of our staff were able to come in."
 
 # game/script.rpy:675
-translate english misc_dialogue_bc1273da:
+translate english misc_dialogue_10b418ac:
 
-    # n "教員「私達職員は大変忙しくて、学校に残ってる子供達を見ている暇がないんです」　"
-    n "\"Teacher: We staff are far too busy — we have no time to watch over the children still at the school.\""
+    # staff "私達職員は大変忙しくて、学校に残ってる子供達を見ている暇がないんです"
+    staff "We staff are far too busy — we have no time to watch over the children still at the school."
 
 # game/script.rpy:676
-translate english misc_dialogue_c834c1bb:
+translate english misc_dialogue_eb9d799f:
 
-    # n "教員「子供達は混乱しているので臨時先生になって、見てやって下さい」　"
-    n "\"Teacher: The children are confused — please become their substitute teacher and look after them.\""
+    # staff "子供達は混乱しているので臨時先生になって、見てやって下さい"
+    staff "The children are confused — please become their substitute teacher and look after them."
 
 # game/script.rpy:677
 translate english misc_dialogue_14d4c5ad:
@@ -3733,22 +3733,22 @@ translate english misc_dialogue_14d4c5ad:
     n "\"You're saying some children still haven't made it home in this situation?\""
 
 # game/script.rpy:678
-translate english misc_dialogue_adfa3f3c:
+translate english misc_dialogue_0d1faa6f:
 
-    # n "教員「ええ数名。両親と連絡が取れなくて帰宅させたくても出来ないんです」　"
-    n "\"Teacher: Yes, several. We can't reach their parents, so we can't send them home even if we wanted to.\""
+    # staff "ええ数名。両親と連絡が取れなくて帰宅させたくても出来ないんです"
+    staff "Yes, several. We can't reach their parents, so we can't send them home even if we wanted to."
 
 # game/script.rpy:679
-translate english misc_dialogue_383bafea:
+translate english misc_dialogue_f7ca9de3:
 
-    # n "教員「では、教室に案内します。子供達の気がまぎれるなら、授業でも何でも構いませんよ」　"
-    n "\"Teacher: Then allow me to show you to the classroom. If it takes the children's minds off things, lessons or anything at all is fine.\""
+    # staff "では、教室に案内します。子供達の気がまぎれるなら、授業でも何でも構いませんよ"
+    staff "Then allow me to show you to the classroom. If it takes the children's minds off things, lessons or anything at all is fine."
 
 # game/script.rpy:680
 translate english misc_dialogue_40488444_43:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:681
 translate english misc_dialogue_5c501643:
@@ -3757,16 +3757,16 @@ translate english misc_dialogue_5c501643:
     n "The moment the teacher and I entered the classroom, the children's chatter died away."
 
 # game/script.rpy:682
-translate english misc_dialogue_0219a651:
+translate english misc_dialogue_1f869aa0:
 
-    # n "生徒「きりーつ。れい。ちゃくせき」　"
-    n "\"Student: 'Rise. Bow. Sit.'\""
+    # student "きりーつ。れい。ちゃくせき"
+    student "'Rise. Bow. Sit.'"
 
 # game/script.rpy:683
-translate english misc_dialogue_b5f1498c:
+translate english misc_dialogue_9f242638:
 
-    # n "教員「今日から臨時でみんなを見てくれる○○先生です。先生の言う事をちゃんと聞くように」　"
-    n "\"Teacher: This is Mr. ○○, who will be looking after everyone as of today, temporarily. You will all listen to what your teacher says.\""
+    # staff "今日から臨時でみんなを見てくれる○○先生です。先生の言う事をちゃんと聞くように"
+    staff "This is Mr. ○○, who will be looking after everyone as of today, temporarily. You will all listen to what your teacher says."
 
 # game/script.rpy:684
 translate english misc_dialogue_6e301c21:
@@ -3928,13 +3928,13 @@ translate english misc_dialogue_5816ef97:
 translate english misc_dialogue_40488444_44:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:711
 translate english misc_dialogue_40488444_45:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:712
 translate english misc_dialogue_8fa4f492:
@@ -3952,7 +3952,7 @@ translate english misc_dialogue_4daceb71:
 translate english misc_dialogue_40488444_46:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:715
 translate english misc_dialogue_2486d2b5:
@@ -3970,7 +3970,7 @@ translate english misc_dialogue_1b0a5092:
 translate english misc_dialogue_40488444_47:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:718
 translate english misc_dialogue_1b1aee7d:
@@ -4000,7 +4000,7 @@ translate english misc_dialogue_5cf1e611:
 translate english misc_dialogue_40488444_48:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:723
 translate english misc_dialogue_1433538f:
@@ -4030,7 +4030,7 @@ translate english misc_dialogue_ee21b935:
 translate english misc_dialogue_40488444_49:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:728
 translate english misc_dialogue_138d6634:
@@ -4078,7 +4078,7 @@ translate english misc_dialogue_9b751a1c:
 translate english misc_dialogue_40488444_50:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:736
 translate english misc_dialogue_5a337671:
@@ -4120,7 +4120,7 @@ translate english misc_dialogue_79b4e024:
 translate english misc_dialogue_40488444_51:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:743
 translate english misc_dialogue_2e9c22d3:
@@ -4186,7 +4186,7 @@ translate english misc_dialogue_70760d24:
 translate english misc_dialogue_40488444_52:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:754
 translate english misc_dialogue_08fbd9e8:
@@ -4198,7 +4198,7 @@ translate english misc_dialogue_08fbd9e8:
 translate english misc_dialogue_40488444_53:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:756
 translate english misc_dialogue_f0a434e6:
@@ -4324,7 +4324,7 @@ translate english misc_dialogue_f99b8a29:
 translate english misc_dialogue_40488444_54:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:777
 translate english misc_dialogue_c8fb4119:
@@ -4378,7 +4378,7 @@ translate english misc_dialogue_3db1de2a:
 translate english misc_dialogue_40488444_55:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:786
 translate english misc_dialogue_f50e832c:
@@ -4441,22 +4441,22 @@ translate english misc_dialogue_b2d8ee50:
     n "From behind her as she ran off, a teacher with a grave expression came toward me."
 
 # game/script.rpy:796
-translate english misc_dialogue_8f5982e5:
+translate english misc_dialogue_94e7d07d:
 
-    # n "先生「実は、この地域は大変危険な化学物質で汚染されていてね」　"
-    n "\"Teacher: The truth is, this region has been contaminated by a very dangerous chemical.\""
+    # teacher "実は、この地域は大変危険な化学物質で汚染されていてね"
+    teacher "The truth is, this region has been contaminated by a very dangerous chemical."
 
 # game/script.rpy:797
-translate english misc_dialogue_2f0da06e:
+translate english misc_dialogue_883c8741:
 
-    # n "先生「子供達には害は無いんだが、その話にくいんだが・・大人には致命傷なんだよ」　"
-    n "\"Teacher: It's harmless to the children, though it's hard to talk about... but to adults, it's fatal.\""
+    # teacher "子供達には害は無いんだが、その話にくいんだが・・大人には致命傷なんだよ"
+    teacher "It's harmless to the children, though it's hard to talk about... but to adults, it's fatal."
 
 # game/script.rpy:798
-translate english misc_dialogue_936d8feb:
+translate english misc_dialogue_79f75de3:
 
-    # n "先生「ラジオくらいは聞いているだろうと・・・君に伝える手段が無かった・・」　"
-    n "\"Teacher: I assumed you'd at least hear the radio... I had no way to reach you...\""
+    # teacher "ラジオくらいは聞いているだろうと・・・君に伝える手段が無かった・・"
+    teacher "I assumed you'd at least hear the radio... I had no way to reach you..."
 
 # game/script.rpy:799
 translate english misc_dialogue_05f73ecf:
@@ -4465,10 +4465,10 @@ translate english misc_dialogue_05f73ecf:
     n "\"Strange... the teacher's voice sounds so far away...\""
 
 # game/script.rpy:800
-translate english misc_dialogue_b95fe6e6:
+translate english misc_dialogue_cd3c213e:
 
-    # n "先生「治療は・・遅すぎた・・。死・・・心から・・・」　"
-    n "\"Teacher: The treatment... came too late... My death... I'm sorry, from my heart...\""
+    # teacher "治療は・・遅すぎた・・。死・・・心から・・・"
+    teacher "The treatment... came too late... My death... I'm sorry, from my heart..."
 
 # game/script.rpy:801
 translate english misc_dialogue_801a5b2b:
@@ -4480,7 +4480,7 @@ translate english misc_dialogue_801a5b2b:
 translate english misc_dialogue_40488444_56:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:803
 translate english misc_dialogue_3cf79b63:
@@ -4546,7 +4546,7 @@ translate english misc_dialogue_ae1b40f1:
 translate english misc_dialogue_40488444_57:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:814
 translate english misc_dialogue_9030a5f7:
@@ -4576,7 +4576,7 @@ translate english misc_dialogue_e5e87d0a:
 translate english misc_dialogue_40488444_58:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:819
 translate english misc_dialogue_506ba0e9:
@@ -4588,7 +4588,7 @@ translate english misc_dialogue_506ba0e9:
 translate english misc_dialogue_40488444_59:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:821
 translate english misc_dialogue_a3b0e497:
@@ -4618,7 +4618,7 @@ translate english misc_dialogue_9f7e35fa:
 translate english misc_dialogue_40488444_60:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:826
 translate english misc_dialogue_34a62f0c:
@@ -4678,7 +4678,7 @@ translate english misc_dialogue_d93bc0a8:
 translate english misc_dialogue_40488444_61:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:836
 translate english misc_dialogue_044709a1:
@@ -4702,7 +4702,7 @@ translate english misc_dialogue_7b963d96:
 translate english misc_dialogue_40488444_62:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:840
 translate english misc_dialogue_ee24e7b0:
@@ -4726,7 +4726,7 @@ translate english misc_dialogue_fd7ee597:
 translate english misc_dialogue_40488444_63:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:844
 translate english misc_dialogue_72fee734:
@@ -4756,7 +4756,7 @@ translate english misc_dialogue_d36da9a7_1:
 translate english misc_dialogue_40488444_64:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:849
 translate english misc_dialogue_f6025387:
@@ -4804,7 +4804,7 @@ translate english misc_dialogue_13796dda:
 translate english misc_dialogue_40488444_65:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:857
 translate english misc_dialogue_8cfc6af3:
@@ -4852,7 +4852,7 @@ translate english misc_dialogue_1c0d053d:
 translate english misc_dialogue_40488444_66:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:865
 translate english misc_dialogue_707e70a9:
@@ -4894,7 +4894,7 @@ translate english misc_dialogue_7cf6b58c:
 translate english misc_dialogue_40488444_67:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:872
 translate english misc_dialogue_27f02875:
@@ -4978,13 +4978,13 @@ translate english misc_dialogue_7e548a8c:
 translate english misc_dialogue_40488444_68:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:886
 translate english misc_dialogue_40488444_69:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:887
 translate english misc_dialogue_2d85c9b8:
@@ -5026,7 +5026,7 @@ translate english misc_dialogue_2953cdc5:
 translate english misc_dialogue_40488444_70:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:894
 translate english misc_dialogue_021a0148:
@@ -5080,7 +5080,7 @@ translate english misc_dialogue_0121f334:
 translate english misc_dialogue_40488444_71:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:903
 translate english misc_dialogue_b54445e9_2:
@@ -5104,7 +5104,7 @@ translate english misc_dialogue_8fd7e2c3:
 translate english misc_dialogue_40488444_72:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:907
 translate english misc_dialogue_2e283f78:
@@ -5128,7 +5128,7 @@ translate english misc_dialogue_bf809e4f:
 translate english misc_dialogue_40488444_73:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:911
 translate english misc_dialogue_3a2970d6:
@@ -5176,13 +5176,13 @@ translate english misc_dialogue_a2f6c583:
 translate english misc_dialogue_40488444_74:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:919
 translate english misc_dialogue_40488444_75:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:920
 translate english misc_dialogue_8f474521:
@@ -5212,7 +5212,7 @@ translate english misc_dialogue_2d34f9df:
 translate english misc_dialogue_40488444_76:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:925
 translate english misc_dialogue_ffb8183b:
@@ -5254,13 +5254,13 @@ translate english misc_dialogue_68b63397:
 translate english misc_dialogue_40488444_77:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:932
 translate english misc_dialogue_40488444_78:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:933
 translate english misc_dialogue_0d2b01d1:
@@ -5332,13 +5332,13 @@ translate english misc_dialogue_687286d2:
 translate english misc_dialogue_40488444_79:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:945
 translate english misc_dialogue_40488444_80:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:946
 translate english misc_dialogue_c79fb51d:
@@ -5374,7 +5374,7 @@ translate english misc_dialogue_2d6a871d:
 translate english misc_dialogue_40488444_81:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:952
 translate english misc_dialogue_2f972476:
@@ -5410,13 +5410,13 @@ translate english misc_dialogue_762a72e7:
 translate english misc_dialogue_40488444_82:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:958
 translate english misc_dialogue_40488444_83:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:959
 translate english misc_dialogue_bf4e376b:
@@ -5464,13 +5464,13 @@ translate english misc_dialogue_645b9995:
 translate english misc_dialogue_40488444_84:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:967
 translate english misc_dialogue_40488444_85:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:968
 translate english misc_dialogue_34d3b27a:
@@ -5494,13 +5494,13 @@ translate english misc_dialogue_f99b8a29_1:
 translate english misc_dialogue_40488444_86:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:972
 translate english misc_dialogue_40488444_87:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:973
 translate english misc_dialogue_1de5a471:
@@ -5536,13 +5536,13 @@ translate english misc_dialogue_f99b8a29_2:
 translate english misc_dialogue_40488444_88:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:979
 translate english misc_dialogue_40488444_89:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:980
 translate english misc_dialogue_fc69b1c6:
@@ -5566,13 +5566,13 @@ translate english misc_dialogue_e3a8d8b9:
 translate english misc_dialogue_40488444_90:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:984
 translate english misc_dialogue_40488444_91:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:985
 translate english misc_dialogue_2e813a60:
@@ -5590,13 +5590,13 @@ translate english misc_dialogue_d2d2e24d:
 translate english misc_dialogue_40488444_92:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:988
 translate english misc_dialogue_40488444_93:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:989
 translate english misc_dialogue_36ba943d:
@@ -5626,13 +5626,13 @@ translate english misc_dialogue_aa0e7afe:
 translate english misc_dialogue_40488444_94:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:994
 translate english misc_dialogue_40488444_95:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:995
 translate english misc_dialogue_64a76278:
@@ -5656,13 +5656,13 @@ translate english misc_dialogue_5b9748f0:
 translate english misc_dialogue_40488444_96:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:999
 translate english misc_dialogue_40488444_97:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1000
 translate english misc_dialogue_d43e84b7:
@@ -5734,7 +5734,7 @@ translate english misc_dialogue_6d8c1084:
 translate english misc_dialogue_40488444_98:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1012
 translate english misc_dialogue_7b0d2100:
@@ -5764,7 +5764,7 @@ translate english misc_dialogue_0cab4d93:
 translate english misc_dialogue_40488444_99:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1017
 translate english misc_dialogue_c9be62fc:
@@ -5812,7 +5812,7 @@ translate english misc_dialogue_36fedfd0:
 translate english misc_dialogue_40488444_100:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1025
 translate english misc_dialogue_f63cd351:
@@ -5842,7 +5842,7 @@ translate english misc_dialogue_3c1220c6:
 translate english misc_dialogue_40488444_101:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1030
 translate english misc_dialogue_484a9e74:
@@ -5872,7 +5872,7 @@ translate english misc_dialogue_57d24a86:
 translate english misc_dialogue_40488444_102:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1035
 translate english misc_dialogue_484a9e74_1:
@@ -5932,7 +5932,7 @@ translate english misc_dialogue_a156a267:
 translate english misc_dialogue_40488444_103:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1045
 translate english misc_dialogue_41c1f921:
@@ -5986,7 +5986,7 @@ translate english misc_dialogue_557dcc32:
 translate english misc_dialogue_40488444_104:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1054
 translate english misc_dialogue_70690002_1:
@@ -6094,37 +6094,37 @@ translate english misc_dialogue_ed3d8deb_1:
 translate english misc_dialogue_40488444_105:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1072
 translate english misc_dialogue_40488444_106:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1073
 translate english misc_dialogue_40488444_107:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1074
 translate english misc_dialogue_40488444_108:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1075
 translate english misc_dialogue_40488444_109:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1076
 translate english misc_dialogue_40488444_110:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1077
 translate english misc_dialogue_c299c335:
@@ -6154,7 +6154,7 @@ translate english misc_dialogue_53f7daa3_6:
 translate english misc_dialogue_40488444_111:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1082
 translate english misc_dialogue_c0e4bb72:
@@ -6184,7 +6184,7 @@ translate english misc_dialogue_53f7daa3_9:
 translate english misc_dialogue_40488444_112:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1087
 translate english misc_dialogue_ff7b3527:
@@ -6214,7 +6214,7 @@ translate english misc_dialogue_53f7daa3_11:
 translate english misc_dialogue_40488444_113:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1092
 translate english misc_dialogue_eab9d0e5:
@@ -6244,7 +6244,7 @@ translate english misc_dialogue_53f7daa3_12:
 translate english misc_dialogue_40488444_114:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1097
 translate english misc_dialogue_0c0add07:
@@ -6268,7 +6268,7 @@ translate english misc_dialogue_a355b57e:
 translate english misc_dialogue_40488444_115:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1101
 translate english misc_dialogue_81899632:
@@ -6322,13 +6322,13 @@ translate english misc_dialogue_e79ccc3b:
 translate english misc_dialogue_40488444_116:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1110
 translate english misc_dialogue_40488444_117:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1111
 translate english misc_dialogue_deb82db0:
@@ -6508,7 +6508,7 @@ translate english misc_dialogue_30a8b196:
 translate english misc_dialogue_40488444_118:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1141
 translate english misc_dialogue_7a74d7e4:
@@ -6598,7 +6598,7 @@ translate english misc_dialogue_ebc18bd9:
 translate english misc_dialogue_40488444_119:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1156
 translate english misc_dialogue_567899fb:
@@ -6628,13 +6628,13 @@ translate english misc_dialogue_9fa504f1:
 translate english misc_dialogue_40488444_120:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1161
-translate english misc_dialogue_2e53ff96:
+translate english misc_dialogue_2c389153:
 
-    # n "父「急用ができてな。突然だが今から出かける」　"
-    n "\"Father: Something urgent has come up. Sudden, but I'm heading out now.\""
+    # father "急用ができてな。突然だが今から出かける"
+    father "Something urgent has come up. Sudden, but I'm heading out now."
 
 # game/script.rpy:1162
 translate english misc_dialogue_8c096321:
@@ -6643,10 +6643,10 @@ translate english misc_dialogue_8c096321:
     n "\"Sure, I guess. Right now?\""
 
 # game/script.rpy:1163
-translate english misc_dialogue_ca8c94d1:
+translate english misc_dialogue_bd79145a:
 
-    # n "父「そうだ。急用なんだ」　"
-    n "\"Father: That's right. It's urgent.\""
+    # father "そうだ。急用なんだ"
+    father "That's right. It's urgent."
 
 # game/script.rpy:1164
 translate english misc_dialogue_0773ce70:
@@ -6655,10 +6655,10 @@ translate english misc_dialogue_0773ce70:
     n "\"It's almost night, you know. Well, fine.\""
 
 # game/script.rpy:1165
-translate english misc_dialogue_546b9579:
+translate english misc_dialogue_4d5d2ebf:
 
-    # n "母「私たちは用事で２、３日家を空けるから、しっかり妹の面倒みてよ」　"
-    n "\"Mother: Your father and I will be away for two or three days, so take good care of your sister.\""
+    # mother "私たちは用事で２、３日家を空けるから、しっかり妹の面倒みてよ"
+    mother "Your father and I will be away for two or three days, so take good care of your sister."
 
 # game/script.rpy:1166
 translate english misc_dialogue_8d8cf7de:
@@ -6667,28 +6667,28 @@ translate english misc_dialogue_8d8cf7de:
     n "Two or three days... I see~"
 
 # game/script.rpy:1167
-translate english misc_dialogue_321e82af:
+translate english misc_dialogue_470a44b7:
 
-    # n "母「訳があって、あなたもゆりかちゃんも連れていけないの」　"
-    n "\"Mother: For certain reasons, we can't take either you or Yurika with us.\""
+    # mother "訳があって、あなたもゆりかちゃんも連れていけないの"
+    mother "For certain reasons, we can't take either you or Yurika with us."
 
 # game/script.rpy:1168
-translate english misc_dialogue_e2db2aa3:
+translate english misc_dialogue_53db46d3:
 
-    # n "父「お前、ゆりかと仲良くしろよ。意味は分かってるな」　"
-    n "\"Father: Get along with Yurika, you hear? You know what I mean.\""
+    # father "お前、ゆりかと仲良くしろよ。意味は分かってるな"
+    father "Get along with Yurika, you hear? You know what I mean."
 
 # game/script.rpy:1169
-translate english misc_dialogue_80b217c7:
+translate english misc_dialogue_45318746:
 
-    # n "父「じゃあ、頼んだぞ」　"
-    n "\"Father: Right, then — I'm counting on you.\""
+    # father "じゃあ、頼んだぞ"
+    father "Right, then — I'm counting on you."
 
 # game/script.rpy:1170
 translate english misc_dialogue_40488444_121:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1171
 translate english misc_dialogue_ac30e7f8:
@@ -6778,7 +6778,7 @@ translate english misc_dialogue_2c82c78a:
 translate english misc_dialogue_40488444_122:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1186
 translate english misc_dialogue_4753d9e6:
@@ -6832,7 +6832,7 @@ translate english misc_dialogue_9c35fda3_1:
 translate english misc_dialogue_40488444_123:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1195
 translate english misc_dialogue_c92dd109:
@@ -6856,7 +6856,7 @@ translate english misc_dialogue_8c9839de:
 translate english misc_dialogue_40488444_124:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1199
 translate english misc_dialogue_d9ce41f9:
@@ -6880,13 +6880,13 @@ translate english misc_dialogue_db10669b:
 translate english misc_dialogue_40488444_125:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1203
 translate english misc_dialogue_40488444_126:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1204
 translate english misc_dialogue_c4644084:
@@ -6916,7 +6916,7 @@ translate english misc_dialogue_48f0f8f1_6:
 translate english misc_dialogue_40488444_127:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1209
 translate english misc_dialogue_a5558936:
@@ -6946,7 +6946,7 @@ translate english misc_dialogue_677c6f04:
 translate english misc_dialogue_40488444_128:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1214
 translate english misc_dialogue_d2e1f78b:
@@ -6976,13 +6976,13 @@ translate english misc_dialogue_d36da9a7_3:
 translate english misc_dialogue_40488444_129:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1219
 translate english misc_dialogue_40488444_130:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1220
 translate english misc_dialogue_93a0aedb:
@@ -7060,7 +7060,7 @@ translate english misc_dialogue_12e474e3:
 translate english misc_dialogue_40488444_131:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1233
 translate english misc_dialogue_a5558936_1:
@@ -7090,7 +7090,7 @@ translate english misc_dialogue_d36da9a7_6:
 translate english misc_dialogue_40488444_132:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1238
 translate english misc_dialogue_ead80582:
@@ -7120,7 +7120,7 @@ translate english misc_dialogue_d36da9a7_7:
 translate english misc_dialogue_40488444_133:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1243
 translate english misc_dialogue_90ceac9a:
@@ -7144,7 +7144,7 @@ translate english misc_dialogue_6cd57f8b_10:
 translate english misc_dialogue_40488444_134:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1247
 translate english misc_dialogue_1a89704a:
@@ -7204,7 +7204,7 @@ translate english misc_dialogue_1a6f5356:
 translate english misc_dialogue_40488444_135:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1257
 translate english misc_dialogue_e5bb0db7:
@@ -7222,13 +7222,13 @@ translate english misc_dialogue_2bc27470:
 translate english misc_dialogue_40488444_136:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1260
 translate english misc_dialogue_40488444_137:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1261
 translate english misc_dialogue_6e1b1924:
@@ -7300,13 +7300,13 @@ translate english misc_dialogue_12772375:
 translate english misc_dialogue_40488444_138:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1273
 translate english misc_dialogue_40488444_139:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1274
 translate english misc_dialogue_211acf81:
@@ -7330,7 +7330,7 @@ translate english misc_dialogue_7a9becdd:
 translate english misc_dialogue_40488444_140:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1278
 translate english misc_dialogue_0ceb0cbb:
@@ -7348,13 +7348,13 @@ translate english misc_dialogue_abe3e716:
 translate english misc_dialogue_40488444_141:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1281
 translate english misc_dialogue_40488444_142:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1282
 translate english misc_dialogue_d30841e4:
@@ -7372,31 +7372,31 @@ translate english misc_dialogue_6ff2362b:
 translate english misc_dialogue_40488444_143:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1285
 translate english misc_dialogue_40488444_144:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1286
 translate english misc_dialogue_40488444_145:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1287
 translate english misc_dialogue_40488444_146:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1288
 translate english misc_dialogue_40488444_147:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1289
 translate english misc_dialogue_5812298c:
@@ -7474,7 +7474,7 @@ translate english misc_dialogue_457fe874:
 translate english misc_dialogue_40488444_148:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1302
 translate english misc_dialogue_4f87e1a4:
@@ -7552,13 +7552,13 @@ translate english misc_dialogue_c14d381c:
 translate english misc_dialogue_40488444_149:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1315
 translate english misc_dialogue_40488444_150:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1316
 translate english misc_dialogue_d6b0bc6d:
@@ -7726,7 +7726,7 @@ translate english misc_dialogue_47e83ec6:
 translate english misc_dialogue_40488444_151:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1344
 translate english misc_dialogue_5512c4ae:
@@ -7954,7 +7954,7 @@ translate english misc_dialogue_4abf40aa:
 translate english misc_dialogue_40488444_152:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1382
 translate english misc_dialogue_abe3e716_1:
@@ -7963,10 +7963,10 @@ translate english misc_dialogue_abe3e716_1:
     n "\"I'm home.\""
 
 # game/script.rpy:1383
-translate english misc_dialogue_68ea452b:
+translate english misc_dialogue_f5394ce6:
 
-    # n "母「ご苦労さん。疲れただろ。お風呂に入っておいで。それから夕食にしましょう」　"
-    n "\"Mother: Welcome home, you must be tired. Go take a bath, and then we'll have dinner.\""
+    # mother "ご苦労さん。疲れただろ。お風呂に入っておいで。それから夕食にしましょう"
+    mother "Welcome home, you must be tired. Go take a bath, and then we'll have dinner."
 
 # game/script.rpy:1384
 translate english misc_dialogue_6cd57f8b_11:
@@ -7978,13 +7978,13 @@ translate english misc_dialogue_6cd57f8b_11:
 translate english misc_dialogue_40488444_153:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1386
 translate english misc_dialogue_40488444_154:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1387
 translate english misc_dialogue_77295fe8:
@@ -8014,7 +8014,7 @@ translate english misc_dialogue_48f0f8f1_11:
 translate english misc_dialogue_40488444_155:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1392
 translate english misc_dialogue_ba7b60cb:
@@ -8038,7 +8038,7 @@ translate english misc_dialogue_316aaf62:
 translate english misc_dialogue_40488444_156:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1396
 translate english misc_dialogue_096b0fc4:
@@ -8050,7 +8050,7 @@ translate english misc_dialogue_096b0fc4:
 translate english misc_dialogue_40488444_157:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1398
 translate english misc_dialogue_00fb209d:
@@ -8104,7 +8104,7 @@ translate english misc_dialogue_c5651be4:
 translate english misc_dialogue_40488444_158:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1407
 translate english misc_dialogue_ece2d41b:
@@ -8140,7 +8140,7 @@ translate english misc_dialogue_405f36d5:
 translate english misc_dialogue_40488444_159:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1413
 translate english misc_dialogue_95bc676f:
@@ -8176,7 +8176,7 @@ translate english misc_dialogue_d36faa11:
 translate english misc_dialogue_40488444_160:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1419
 translate english misc_dialogue_ba9d5c5a:
@@ -8212,7 +8212,7 @@ translate english misc_dialogue_e0267f77:
 translate english misc_dialogue_40488444_161:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1425
 translate english misc_dialogue_086e18be:
@@ -8230,13 +8230,13 @@ translate english misc_dialogue_53f7daa3_20:
 translate english misc_dialogue_40488444_162:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1428
 translate english misc_dialogue_40488444_163:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1429
 translate english misc_dialogue_84a90386:
@@ -8266,7 +8266,7 @@ translate english misc_dialogue_50417890:
 translate english misc_dialogue_40488444_164:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1434
 translate english misc_dialogue_6f8eaa75:
@@ -8302,31 +8302,31 @@ translate english misc_dialogue_d8cb2756:
 translate english misc_dialogue_40488444_165:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1440
 translate english misc_dialogue_40488444_166:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1441
 translate english misc_dialogue_40488444_167:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1442
 translate english misc_dialogue_40488444_168:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1443
 translate english misc_dialogue_40488444_169:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1444
 translate english misc_dialogue_7f76687a:
@@ -8356,13 +8356,13 @@ translate english misc_dialogue_0c31ccf8:
 translate english misc_dialogue_40488444_170:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1449
 translate english misc_dialogue_40488444_171:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1450
 translate english misc_dialogue_75e324ff:
@@ -8398,7 +8398,7 @@ translate english misc_dialogue_85ed191e:
 translate english misc_dialogue_40488444_172:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1456
 translate english misc_dialogue_5601a2b8:
@@ -8422,7 +8422,7 @@ translate english misc_dialogue_843390a8:
 translate english misc_dialogue_40488444_173:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1460
 translate english misc_dialogue_3a76917e:
@@ -8476,7 +8476,7 @@ translate english misc_dialogue_53f7daa3_23:
 translate english misc_dialogue_40488444_174:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1469
 translate english misc_dialogue_83427c02:
@@ -8704,7 +8704,7 @@ translate english misc_dialogue_48f0f8f1_19:
 translate english misc_dialogue_40488444_175:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1507
 translate english misc_dialogue_4753d9e6_2:
@@ -8770,7 +8770,7 @@ translate english misc_dialogue_3123b6a7_1:
 translate english misc_dialogue_40488444_176:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1518
 translate english misc_dialogue_b6b65155:
@@ -8794,7 +8794,7 @@ translate english misc_dialogue_53f7daa3_26:
 translate english misc_dialogue_40488444_177:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1522
 translate english misc_dialogue_fc8987ec:
@@ -8824,13 +8824,13 @@ translate english misc_dialogue_cf9222dd:
 translate english misc_dialogue_40488444_178:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1527
 translate english misc_dialogue_40488444_179:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1528
 translate english misc_dialogue_996e53b3:
@@ -8854,19 +8854,19 @@ translate english misc_dialogue_d07d3b64:
 translate english misc_dialogue_40488444_180:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1532
 translate english misc_dialogue_40488444_181:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1533
 translate english misc_dialogue_40488444_182:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1534
 translate english misc_dialogue_80895415:
@@ -8896,7 +8896,7 @@ translate english misc_dialogue_53f7daa3_27:
 translate english misc_dialogue_40488444_183:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1539
 translate english misc_dialogue_e90992f5:
@@ -9082,25 +9082,25 @@ translate english misc_dialogue_78624bb4:
 translate english misc_dialogue_40488444_184:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1570
 translate english misc_dialogue_40488444_185:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1571
 translate english misc_dialogue_40488444_186:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1572
 translate english misc_dialogue_40488444_187:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1573
 translate english misc_dialogue_562f7903:
@@ -9136,13 +9136,13 @@ translate english misc_dialogue_1078bfb1:
 translate english misc_dialogue_40488444_188:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1579
 translate english misc_dialogue_40488444_189:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1580
 translate english misc_dialogue_edcef705:
@@ -9160,7 +9160,7 @@ translate english misc_dialogue_b36f41b1:
 translate english misc_dialogue_40488444_190:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1583
 translate english misc_dialogue_c92dd109_1:
@@ -9184,7 +9184,7 @@ translate english misc_dialogue_8c9839de_1:
 translate english misc_dialogue_40488444_191:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1587
 translate english misc_dialogue_d9ce41f9_1:
@@ -9208,31 +9208,31 @@ translate english misc_dialogue_3eb7239a:
 translate english misc_dialogue_40488444_192:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1591
 translate english misc_dialogue_40488444_193:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1592
 translate english misc_dialogue_40488444_194:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1593
 translate english misc_dialogue_40488444_195:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1594
 translate english misc_dialogue_40488444_196:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1595
 translate english misc_dialogue_a5a03ee7:
@@ -9256,7 +9256,7 @@ translate english misc_dialogue_12266538:
 translate english misc_dialogue_40488444_197:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1599
 translate english misc_dialogue_0653fabf:
@@ -9316,7 +9316,7 @@ translate english misc_dialogue_4f30955b:
 translate english misc_dialogue_40488444_198:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1609
 translate english misc_dialogue_0591db0c:
@@ -9376,7 +9376,7 @@ translate english misc_dialogue_e08106ba:
 translate english misc_dialogue_40488444_199:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1619
 translate english misc_dialogue_83427c02_1:
@@ -9484,19 +9484,19 @@ translate english misc_dialogue_1d25d283:
 translate english misc_dialogue_40488444_200:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1637
 translate english misc_dialogue_40488444_201:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1638
 translate english misc_dialogue_40488444_202:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1639
 translate english misc_dialogue_1f3db338:
@@ -9544,7 +9544,7 @@ translate english misc_dialogue_613e9223:
 translate english misc_dialogue_40488444_203:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1647
 translate english misc_dialogue_716f923a:
@@ -9580,13 +9580,13 @@ translate english misc_dialogue_b6116dfd:
 translate english misc_dialogue_40488444_204:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1653
 translate english misc_dialogue_40488444_205:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1654
 translate english misc_dialogue_271df316:
@@ -9616,55 +9616,55 @@ translate english misc_dialogue_1d150ebb:
 translate english misc_dialogue_40488444_206:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1659
 translate english misc_dialogue_40488444_207:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1660
 translate english misc_dialogue_40488444_208:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1661
 translate english misc_dialogue_40488444_209:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1662
 translate english misc_dialogue_40488444_210:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1663
 translate english misc_dialogue_40488444_211:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1664
 translate english misc_dialogue_40488444_212:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1665
 translate english misc_dialogue_40488444_213:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1666
 translate english misc_dialogue_40488444_214:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1667
 translate english misc_dialogue_8803eeba:
@@ -9676,13 +9676,13 @@ translate english misc_dialogue_8803eeba:
 translate english misc_dialogue_40488444_215:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1669
 translate english misc_dialogue_40488444_216:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1670
 translate english misc_dialogue_755108ff:
@@ -9724,7 +9724,7 @@ translate english misc_dialogue_8c545347:
 translate english misc_dialogue_40488444_217:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1677
 translate english misc_dialogue_ca99855d:
@@ -9754,53 +9754,54 @@ translate english misc_dialogue_2454aa8f:
 translate english misc_dialogue_40488444_218:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1682
 translate english misc_dialogue_40488444_219:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1683
 translate english misc_dialogue_40488444_220:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1684
 translate english misc_dialogue_40488444_221:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1685
 translate english misc_dialogue_40488444_222:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1686
 translate english misc_dialogue_40488444_223:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1687
 translate english misc_dialogue_40488444_224:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1688
 translate english misc_dialogue_40488444_225:
 
     # n "　"
-    n "..."
+    n "…"
 
 # game/script.rpy:1711
 translate english story_flow_8b9a90fd:
 
     # "— end of converted scenario —"
     "— end of converted scenario —"
+
 

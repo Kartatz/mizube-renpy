@@ -13,7 +13,7 @@ import json
 import re
 import sys
 
-SAY_RE = re.compile(r'^(    )(n )?"((?:[^"\\]|\\.)*)"$')
+SAY_RE = re.compile(r'^(    )([A-Za-z_][A-Za-z0-9_]* )?"((?:[^"\\]|\\.)*)"$')
 
 
 def normalize(s):
@@ -83,3 +83,20 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+
+def fill_strings(tl_path, strings_map):
+    """Append/patch a `translate <lang> strings:` block with old/new pairs
+    (used for translatable character names)."""
+    lang = None
+    for line in open(tl_path, encoding='utf-8'):
+        m = re.match(r'translate (\w+) strings:', line)
+        if m:
+            lang = m.group(1)
+            break
+    block = f'\ntranslate {lang or "english"} strings:\n'
+    for old, new in strings_map.items():
+        block += f'    old "{old}"\n    new "{new}"\n'
+    with open(tl_path, 'a', encoding='utf-8') as f:
+        f.write(block)
+    print(f'[fill] appended {len(strings_map)} string translations')
