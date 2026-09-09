@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2026-09-09 19:51
+﻿# TODO: Translation updated at 2026-09-09 20:14
 
 # game/script.rpy:10
 translate english start_1a40244d:
@@ -9797,10 +9797,4 @@ translate english misc_dialogue_40488444_225:
 
     # n "　"
     n "…"
-
-# game/script.rpy:1711
-translate english story_flow_8b9a90fd:
-
-    # "— end of converted scenario —"
-    "— end of converted scenario —"
 

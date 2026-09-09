@@ -1686,27 +1686,3 @@ label misc_dialogue:
     n "　"
     n "　"
     n "　"
-
-label story_flow:
-    call scene_010
-    call scene_015
-    call scene_018
-    call scene_020
-    call scene_021
-    call scene_025
-    call scene_027
-    call scene_030
-    call scene_034
-    call scene_037
-    call scene_039
-    call scene_040
-    call scene_042
-    call scene_050
-    call scene_051
-    call scene_052
-    call scene_054
-    call scene_055
-    call scene_060
-    call misc_dialogue
-    "— end of converted scenario —"
-    return
