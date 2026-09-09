@@ -219,7 +219,14 @@ def main():
     w('')
     w('label story_flow:')
     w('    call chapter_opening')
-    w('    call chapter_home')
+    w('    # ---- the home arc, structured as the original day chapters')
+    w('    call chapter_day1')
+    w('    n "■翌日■"')
+    w('    call chapter_day2')
+    w('    n "■数日後■"')
+    w('    call chapter_day3')
+    w('    n "■６日後■"')
+    w('    call chapter_day4')
     w('    # ---- choice 1441: father asks about Yurika (converges: iziru101)')
     for l in ['妹はどこ行った。']:
         w(f'    n "{esc(l)}"')
@@ -282,17 +289,36 @@ def main():
     w('')
     # chapters ---------------------------------------------------------
     w('label chapter_opening:')
-    intro = select(lines, ([], ["^■"]), used)
+    w('    scene black')
+    w('    show expression "images/mov/2_00021.jpg" as bg')
+    w('    with fade')
+    intro = select(lines, ([], ["これが最近一緒に|妹といっても父の再婚|最初は人見知り|突然、この見知らぬ少女|PCからジャック"]), used)
     emit_says(out, intro, lines_index)
     w('    return')
     w('')
-    w('label chapter_home:')
-    for qq in [10,15,18,20,21,25,27,30,34,37,39,40,42,50,51,52,54,55,60]:
-        lbl = 'scene_%03d' % qq
-        w(f'    call {lbl}')
-    w('    return')
-    w('')
+    # ---- day-structured home arc (qq1 chapters)
+    days = [
+        ('day1', [10, 15, 18], 'images/mov/2_00021.jpg', None),
+        ('day2', [20, 21, 25, 27, 30, 34], 'images/mov2/00036.jpg', None),
+        ('day3', [37, 39, 40, 42], 'images/mov3/00001.jpg', 'anim_mov_2'),
+        ('day4', [50, 51, 52, 54, 55, 60], 'images/mov6/00022.jpg', None),
+    ]
+    for name, qqs, bg, anim in days:
+        w(f'label chapter_{name}:')
+        w(f'    scene black')
+        w(f'    show expression "{bg}" as bg')
+        w('    with fade')
+        if anim:
+            w(f'    show {anim} as act')
+        for qq in qqs:
+            w(f'    call scene_{qq:03d}')
+        w('    return')
+        w('')
     w('label chapter_rico_intro:')
+    w('    hide act')
+    w('    scene black')
+    w('    show expression "images/mov3/00001.jpg" as bg')
+    w('    with fade')
     intro2 = select(lines, ([], ["あの娘だな|年齢も住所も|通学路なら|人目に付かない場所|誘拐する瞬間さえ|完全犯罪ができる"]), used)
     emit_says(out, intro2, lines_index)
     w('    return')
@@ -308,6 +334,8 @@ def main():
     for label, (marker, anim, bg, specs) in BRANCHES.items():
         w(f'# branch {label}: original marker "{marker}"')
         w(f'label {label}:')
+        if not anim:
+            w('    hide act')
         if bg:
             w(f'    scene black')
             w(f'    show expression "{BG_FRAMES[bg]}" as bg')

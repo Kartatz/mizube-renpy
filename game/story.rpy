@@ -8,7 +8,14 @@
 
 label story_flow:
     call chapter_opening
-    call chapter_home
+    # ---- the home arc, structured as the original day chapters
+    call chapter_day1
+    n "■翌日■"
+    call chapter_day2
+    n "■数日後■"
+    call chapter_day3
+    n "■６日後■"
+    call chapter_day4
     # ---- choice 1441: father asks about Yurika (converges: iziru101)
     n "妹はどこ行った。"
     menu c1441:
@@ -75,30 +82,52 @@ label story_flow:
     return
 
 label chapter_opening:
-    n "■説明■マウス上下/任意の場所で左クリック、そのまま移動で挿入"
+    scene black
+    show expression "images/mov/2_00021.jpg" as bg
+    with fade
+    n "PCからジャックが抜けたヘッドフォンが床に投げ捨てられている"
     n "■これが最近一緒に暮らしだした俺の妹だ■"
     n "■妹といっても父の再婚相手の娘だから血はつながって居ない■"
     n "■突然、この見知らぬ少女とひとつ屋根の下暮らす幸運に恵まれたのだ■"
     n "■最初は人見知りしておどおどしてたんだが、最近は何かと俺に甘えてくる■"
-    n "■翌日■"
-    n "■数日後■"
-    n "■６日後■"
     return
 
-label chapter_home:
+label chapter_day1:
+    scene black
+    show expression "images/mov/2_00021.jpg" as bg
+    with fade
     call scene_010
     call scene_015
     call scene_018
+    return
+
+label chapter_day2:
+    scene black
+    show expression "images/mov2/00036.jpg" as bg
+    with fade
     call scene_020
     call scene_021
     call scene_025
     call scene_027
     call scene_030
     call scene_034
+    return
+
+label chapter_day3:
+    scene black
+    show expression "images/mov3/00001.jpg" as bg
+    with fade
+    show anim_mov_2 as act
     call scene_037
     call scene_039
     call scene_040
     call scene_042
+    return
+
+label chapter_day4:
+    scene black
+    show expression "images/mov6/00022.jpg" as bg
+    with fade
     call scene_050
     call scene_051
     call scene_052
@@ -108,6 +137,10 @@ label chapter_home:
     return
 
 label chapter_rico_intro:
+    hide act
+    scene black
+    show expression "images/mov3/00001.jpg" as bg
+    with fade
     n "あの娘だな。思ってたより随分若いな"
     n "人目に付かない場所となると‥一人で出かける時か、登下校時しかない。"
     n "通学路なら‥４丁目の３つかど辺りがいい。人目につきにくい場所だ。"
@@ -127,21 +160,25 @@ label chapter_end:
 
 # branch reply_dunno: original marker "iziru101"
 label reply_dunno:
+    hide act
     $ pass  # (original converges immediately: marker iziru101)
     return
 
 # branch reply_out: original marker "iziru101"
 label reply_out:
+    hide act
     $ pass  # (original converges immediately: marker iziru101)
     return
 
 # branch reply_cards: original marker "iziru101"
 label reply_cards:
+    hide act
     $ pass  # (original converges immediately: marker iziru101)
     return
 
 # branch reply_cute: original marker "op15"
 label reply_cute:
+    hide act
     n "お兄ちゃんの嘘つき！"
     n "お兄ちゃんっ、変態趣味を妹に強要しないでよ"
     riko "そうだ。こういう時は素直なのが、身のためだ"
@@ -149,11 +186,13 @@ label reply_cute:
 
 # branch reply_aesth: original marker "op50"
 label reply_aesth:
+    hide act
     $ pass  # (original converges immediately: marker op50)
     return
 
 # branch reply_grown: original marker "op15"
 label reply_grown:
+    hide act
     n "でかいおっぱいだ。お前の年齢でここまで発育のいい子は居ないぞ"
     n "ゆりかは発育良すぎだな。お前今何歳なんだよ。"
     n "じゃ、ちょっとだけおっぱい触らせて。"
@@ -176,6 +215,7 @@ label breakin_yes:
 
 # branch breakin_no: original marker "cbs8end"
 label breakin_no:
+    hide act
     $ pass  # (original converges immediately: marker cbs8end)
     return
 
@@ -264,6 +304,7 @@ label kidnap_go:
 
 # branch kidnap_stop: original marker "start"
 label kidnap_stop:
+    hide act
     $ pass  # (original converges immediately: marker start)
     return
 
