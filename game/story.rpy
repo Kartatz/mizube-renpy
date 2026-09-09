@@ -97,7 +97,6 @@ label chapter_day1:
     scene black
     show expression "images/mov5/member0012.jpg" as bg
     with fade
-    show ov_face_blink at face_pos
     call scene_010
     call scene_015
     call scene_018
@@ -107,7 +106,7 @@ label chapter_day2:
     scene black
     show expression "images/mov2/X_3.jpg" as bg
     with fade
-    show ov_face_blink at face_pos
+    show ov_day2_head at day2_head_pos
     show ov_grandpa at npc_left
     show ov_brother at npc_right
     call scene_020
@@ -122,7 +121,7 @@ label chapter_day3:
     scene black
     show expression "images/mov3/1_00000.jpg" as bg
     with fade
-    call overlays_on("k1")
+    call overlays_on("home")
     show anim_mov3_1 as act
     call scene_037
     call scene_039
@@ -135,7 +134,7 @@ label chapter_day4:
     scene black
     show expression "images/mov/2_00000.jpg" as bg
     with fade
-    call overlays_on("k1")
+    call overlays_on("home")
     show anim_mov_2 as act
     call scene_050
     call scene_051

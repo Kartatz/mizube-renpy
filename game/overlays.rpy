@@ -10,35 +10,43 @@
 
 # ---------------------------------------------------------------- cycles
 
-image ov_face_blink:
-    # 13-frame home-scene cycle (mov5 '１_00000…')
-    "overlays/mov5_00000.png"
-    2.0
-    "overlays/mov5_00001.png"
-    0.07
-    "overlays/mov5_00002.png"
-    0.07
-    "overlays/mov5_00003.png"
-    0.07
-    "overlays/mov5_00004.png"
-    0.07
-    "overlays/mov5_00005.png"
-    0.07
-    "overlays/mov5_00006.png"
-    0.07
-    "overlays/mov5_00007.png"
-    0.07
-    "overlays/mov5_00008.png"
-    0.07
-    "overlays/mov5_00009.png"
-    0.07
-    "overlays/mov5_00010.png"
-    0.07
-    "overlays/mov5_00011.png"
-    0.07
-    "overlays/mov5_00012.png"
-    0.07
+image ov_face_home:
+    # 12-frame home-arc H cycle (mov5 '１_00000…')
+    block:
+        "overlays/mov5_00000.png"
+        0.10
+        "overlays/mov5_00001.png"
+        0.10
+        "overlays/mov5_00002.png"
+        0.10
+        "overlays/mov5_00003.png"
+        0.10
+        "overlays/mov5_00004.png"
+        0.10
+        "overlays/mov5_00005.png"
+        0.10
+        "overlays/mov5_00006.png"
+        0.10
+        "overlays/mov5_00007.png"
+        0.10
+        "overlays/mov5_00008.png"
+        0.10
+        "overlays/mov5_00009.png"
+        0.10
+        "overlays/mov5_00010.png"
+        0.10
+        "overlays/mov5_00011.png"
+        0.10
+        repeat
+
+image ov_day2_head:
+    # the day-2 home head patch (mov5 'day2h'): two states alternating
+    "overlays/mov5_day2h.png"
+    1.5
+    "overlays/mov5_day2h2.png"
+    1.5
     repeat
+
 
 image ov_face_k1:
     # 13-frame expression cycle (mov3 'k1_…')
@@ -176,6 +184,10 @@ transform fx_sweat2:
     xalign 0.66
     yalign 0.34
 
+transform day2_head_pos:
+    xalign 0.22
+    yalign 0.62
+
 transform npc_left:
     xalign 0.08
     yalign 0.78
@@ -185,9 +197,9 @@ transform npc_right:
     yalign 0.82
 
 # helper labels used by the chapter flow
-label overlays_on(mode="blink"):
-    if mode == "blink":
-        show ov_face_blink at face_pos
+label overlays_on(mode="home"):
+    if mode == "home":
+        show ov_face_home at face_pos
     elif mode == "k1":
         show ov_face_k1 at face_pos_k1
     elif mode == "hotel":
@@ -197,7 +209,8 @@ label overlays_on(mode="blink"):
     return
 
 label overlays_off():
-    hide ov_face_blink
+    hide ov_face_home
+    hide ov_day2_head
     hide ov_face_k1
     hide ov_face_hotel
     hide screen h_overlay_fx

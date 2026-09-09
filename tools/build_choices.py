@@ -315,10 +315,12 @@ def main():
         w(f'    scene black')
         w(f'    show expression "{bg}" as bg')
         w('    with fade')
-        if name in ('day1', 'day2'):
-            w('    show ov_face_blink at face_pos')
-        else:
-            w('    call overlays_on("k1")')
+        if name == 'day2':
+            # the day-2 home head patch (mov5 'day2h')
+            w('    show ov_day2_head at day2_head_pos')
+        elif name in ('day3', 'day4'):
+            # the home-arc H face cycle (mov5 '１_…')
+            w('    call overlays_on("home")')
         if name == 'day2':
             # the wandering family (readme: "the girl's family will
             # wander around nearby - if you aren't careful, they catch on")
