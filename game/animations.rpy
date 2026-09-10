@@ -1366,7 +1366,9 @@ image anim_mov2_10:
         0.1
     repeat
 
-image anim_mov2_10:
+image anim_mov2_10b:
+    # fullwidth-b variant (10ｂ_*): second cycle family, distinct from
+    # anim_mov2_10 above (the score references both member groups)
     block:
         "images/mov2/10__00000.jpg"
         0.1
@@ -5501,8 +5503,11 @@ image op_event3:
         0.14
         repeat
 
-# The camera-recording sequence: the viewfinder POV as the girl appears
-# (mov2 'a10' 960x720 frames + the 撮影ファインダー viewfinder overlay member 20)
+# Score-verified animations (VWSC data, see score-data/scenes.txt)
+
+# The camera-recording sequence: the original plays the 71 a10 frames
+# sequentially (score markers a01..a18 / the nigeru playback, frames
+# 2101-2200), each frame advancing one member a10_00000..a10_00070.
 image cam_record:
     block:
         "overlays/mov2_a10_00000.png"
@@ -5547,7 +5552,147 @@ image cam_record:
         0.12
         "overlays/mov2_a10_00020.png"
         0.12
+        "overlays/mov2_a10_00021.png"
+        0.12
+        "overlays/mov2_a10_00022.png"
+        0.12
+        "overlays/mov2_a10_00023.png"
+        0.12
+        "overlays/mov2_a10_00024.png"
+        0.12
+        "overlays/mov2_a10_00025.png"
+        0.12
+        "overlays/mov2_a10_00026.png"
+        0.12
+        "overlays/mov2_a10_00027.png"
+        0.12
+        "overlays/mov2_a10_00028.png"
+        0.12
+        "overlays/mov2_a10_00029.png"
+        0.12
+        "overlays/mov2_a10_00030.png"
+        0.12
+        "overlays/mov2_a10_00031.png"
+        0.12
+        "overlays/mov2_a10_00032.png"
+        0.12
+        "overlays/mov2_a10_00033.png"
+        0.12
+        "overlays/mov2_a10_00034.png"
+        0.12
+        "overlays/mov2_a10_00035.png"
+        0.12
+        "overlays/mov2_a10_00036.png"
+        0.12
+        "overlays/mov2_a10_00037.png"
+        0.12
+        "overlays/mov2_a10_00038.png"
+        0.12
+        "overlays/mov2_a10_00039.png"
+        0.12
+        "overlays/mov2_a10_00040.png"
+        0.12
+        "overlays/mov2_a10_00041.png"
+        0.12
+        "overlays/mov2_a10_00042.png"
+        0.12
+        "overlays/mov2_a10_00043.png"
+        0.12
+        "overlays/mov2_a10_00044.png"
+        0.12
+        "overlays/mov2_a10_00045.png"
+        0.12
+        "overlays/mov2_a10_00046.png"
+        0.12
+        "overlays/mov2_a10_00047.png"
+        0.12
+        "overlays/mov2_a10_00048.png"
+        0.12
+        "overlays/mov2_a10_00049.png"
+        0.12
+        "overlays/mov2_a10_00050.png"
+        0.12
+        "overlays/mov2_a10_00051.png"
+        0.12
+        "overlays/mov2_a10_00052.png"
+        0.12
+        "overlays/mov2_a10_00053.png"
+        0.12
+        "overlays/mov2_a10_00054.png"
+        0.12
+        "overlays/mov2_a10_00055.png"
+        0.12
+        "overlays/mov2_a10_00056.png"
+        0.12
+        "overlays/mov2_a10_00057.png"
+        0.12
+        "overlays/mov2_a10_00058.png"
+        0.12
+        "overlays/mov2_a10_00059.png"
+        0.12
+        "overlays/mov2_a10_00060.png"
+        0.12
+        "overlays/mov2_a10_00061.png"
+        0.12
+        "overlays/mov2_a10_00062.png"
+        0.12
+        "overlays/mov2_a10_00063.png"
+        0.12
+        "overlays/mov2_a10_00064.png"
+        0.12
+        "overlays/mov2_a10_00065.png"
+        0.12
+        "overlays/mov2_a10_00066.png"
+        0.12
+        "overlays/mov2_a10_00067.png"
+        0.12
+        "overlays/mov2_a10_00068.png"
+        0.12
+        "overlays/mov2_a10_00069.png"
+        0.12
+        "overlays/mov2_a10_00070.png"
+        0.12
         repeat
 
-# The camera viewfinder UI (mov2 member 20, 撮影ファインダー)
+# The camera-viewfinder edge strip the a-scenes actually use on screen:
+# mov '無題new_00001..00006' (350x720), animated, at the right edge of
+# the stage (sprite box 512,0 - 862,720 per the score).
+image viewfinder_strip:
+    block:
+        "overlays/mov_new_00001.png"
+        0.30
+        "overlays/mov_new_00002.png"
+        0.30
+        "overlays/mov_new_00003.png"
+        0.30
+        "overlays/mov_new_00004.png"
+        0.30
+        "overlays/mov_new_00005.png"
+        0.30
+        "overlays/mov_new_00006.png"
+        0.30
+        repeat
+
+# The love-hotel state cycle the fera03..fera60 markers loop through:
+# mov6 'fera1_00000..00006' (960x720), the bed-state animation.
+image hotel_fera:
+    block:
+        "images/mov6/fera1_00000.jpg"
+        0.30
+        "images/mov6/fera1_00001.jpg"
+        0.30
+        "images/mov6/fera1_00002.jpg"
+        0.30
+        "images/mov6/fera1_00003.jpg"
+        0.30
+        "images/mov6/fera1_00004.jpg"
+        0.30
+        "images/mov6/fera1_00005.jpg"
+        0.30
+        "images/mov6/fera1_00006.jpg"
+        0.30
+        repeat
+
+# The full-frame viewfinder overlay (mov2 member 20, 撮影ファインダー):
+# the score only uses this in the CG-mode display, kept for completeness.
 image overlay_viewfinder = "overlays/mov2_member0020.png"

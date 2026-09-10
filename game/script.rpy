@@ -7,7 +7,6 @@
 define n = Character(None)
 define gramps = Character(_("[Gramps]"), who_color="#b07a3f")
 define brother = Character(_("[Younger Brother]"), who_color="#99aabb")
-define riko = Character(None, what_color="#c8e0f5")
 default girl_name = "Riko"
 default girl_age = 11
 
@@ -25,9 +24,11 @@ label start:
 
 # ---- PROLOGUE (original: the pre-title cards + hunting-ground intro)
 label prologue:
+    # Score: op0 marker (frames 19926-20423) - park bg X_4 + park1 ambient
     scene black
-    show expression "images/overlays/mov2_00.png" as bg
-    show overlay_viewfinder as finder
+    show expression "images/mov2/X_4.jpg" as bg:
+        size (960, 720)
+    play music "park1.mp3" fadein 1.5
     with fade
     n "That summer, three years ago."
     n "I had an experience I still can't believe."
@@ -44,23 +45,24 @@ label prologue:
 
 # ---- DAY 1: Mizube park - the girl, her family, the filming
 label day1_park:
-    hide finder
-    hide bg
+    # Score: a01..a18 - X_3 bg + viewfinder strip right edge + grandpa
     scene black
-    show expression "images/overlays/mov2_00.png" as bg
+    show expression "images/mov2/X_3.jpg" as bg
+    show viewfinder_strip at viewfinder_pos
+    show ov_grandpa at grandpa_park_pos
     with fade
     n "While usually a quiet park with no-one around, it's currently bustling families enjoying the Summer."
     n "I get my, pride and joy, a long ranged camera ready"
     n "Hiding in my bag the expensive hi-tech video camera which I purchased for this purpose exclusively, I stealthily expose only the lens. My target, a girl playing at the waterside!!"
     n "Cautious of my surroundings, I pressed the record button."
     hide bg
-    show overlay_viewfinder as finder
     show cam_record as bg
     n "She turned around and before her was an elderly man and a young boy."
     hide cam_record
-    hide finder
+    hide viewfinder_strip
+    hide ov_grandpa
     scene black
-    show expression "images/overlays/mov2_00.png" as bg
+    show expression "images/mov2/X_3.jpg" as bg
     with fade
     n "The elderly man is talking and the girl simply replies, Yes. Yes. while nodding."
     n "The young boy is likewise saying something to her..."
@@ -106,11 +108,15 @@ label day1_park:
 
 # ---- THE TOILET SCENE: entry, assault, the family timer
 label toilet_scene:
+    # Score: b20 (1639-1742) - toitet_big bg, ore0 hand at (244,228),
+    # icon row i21/i22/i23 at the bottom-left, park1 off
+    stop music fadeout 1.0
     scene black
     show expression "images/overlays/mov2_toitet_big.png" as bg
-    with fade
+    show ov_hand at ore0_pos
     show screen h_overlay_fx
-    show screen icon_bar
+    show screen toilet_icons_bar
+    with fade
     n "What should I do..."
     n "Hm!? I hear footsteps approaching the toilet. This is bad, run!!"
     n "Alright, I've got here before her! Now, what should I do..."
@@ -120,6 +126,8 @@ label toilet_scene:
     n "Now..."
     n "I can finally do as I please..."
     call toilet_interactive
+    show ov_brother at brother_toilet_pos
+    play sound "door-old-open1.mp3"
     n "SHIT! They've come in search of her!!"
     brother "What's up~?? Where did she go?"
     brother "Hey sis, are you there?"
@@ -140,7 +148,9 @@ label toilet_scene:
     n "Don't make any noise! Stay quiet!  "
     n "Oh ,OI! ... Huh?? "
     n "Trying to stay calm, I gently wipe off the cum covering her swimsuit. That way no-one should be suspicious of anything."
+    play sound "running_in_house.mp3"
     n "Oh shit! Gotta get outta here!"
+    play sound "running_in_house.mp3"
     n "Now to make a dash for it!"
     n "She locked the door... I can't get in!! I failed."
     return
@@ -148,7 +158,10 @@ label toilet_scene:
 # ---- THAT NIGHT
 label night1:
     hide screen h_overlay_fx
+    hide screen toilet_icons_bar
     hide screen icon_bar
+    hide ov_hand
+    hide ov_brother
     hide ov_face_k1
     scene black
     show expression "images/overlays/mov3_eki_00005.png" as bg
@@ -251,12 +264,15 @@ label day4_return:
 
 # ---- THE LOVE HOTEL
 label hotel:
+    # Score: fera01 (3796-3814) bed base + fera03..60 cycle
+    # (mov6 fera1_00000-6); icon grid i36/i10/i11/i10f/tekoki/
+    # いらまちお/tekokiS at x=5/151/224/297, y=340/435/530
     scene black
-    show expression "images/mov6/fera1HOTEL_00000.jpg" as bg
+    show hotel_fera as bg
     with fade
     show ov_face_hotel at face_pos
     show screen h_overlay_fx
-    show screen icon_bar
+    show screen hotel_icons_bar
     n "Do you what kind of place a Love Hotel is?"
     n "What kind of excuse did you make to your parents?"
     n "Are they not suspicious?"
@@ -285,11 +301,38 @@ label hotel:
     n "I'll licky lick you up inside... So open your mouth."
     n "I'll lick you through your panties. How is it? Does it feel good?"
     n "Nice legs. Seeing as you're a  "
+    call hotel_interactive
     return
+
+# The love-hotel interactive: the original's fera01 icon grid
+# (i36 leave / i10 threat / i11 command / i10f quiet / tekoki /
+# いらまちお irrumachio / tekokiS), each wired to its handler.
+label hotel_interactive:
+    $ hotel_done = False
+    while not hotel_done:
+        call screen hotel_icons_bar
+        if _return == "leave":
+            $ hotel_done = True
+        elif _return == "threat":
+            call icon_i30
+        elif _return == "command":
+            call icon_i31
+        elif _return == "quiet":
+            call icon_i32
+        elif _return == "tekoki":
+            call icon_tekoki
+        elif _return == "tekoki_fast":
+            call icon_tekoki
+        elif _return == "ira":
+            call icon_ira
+    return
+
+default hotel_done = False
 
 # ---- EPILOGUE (2 years later)
 label epilogue:
     hide screen h_overlay_fx
+    hide screen hotel_icons_bar
     hide screen icon_bar
     hide ov_face_hotel
     scene black
@@ -335,7 +378,7 @@ label epilogue:
     n "[[Me] Body fluid? Eh? I see. Well, I'm busy now so can you come back another time?"
     n "[[Officer] We're only doing our job! How about a strand of hair, that shouldn't be a problem, right?"
     n "[[Me] ..."
-    n "[[Officer] We're investigating a certain incident where the offender left behind plenty of body fluid. The results will be immediate and 99.9% accurate."
+    n "[[Officer] We're investigating a certain incident where the offender left behind plenty of body fluid. The results will be immediate and 99.9%% accurate."
     n "That moment, I imagined how it must have played out. The girl's grand father seeing the cum all over her swimsuit and questioning her about it."
     n "[[Officer] Only a single strand of hair, that's all we need. Or what, you're too busy for that hmm?"
     n "[[Me] .... No."
@@ -459,4 +502,5 @@ label icon_fail_cry:
     # original: i10f - she might cry out
     n "Not possible. I'll be in trouble if she starts crying out..."
     return
+
 

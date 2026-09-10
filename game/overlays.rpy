@@ -150,6 +150,10 @@ screen icon_bar():
         imagebutton idle "overlays/system_biyaku.png" action ToggleVariable("ov_drug")
 
 # ---------------------------------------------------------------- positions
+# Score-verified placements (tools/parse_score.py on the embedded movie's
+# VWSC). Director sprite loc = the member's reg point: center for the
+# stage art/sprites, top-left for the system icon bitmaps (the icon grid
+# tiles at x=5/151/224/297, y=340/435/530 prove top-left anchoring).
 
 transform face_pos:
     xalign 0.5
@@ -162,6 +166,36 @@ transform face_pos_k1:
 transform hand_pos:
     xalign 0.38
     yalign 0.68
+
+# ore0 (the protagonist's hand) in the b20 toilet interactive:
+# 312x404 at (400,430) center -> top-left (244,228)
+transform ore0_pos:
+    xpos 244
+    ypos 228
+
+# ore0 thrust zoom (b24_end): scaled to 564x830 at (280,470)
+# -> top-left (-2,55)
+transform ore0_thrust:
+    xpos -2
+    ypos 55
+    zoom 1.8
+
+# grandpa in the park camera scene (a01): 83x212 at (260,370)
+# -> top-left (219,264)
+transform grandpa_park_pos:
+    xpos 219
+    ypos 264
+
+# brother waiting outside the toilet (2day1): 35x69 at (867,563)
+# -> top-left (850,529)
+transform brother_toilet_pos:
+    xpos 850
+    ypos 529
+
+# the viewfinder edge strip: 350x720 at (687,360) -> top-left (512,0)
+transform viewfinder_pos:
+    xpos 512
+    ypos 0
 
 transform fx_hand:
     xalign 0.42
@@ -195,6 +229,59 @@ transform npc_left:
 transform npc_right:
     xalign 0.90
     yalign 0.82
+
+# ---------------------------------------------------------------- icon bars
+# The original's interactive-mode icon systems, at the exact score
+# coordinates. Toilet (marker b20, frames 1639-1742): i21/i22/i23 at
+# y~526, x = 163/86/8 (top-left anchored, 70x70 each). Love hotel
+# (marker fera01, frames 3796-3814): a 2x3+1 grid.
+
+screen toilet_icons_bar():
+    # i21 = restraint, i22 = aphrodisiac, i23 = escape/quit
+    hbox:
+        spacing 13
+        xpos 8
+        ypos 525
+        imagebutton idle "overlays/system_i22.png" hover "overlays/system_i22_2.png" action ToggleVariable("ov_drug")
+        imagebutton idle "overlays/system_i21.png" hover "overlays/system_i21_2.png" action NullAction()
+    imagebutton:
+        xpos 8
+        ypos 435
+        idle "overlays/system_i23.png"
+        hover "overlays/system_i23_2.png"
+        action Return("escape")
+
+screen hotel_icons_bar(cmd=None):
+    # the fera01 grid: i36 exit, i10 threaten, i11 command, i10f forbid-cry,
+    # tekoki handjob, tekokiS handjob-fast, いらまちお irrumachio
+    imagebutton:
+        xpos 5 ypos 530
+        idle "overlays/system_i36.png" hover "overlays/system_i36_2.png"
+        action Return("leave")
+    imagebutton:
+        xpos 151 ypos 340
+        idle "overlays/system_i10.png" hover "overlays/system_i10_2.png"
+        action Return("threat")
+    imagebutton:
+        xpos 151 ypos 434
+        idle "overlays/system_i11.png" hover "overlays/system_i11_2.png"
+        action Return("command")
+    imagebutton:
+        xpos 224 ypos 340
+        idle "overlays/system_i10f.png" hover "overlays/system_i10f_2.png"
+        action Return("quiet")
+    imagebutton:
+        xpos 224 ypos 435
+        idle "overlays/system_tekoki.png" hover "overlays/system_tekoki_2.png"
+        action Return("tekoki")
+    imagebutton:
+        xpos 297 ypos 340
+        idle "overlays/system_member1885.png" hover "overlays/system_member1885_2.png"
+        action Return("ira")
+    imagebutton:
+        xpos 297 ypos 435
+        idle "overlays/system_tekokiS.png" hover "overlays/system_tekokiS_2.png"
+        action Return("tekoki_fast")
 
 # helper labels used by the chapter flow
 label overlays_on(mode="home"):
