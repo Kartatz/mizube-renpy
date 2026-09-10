@@ -190,7 +190,7 @@ translate english breakin_yes_2d687687:
 translate english breakin_yes_ba8c4ec5:
 
     # n "【妹部屋の鍵】を使用。ドアの開閉はドアをクリック"
-    n "Used the [[[Sister's Room Key]. Click the door to open and close it."
+    n "Used the [[Sister's Room Key]. Click the door to open and close it."
 
 # game/story.rpy:218
 translate english breakin_yes_8db121fd:
@@ -208,7 +208,7 @@ translate english breakin_yes_3e7f6041:
 translate english breakin_yes_d59a756b:
 
     # n "「妹部屋の鍵」GET!"
-    n "Got the [[[Sister's Room Key]!"
+    n "Got the [[Sister's Room Key]!"
 
 # game/story.rpy:221
 translate english breakin_yes_a4736130:

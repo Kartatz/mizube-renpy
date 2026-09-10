@@ -1510,7 +1510,7 @@ translate english misc_dialogue_40488444:
 translate english misc_dialogue_b4666156:
 
     # n "■説明■マウス上下/任意の場所で左クリック、そのまま移動で挿入　"
-    n "[[[How to play] Move the mouse up and down. Left-click anywhere and drag to insert."
+    n "[[How to play] Move the mouse up and down. Left-click anywhere and drag to insert."
 
 # game/script.rpy:328
 translate english misc_dialogue_40488444_1:
@@ -1996,7 +1996,7 @@ translate english misc_dialogue_a574970d:
 translate english misc_dialogue_9bd30a98:
 
     # n "【妹部屋の鍵】を使用。ドアの開閉はドアをクリック　"
-    n "Used the [[[Sister's Room Key]. Click the door to open and close it."
+    n "Used the [[Sister's Room Key]. Click the door to open and close it."
 
 # game/script.rpy:409
 translate english misc_dialogue_40488444_13:
@@ -7936,7 +7936,7 @@ translate english misc_dialogue_40488444_156:
 translate english misc_dialogue_096b0fc4:
 
     # n "説明■ドアを開くには”ドアをクリックしたまま横スライド”させます　"
-    n "[[[Instructions] To open the door, click it and slide sideways."
+    n "[[Instructions] To open the door, click it and slide sideways."
 
 # game/script.rpy:1399
 translate english misc_dialogue_40488444_157:
@@ -8188,7 +8188,7 @@ translate english misc_dialogue_e0187bae:
 translate english misc_dialogue_d8cb2756:
 
     # n "「妹部屋の鍵」GET!　"
-    n "Got the [[[Sister's Room Key]!"
+    n "Got the [[Sister's Room Key]!"
 
 # game/script.rpy:1441
 translate english misc_dialogue_40488444_165:

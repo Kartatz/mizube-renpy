@@ -22,8 +22,9 @@ def normalize(s):
 
 def esc(s):
     s = s.replace('\\', '\\\\').replace('"', '\\"')
-    # escape single [ that are not already part of [[
-    return re.sub(r'\[(?!\[)', '[[', s)
+    # normalize any existing [[ escapes to single [, then double every [
+    s = s.replace('[[', '[')
+    return s.replace('[', '[[')
 
 
 def unesc(s):
