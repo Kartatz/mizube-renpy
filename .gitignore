@@ -12,3 +12,4 @@ __pycache__/
 # RAPT build artifacts (CI-generated throwaway signing keys)
 android.keystore
 bundle.keystore
+*.apk

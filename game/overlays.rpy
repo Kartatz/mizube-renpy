@@ -114,9 +114,10 @@ image ov_face_hotel:
 
 image ov_hand = "overlays/mov2_ore0.png"       # the protagonist's hand
 image ov_saliva = "overlays/mov_2_2.png"       # 唾液2
-image ov_sweat = "overlays/mov_ase1.png"       # sweat drop
+image ov_sweat = "overlays/mov_ase1.png"      # sweat drop
 image ov_grandpa = "overlays/mov2_member0011.png"  # じいさん
-image ov_brother = "overlays/mov2_21.png"      # 弟21
+image ov_brother = "overlays/mov2_21.png"     # 弟21
+image ov_girl = "overlays/mov2_2.png"         # the girl ('2', 154x524)
 image ov_key = "overlays/system_key.png"
 image ov_rope_art = "overlays/system_roop.png"
 image ov_drug_art = "overlays/system_biyaku.png"
@@ -185,6 +186,19 @@ transform ore0_thrust:
 transform grandpa_park_pos:
     xpos 219
     ypos 264
+
+# the girl (mov2 '2', 154x524) in the park family view (score frame
+# 1115, the "She turned around..." beat): centered (410,463)
+# -> top-left (333,201)
+transform girl_park_pos:
+    xpos 333
+    ypos 201
+
+# brother in the park family view: 35x69 at (227,416)
+# -> top-left (210,382)
+transform brother_park_pos:
+    xpos 210
+    ypos 382
 
 # brother waiting outside the toilet (2day1): 35x69 at (867,563)
 # -> top-left (850,529)

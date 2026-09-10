@@ -45,25 +45,24 @@ label prologue:
 
 # ---- DAY 1: Mizube park - the girl, her family, the filming
 label day1_park:
-    # Score: a01..a18 - X_3 bg + viewfinder strip right edge + grandpa
+    # Score: a01..a18 markers - park bg X_3; the camera recording only
+    # for the record-button beat; the family dialogue plays on the park
+    # view with the family sprites (score frame 1115: the girl '2'
+    # sprite at (410,463), grandpa (261,369), brother (227,416)).
     scene black
     show expression "images/mov2/X_3.jpg" as bg
-    show viewfinder_strip at viewfinder_pos
-    show ov_grandpa at grandpa_park_pos
     with fade
     n "While usually a quiet park with no-one around, it's currently bustling families enjoying the Summer."
     n "I get my, pride and joy, a long ranged camera ready"
     n "Hiding in my bag the expensive hi-tech video camera which I purchased for this purpose exclusively, I stealthily expose only the lens. My target, a girl playing at the waterside!!"
+    show cam_record as bg
     n "Cautious of my surroundings, I pressed the record button."
     hide bg
-    show cam_record as bg
-    n "She turned around and before her was an elderly man and a young boy."
-    hide cam_record
-    hide viewfinder_strip
-    hide ov_grandpa
-    scene black
     show expression "images/mov2/X_3.jpg" as bg
-    with fade
+    show ov_girl at girl_park_pos
+    show ov_grandpa at grandpa_park_pos
+    show ov_brother at brother_park_pos
+    n "She turned around and before her was an elderly man and a young boy."
     n "The elderly man is talking and the girl simply replies, Yes. Yes. while nodding."
     n "The young boy is likewise saying something to her..."
     n "With a miffed expression she says something back"
@@ -86,12 +85,15 @@ label day1_park:
     n "Seated on the park bench, I continue to film the girl while pretending to enjoy the cool breeze. It it then that her facial expression suddenly grows stern."
     n "It looks like she's in discomfort."
     n "The girl says something to the elderly man again."
+    hide ov_girl
     n "He says something back and she walks off along the waterside."
     n "Hmmm? Looks like she's going to the toilet."
+    show ov_girl at girl_park_pos
     n "But with the toilet seemingly occupied, the girl returns right away."
     n "She's talking with the elderly man again."
     n "With a troubled expression on his way, the elderly man looks around for something."
     n "Then he points towards the park's public toilet behind me and explains something to the girl"
+    hide ov_girl
     n "After nodding to him 2 or 3 times and ignoring the teasing little boy, the girl starts walking towards the park toilet"
     n "A toilet on the edge of the park, far in the back."
     n "Surrounded by trees and shrubs, it is an old toilet that pretty much no-one uses"
