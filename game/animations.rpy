@@ -5548,3 +5548,6 @@ image cam_record:
         "overlays/mov2_a10_00020.png"
         0.12
         repeat
+
+# The camera viewfinder UI (mov2 member 20, 撮影ファインダー)
+image overlay_viewfinder = "overlays/mov2_member0020.png"

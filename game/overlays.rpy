@@ -152,12 +152,12 @@ screen icon_bar():
 # ---------------------------------------------------------------- positions
 
 transform face_pos:
-    xalign 0.56
-    yalign 0.28
+    xalign 0.5
+    yalign 0.5
 
 transform face_pos_k1:
-    xalign 0.60
-    yalign 0.30
+    xalign 0.5
+    yalign 0.5
 
 transform hand_pos:
     xalign 0.38

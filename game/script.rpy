@@ -25,7 +25,9 @@ label start:
 
 # ---- PROLOGUE (original: the pre-title cards + hunting-ground intro)
 label prologue:
-    show op_event3 as bgop
+    scene black
+    show expression "images/overlays/mov2_00.png" as bg
+    show overlay_viewfinder as finder
     with fade
     n "That summer, three years ago."
     n "I had an experience I still can't believe."
@@ -42,28 +44,24 @@ label prologue:
 
 # ---- DAY 1: Mizube park - the girl, her family, the filming
 label day1_park:
-    hide bgop
+    hide finder
+    hide bg
     scene black
-    show expression "images/mov2/X_3.jpg" as bg
+    show expression "images/overlays/mov2_00.png" as bg
     with fade
-    show ov_grandpa at npc_left
-    show ov_brother at npc_right
     n "While usually a quiet park with no-one around, it's currently bustling families enjoying the Summer."
     n "I get my, pride and joy, a long ranged camera ready"
     n "Hiding in my bag the expensive hi-tech video camera which I purchased for this purpose exclusively, I stealthily expose only the lens. My target, a girl playing at the waterside!!"
     n "Cautious of my surroundings, I pressed the record button."
     hide bg
-    hide ov_grandpa
-    hide ov_brother
+    show overlay_viewfinder as finder
     show cam_record as bg
-    with fade
     n "She turned around and before her was an elderly man and a young boy."
     hide cam_record
+    hide finder
     scene black
-    show expression "images/mov2/X_3.jpg" as bg
+    show expression "images/overlays/mov2_00.png" as bg
     with fade
-    show ov_grandpa at npc_left
-    show ov_brother at npc_right
     n "The elderly man is talking and the girl simply replies, Yes. Yes. while nodding."
     n "The young boy is likewise saying something to her..."
     n "With a miffed expression she says something back"
@@ -111,7 +109,6 @@ label toilet_scene:
     scene black
     show expression "images/overlays/mov2_toitet_big.png" as bg
     with fade
-    show ov_face_k1 at face_pos_k1
     show screen h_overlay_fx
     show screen icon_bar
     n "What should I do..."
