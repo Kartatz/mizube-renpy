@@ -56,17 +56,20 @@ jobs:
           key: renpy-8.5.3-android-sdk-v1
 
       - name: Install the Ren'Py SDK and RAPT
+        # Uses file markers (not -d): the cache restores only
+        # rapt/Sdk inside the SDK tree, which would otherwise make a
+        # partial directory look like a complete SDK.
         run: |
           set -euxo pipefail
           TC="$HOME/renpy-toolchain"
           SDK="$TC/renpy-$RENPY_VERSION-sdk"
           mkdir -p "$TC"
-          if [ ! -d "$SDK" ]; then
+          if [ ! -x "$SDK/lib/py3-linux-x86_64/python" ]; then
             curl -fsSL -o "$TC/renpy.tar.bz2" \
               "https://www.renpy.org/dl/$RENPY_VERSION/renpy-$RENPY_VERSION-sdk.tar.bz2"
             tar -xjf "$TC/renpy.tar.bz2" -C "$TC"
           fi
-          if [ ! -d "$SDK/rapt" ]; then
+          if [ ! -f "$SDK/rapt/hash.txt" ]; then
             curl -fsSL -o "$TC/rapt.zip" \
               "https://www.renpy.org/dl/$RENPY_VERSION/renpy-$RENPY_VERSION-rapt.zip"
             unzip -q -o "$TC/rapt.zip" -d "$SDK"
