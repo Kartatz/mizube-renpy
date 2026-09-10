@@ -98,3 +98,32 @@ either by patching preload flags + stripping casts (data-side, no
 upstream dependency) or by contributing lazy materialization upstream.
 Estimated effort: days, not hours — but no format-level unknowns
 remain.
+
+
+## Update 2 (2026-09-10, session 3): lazy bitmap decode — all 11 casts load
+
+Built on the fork's `mizube-compat` branch (now fork main @ f60e9f9).
+Measured with the per-phase heap instrumentation, then fixed in stages:
+
+| fix | heap effect |
+|-----|-------------|
+| start (post hex-dump fixes) | OOM during cast 6 (~3.5 GB) |
+| + lazy bitmap decode (decode on first get_bitmap, header-only registration) | OOM during cast 8 |
+| + pending registration stops allocating the pixel plane (new_pending built a Bitmap::new shell — the eager allocation the lazy path was paying) | OOM during cast 9 (mov3) |
+| + preload takes (moves) the downloaded file instead of cloning it | OOM during mov4 apply |
+| + per-member parse-copy release (chunk children cleared as each member is applied) + post-apply view release | **all 11 casts load: 4094 MB** |
+
+Remaining blockers to first frame:
+
+1. **Animated GIF members decode all frames eagerly at apply** — mov7
+   (14 MB raw) costs +564 MB, mov4 similar; ~1 GB of the 4094 MB is
+   wrong-game GIF frames. Deferring GIF decode (pending + deferred
+   `register_pending`) is the next engine change.
+2. Zero headroom: the title frame's first renders need ~100-300 MB of
+   decode space. The GIF fix above provides it.
+
+Design notes for the eventual upstream PR: `get_bitmap` became
+`&mut self` (decode in place) with `get_bitmap_meta`/`get_bitmap_static`
+for read-only contexts; dimension-only call sites were switched to the
+meta accessor; the internal-cast path keeps a non-releasing apply
+variant (the movie file is immutably borrowed during load).
