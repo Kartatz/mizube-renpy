@@ -143,7 +143,7 @@ label night1:
     hide screen icon_bar
     hide ov_face_k1
     scene black
-    show expression "images/mov3/eki_00005.jpg" as bg
+    show expression "images/overlays/mov3_eki_00005.png" as bg
     with fade
     n "That night."
     n "I was looking at the last photo I took before exiting the girls toilet."
