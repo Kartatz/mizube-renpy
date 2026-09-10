@@ -28,6 +28,9 @@ env:
   RENPY_VERSION: "8.5.3"
   RAPT_NO_TERMS: "1"
 
+permissions:
+  contents: write   # create releases and upload assets
+
 jobs:
   build-apk:
     runs-on: ubuntu-latest
@@ -121,3 +124,26 @@ jobs:
           name: mizube-android-apk
           path: dist/*.apk
           if-no-files-found: error
+
+      - name: Attach the APK to a release
+        # Tag pushes (v*): attach to a release for that tag.
+        # Pushes to master: refresh the rolling "continuous" pre-release,
+        # replacing the previous APK. Other branches: artifact only.
+        if: startsWith(github.ref, 'refs/tags/v') || github.ref == 'refs/heads/master'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euxo pipefail
+          apk=$(ls dist/*.apk)
+          if [[ "$GITHUB_REF" == refs/tags/* ]]; then
+            tag="${GITHUB_REF#refs/tags/}"
+            gh release view "$tag" >/dev/null 2>&1 || \
+              gh release create "$tag" --verify-tag --title "mizube $tag" \
+                --notes "Automated Android build for $tag."
+            gh release upload "$tag" "$apk" --clobber
+          else
+            gh release delete continuous --yes --cleanup-tag >/dev/null 2>&1 || true
+            gh release create continuous --target "$GITHUB_SHA" \
+              --title "Continuous build" --prerelease \
+              --notes "Automated APK from the latest master (${{ github.sha }})." "$apk"
+          fi
