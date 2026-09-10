@@ -170,6 +170,45 @@ pip install pillow
 
 15. **PackBits semantics**: `n<0x80 → literal (n+1 bytes follow)`, `n>0x80 → repeat (0x101-n)× next byte`. Getting this backwards produces garbage.
 
+## Alternative Path: dirplayer-rs (running the original data directly)
+
+Explored 2026-09-10 — full report with heap measurements in
+`docs/dirplayer-exploration.md`. Verdict: **format-viable**, blocked only
+by memory scale.
+
+- **Runtime**: github.com/igorlira/dirplayer-rs (Rust/WASM Shockwave
+  emulator). Our fork with fixes: **github.com/Kartatz/dirplayer-rs**
+  (branch `mizube-compat`, merged to `main`).
+- **Verified supported** (with our extracted `movie.cxt` + the game's
+  casts served over HTTP): XFIR little-endian RIFX, MV93, afterburned
+  FGDM/FGDC, Director 11.5 (version 1150), the D6+ delta-compressed
+  score with 48-byte records and 1006 channels, external `.cct` casts
+  via MCsL (it normalizes to `<name>.cct` — symlink `system.cxt` →
+  `system.cct` etc.). The movie parses (5,777 chunks) and all casts
+  fetch + parse.
+- **Blocker**: `CastManager::preload_casts` eagerly preloads every MCsL
+  cast (this game ships ~450 MB — the combined dev project) and chunk
+  materialization copies each body ~3-10x (cached view + `to_vec()` +
+  chunk struct). Measured heap: movie 81 MB → system 225 → cgoto 432 →
+  mov 1,206 → mov2 1,924 → mov5 2,485 → OOM during mov6 (~3.5 GB).
+- **Fixes already on our fork** (upstream-PR-ready, all verified by
+  moving the OOM later in the load):
+  1. `0fc20a9` — KEY* entries indexed by owning chunk (was a full-table
+     rescan per cast member: 234,687 entries × members)
+  2. `91fda89` — per-byte hex-dump Strings gated on log level + capped
+     at 256 bytes (were a ~10x amplification of every cast body)
+  3. `ce4bc5a` — WASM heap-size logging at each cast preload
+- **Remaining paths** (pick one):
+  1. Data-side: patch the movie's MCsL preload flags to 3 ("when
+     needed" — `preload_casts` skips modes >= 3, casts then load lazily
+     per scene)
+  2. Data-side: strip the wrong-game members from the casts (the
+     used-member sets are known from `score-data/score_frames.json`)
+  3. Engine-side: drop chunk views after `make_chunk`, lazy bitmap
+     decode (the real fix; genuine upstream material)
+- The audio deadlock seen under Wine (park1 ambient hangs the original
+  exe) does not apply here — dirplayer uses WebAudio.
+
 ## Recommended Approach
 
 ### Phase 1 — Score parser (the critical missing piece)
@@ -217,7 +256,14 @@ The existing repo (github.com/Kartatz/mizube-renpy) has:
 - All extraction tools working
 - All assets extracted (images, overlays, audio, fonts)
 - The official EN dialogue extracted
-- A partially-working Ren'Py project (wrong scene assembly, correct dialogue)
-- The story structure identified but not properly implemented
+- **The score parser DONE** (tools/extract_movie.py → parse_score.py →
+  scene_summary.py): 21,973 frames, 328 markers, verified
+  castLib→cast mapping (lib N = MCsL cast N-1; mov2 member numbers are
+  one below our Cast numbering), dumps in score-data/
+- A working Ren'Py project with score-verified scene assembly (camera
+  scene, toilet interactive, hotel icon grid, sounds)
+- CI that builds a signed universal APK on every push (workflow +
+  rolling `continuous` pre-release; tag `v*` for real releases)
 
-**Start with the score parser. Everything else follows from having correct sprite placement data.**
+**The Ren'Py path is past scene assembly. The score data and the
+dirplayer-rs findings above are the assets to build on.**
