@@ -1857,8 +1857,8 @@ translate english misc_dialogue_40488444_11:
 # game/script.rpy:385
 translate english misc_dialogue_3cf62f73:
 
-    # n "あれ？下着の横に[[カギ]がおいてある　"
-    n "あれ？下着の横に[[カギ]がおいてある　"
+    # n "Huh? There's a [[key] lying next to the underwear."
+    n "Huh? There's a [[key] lying next to the underwear."
 
 # game/script.rpy:386
 translate english misc_dialogue_f49c9bb0:
