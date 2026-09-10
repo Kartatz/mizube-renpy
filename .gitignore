@@ -8,3 +8,4 @@ errors.txt
 log.txt
 traceback.txt
 *.bak
+__pycache__/

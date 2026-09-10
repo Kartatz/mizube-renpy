@@ -1,0 +1,1329 @@
+{
+ "labels": [
+  {
+   "frame": 340,
+   "name": "startxa"
+  },
+  {
+   "frame": 454,
+   "name": "start"
+  },
+  {
+   "frame": 469,
+   "name": "startX"
+  },
+  {
+   "frame": 472,
+   "name": "st-end"
+  },
+  {
+   "frame": 489,
+   "name": "s-sys"
+  },
+  {
+   "frame": 492,
+   "name": "help"
+  },
+  {
+   "frame": 514,
+   "name": "save"
+  },
+  {
+   "frame": 550,
+   "name": "load"
+  },
+  {
+   "frame": 659,
+   "name": "cgmoad"
+  },
+  {
+   "frame": 1094,
+   "name": "a01"
+  },
+  {
+   "frame": 1108,
+   "name": "a08"
+  },
+  {
+   "frame": 1122,
+   "name": "a09"
+  },
+  {
+   "frame": 1125,
+   "name": "a10"
+  },
+  {
+   "frame": 1138,
+   "name": "a11"
+  },
+  {
+   "frame": 1141,
+   "name": "a15"
+  },
+  {
+   "frame": 1157,
+   "name": "a16"
+  },
+  {
+   "frame": 1173,
+   "name": "a17"
+  },
+  {
+   "frame": 1440,
+   "name": "a18"
+  },
+  {
+   "frame": 1466,
+   "name": "tt0"
+  },
+  {
+   "frame": 1624,
+   "name": "tt1"
+  },
+  {
+   "frame": 1639,
+   "name": "b20"
+  },
+  {
+   "frame": 1743,
+   "name": "b21"
+  },
+  {
+   "frame": 1775,
+   "name": "b24_end"
+  },
+  {
+   "frame": 1977,
+   "name": "b25"
+  },
+  {
+   "frame": 2040,
+   "name": "sippai1"
+  },
+  {
+   "frame": 2101,
+   "name": "nigeru"
+  },
+  {
+   "frame": 2201,
+   "name": "C0"
+  },
+  {
+   "frame": 2227,
+   "name": "yabai"
+  },
+  {
+   "frame": 2266,
+   "name": "c1"
+  },
+  {
+   "frame": 2305,
+   "name": "c2"
+  },
+  {
+   "frame": 2321,
+   "name": "c5"
+  },
+  {
+   "frame": 2336,
+   "name": "c10"
+  },
+  {
+   "frame": 2353,
+   "name": "d3"
+  },
+  {
+   "frame": 2408,
+   "name": "d4"
+  },
+  {
+   "frame": 2457,
+   "name": "d5"
+  },
+  {
+   "frame": 2463,
+   "name": "d7"
+  },
+  {
+   "frame": 2483,
+   "name": "d8"
+  },
+  {
+   "frame": 2500,
+   "name": "d30"
+  },
+  {
+   "frame": 2525,
+   "name": "d35"
+  },
+  {
+   "frame": 2546,
+   "name": "d36"
+  },
+  {
+   "frame": 2559,
+   "name": "d37"
+  },
+  {
+   "frame": 2569,
+   "name": "d38"
+  },
+  {
+   "frame": 2579,
+   "name": "d39"
+  },
+  {
+   "frame": 2619,
+   "name": "d40"
+  },
+  {
+   "frame": 2684,
+   "name": "d45"
+  },
+  {
+   "frame": 2730,
+   "name": "d50"
+  },
+  {
+   "frame": 2761,
+   "name": "d70"
+  },
+  {
+   "frame": 2862,
+   "name": "d75"
+  },
+  {
+   "frame": 2879,
+   "name": "d80"
+  },
+  {
+   "frame": 2896,
+   "name": "d82"
+  },
+  {
+   "frame": 2996,
+   "name": "d90"
+  },
+  {
+   "frame": 3103,
+   "name": "d92"
+  },
+  {
+   "frame": 3221,
+   "name": "ziend"
+  },
+  {
+   "frame": 3234,
+   "name": "2day"
+  },
+  {
+   "frame": 3273,
+   "name": "2day1"
+  },
+  {
+   "frame": 3579,
+   "name": "day1end"
+  },
+  {
+   "frame": 3594,
+   "name": "g10"
+  },
+  {
+   "frame": 3782,
+   "name": "g12"
+  },
+  {
+   "frame": 3796,
+   "name": "fera01"
+  },
+  {
+   "frame": 3815,
+   "name": "fera01_kihon"
+  },
+  {
+   "frame": 3903,
+   "name": "fera03"
+  },
+  {
+   "frame": 3919,
+   "name": "fera04"
+  },
+  {
+   "frame": 3927,
+   "name": "fera07"
+  },
+  {
+   "frame": 4001,
+   "name": "fera09"
+  },
+  {
+   "frame": 4134,
+   "name": "fera12"
+  },
+  {
+   "frame": 4161,
+   "name": "fera20"
+  },
+  {
+   "frame": 4182,
+   "name": "fera25"
+  },
+  {
+   "frame": 4197,
+   "name": "fera30"
+  },
+  {
+   "frame": 4312,
+   "name": "fera35"
+  },
+  {
+   "frame": 4341,
+   "name": "fera40"
+  },
+  {
+   "frame": 4427,
+   "name": "fera50"
+  },
+  {
+   "frame": 4483,
+   "name": "fera60"
+  },
+  {
+   "frame": 4500,
+   "name": "fu1"
+  },
+  {
+   "frame": 4532,
+   "name": "fu2"
+  },
+  {
+   "frame": 4565,
+   "name": "fu3"
+  },
+  {
+   "frame": 4590,
+   "name": "fu4"
+  },
+  {
+   "frame": 4621,
+   "name": "fu5"
+  },
+  {
+   "frame": 4671,
+   "name": "fu6"
+  },
+  {
+   "frame": 4685,
+   "name": "back01"
+  },
+  {
+   "frame": 4698,
+   "name": "back01_kihon"
+  },
+  {
+   "frame": 4735,
+   "name": "back10"
+  },
+  {
+   "frame": 4759,
+   "name": "back15"
+  },
+  {
+   "frame": 4772,
+   "name": "back_EX"
+  },
+  {
+   "frame": 4900,
+   "name": "back_fini"
+  },
+  {
+   "frame": 4912,
+   "name": "au50"
+  },
+  {
+   "frame": 4951,
+   "name": "au51"
+  },
+  {
+   "frame": 4976,
+   "name": "au52"
+  },
+  {
+   "frame": 5000,
+   "name": "au53"
+  },
+  {
+   "frame": 5051,
+   "name": "au54"
+  },
+  {
+   "frame": 5167,
+   "name": "au55"
+  },
+  {
+   "frame": 5184,
+   "name": "au56"
+  },
+  {
+   "frame": 5201,
+   "name": "au57"
+  },
+  {
+   "frame": 5223,
+   "name": "au58"
+  },
+  {
+   "frame": 5254,
+   "name": "au59"
+  },
+  {
+   "frame": 5284,
+   "name": "au60"
+  },
+  {
+   "frame": 5512,
+   "name": "day3"
+  },
+  {
+   "frame": 5525,
+   "name": "h05"
+  },
+  {
+   "frame": 5538,
+   "name": "h07"
+  },
+  {
+   "frame": 5560,
+   "name": "h10"
+  },
+  {
+   "frame": 5610,
+   "name": "h12"
+  },
+  {
+   "frame": 5635,
+   "name": "h15"
+  },
+  {
+   "frame": 5681,
+   "name": "h18"
+  },
+  {
+   "frame": 5703,
+   "name": "h19"
+  },
+  {
+   "frame": 5792,
+   "name": "h22"
+  },
+  {
+   "frame": 7149,
+   "name": "h25"
+  },
+  {
+   "frame": 7220,
+   "name": "f_fera_came"
+  },
+  {
+   "frame": 7221,
+   "name": "fs"
+  },
+  {
+   "frame": 7245,
+   "name": "fs0"
+  },
+  {
+   "frame": 7261,
+   "name": "fs3"
+  },
+  {
+   "frame": 7278,
+   "name": "fs5"
+  },
+  {
+   "frame": 7297,
+   "name": "fs6"
+  },
+  {
+   "frame": 12352,
+   "name": "fs_came"
+  },
+  {
+   "frame": 12357,
+   "name": "1f-ore-sentaku"
+  },
+  {
+   "frame": 12360,
+   "name": "ohs10"
+  },
+  {
+   "frame": 12364,
+   "name": "ohs20"
+  },
+  {
+   "frame": 12367,
+   "name": "ohs30"
+  },
+  {
+   "frame": 12375,
+   "name": "neru"
+  },
+  {
+   "frame": 12384,
+   "name": "syokuin"
+  },
+  {
+   "frame": 12389,
+   "name": "1f-ore2"
+  },
+  {
+   "frame": 12405,
+   "name": "1f0"
+  },
+  {
+   "frame": 12422,
+   "name": "1f-main"
+  },
+  {
+   "frame": 12438,
+   "name": "taiiku"
+  },
+  {
+   "frame": 12452,
+   "name": "pool"
+  },
+  {
+   "frame": 12464,
+   "name": "ura"
+  },
+  {
+   "frame": 12475,
+   "name": "undou"
+  },
+  {
+   "frame": 13633,
+   "name": "toile"
+  },
+  {
+   "frame": 13670,
+   "name": "r-last0"
+  },
+  {
+   "frame": 13677,
+   "name": "lastx_ryou"
+  },
+  {
+   "frame": 13790,
+   "name": "yb3"
+  },
+  {
+   "frame": 13885,
+   "name": "yb10"
+  },
+  {
+   "frame": 13907,
+   "name": "yb20x"
+  },
+  {
+   "frame": 13914,
+   "name": "yb20y"
+  },
+  {
+   "frame": 13936,
+   "name": "yb20"
+  },
+  {
+   "frame": 13948,
+   "name": "yb28"
+  },
+  {
+   "frame": 13959,
+   "name": "yb21"
+  },
+  {
+   "frame": 13971,
+   "name": "yb23"
+  },
+  {
+   "frame": 13983,
+   "name": "yb22"
+  },
+  {
+   "frame": 13998,
+   "name": "yb24"
+  },
+  {
+   "frame": 14051,
+   "name": "yb25"
+  },
+  {
+   "frame": 14077,
+   "name": "yb30"
+  },
+  {
+   "frame": 14099,
+   "name": "ssdd"
+  },
+  {
+   "frame": 14111,
+   "name": "ssdd2"
+  },
+  {
+   "frame": 14246,
+   "name": "ssdd3"
+  },
+  {
+   "frame": 14274,
+   "name": "last_ex"
+  },
+  {
+   "frame": 14281,
+   "name": "last_ex2"
+  },
+  {
+   "frame": 14448,
+   "name": "last_ex5"
+  },
+  {
+   "frame": 14627,
+   "name": "last_ex9"
+  },
+  {
+   "frame": 14876,
+   "name": "last_ex15"
+  },
+  {
+   "frame": 14895,
+   "name": "opmIH"
+  },
+  {
+   "frame": 14906,
+   "name": "opm5"
+  },
+  {
+   "frame": 14970,
+   "name": "opm7"
+  },
+  {
+   "frame": 14980,
+   "name": "opm10"
+  },
+  {
+   "frame": 14995,
+   "name": "opm15"
+  },
+  {
+   "frame": 15009,
+   "name": "opm20"
+  },
+  {
+   "frame": 15032,
+   "name": "opm21"
+  },
+  {
+   "frame": 15044,
+   "name": "opm30"
+  },
+  {
+   "frame": 15087,
+   "name": "opm32"
+  },
+  {
+   "frame": 15096,
+   "name": "opm35"
+  },
+  {
+   "frame": 15182,
+   "name": "opm37"
+  },
+  {
+   "frame": 15197,
+   "name": "yb30"
+  },
+  {
+   "frame": 15211,
+   "name": "yb35"
+  },
+  {
+   "frame": 15227,
+   "name": "yb50"
+  },
+  {
+   "frame": 15238,
+   "name": "yb60"
+  },
+  {
+   "frame": 15252,
+   "name": "yb65"
+  },
+  {
+   "frame": 15266,
+   "name": "yb67"
+  },
+  {
+   "frame": 15289,
+   "name": "yb_kihon"
+  },
+  {
+   "frame": 15302,
+   "name": "yb_p0"
+  },
+  {
+   "frame": 15308,
+   "name": "yb_p1"
+  },
+  {
+   "frame": 15360,
+   "name": "yb_p11"
+  },
+  {
+   "frame": 15411,
+   "name": "yb_p2"
+  },
+  {
+   "frame": 15668,
+   "name": "yb_camera1"
+  },
+  {
+   "frame": 15695,
+   "name": "sounyu_in"
+  },
+  {
+   "frame": 15771,
+   "name": "sounyuX"
+  },
+  {
+   "frame": 15832,
+   "name": "last_ms"
+  },
+  {
+   "frame": 15867,
+   "name": "last_fs"
+  },
+  {
+   "frame": 15931,
+   "name": "last_irama"
+  },
+  {
+   "frame": 16025,
+   "name": "last_s1"
+  },
+  {
+   "frame": 16043,
+   "name": "last_s"
+  },
+  {
+   "frame": 16280,
+   "name": "fn_endx"
+  },
+  {
+   "frame": 16340,
+   "name": "iv5"
+  },
+  {
+   "frame": 16361,
+   "name": "iv5_05"
+  },
+  {
+   "frame": 16399,
+   "name": "iv5_07"
+  },
+  {
+   "frame": 16525,
+   "name": "iv5_10"
+  },
+  {
+   "frame": 16543,
+   "name": "iv5_15"
+  },
+  {
+   "frame": 16546,
+   "name": "iv5_20"
+  },
+  {
+   "frame": 16565,
+   "name": "iv5_21"
+  },
+  {
+   "frame": 16583,
+   "name": "iv5_25"
+  },
+  {
+   "frame": 16601,
+   "name": "iv5_26"
+  },
+  {
+   "frame": 16682,
+   "name": "iv5_50"
+  },
+  {
+   "frame": 16696,
+   "name": "iv5_60"
+  },
+  {
+   "frame": 16699,
+   "name": "kt"
+  },
+  {
+   "frame": 16720,
+   "name": "kt0"
+  },
+  {
+   "frame": 16731,
+   "name": "kt1"
+  },
+  {
+   "frame": 16760,
+   "name": "kt2"
+  },
+  {
+   "frame": 16772,
+   "name": "kf_out"
+  },
+  {
+   "frame": 16782,
+   "name": "kff"
+  },
+  {
+   "frame": 16785,
+   "name": "kf_g"
+  },
+  {
+   "frame": 16797,
+   "name": "kff05"
+  },
+  {
+   "frame": 16820,
+   "name": "kff08"
+  },
+  {
+   "frame": 16831,
+   "name": "kf"
+  },
+  {
+   "frame": 16841,
+   "name": "kf01"
+  },
+  {
+   "frame": 16868,
+   "name": "kf05"
+  },
+  {
+   "frame": 16879,
+   "name": "kf08"
+  },
+  {
+   "frame": 16900,
+   "name": "kf10"
+  },
+  {
+   "frame": 16908,
+   "name": "kf13"
+  },
+  {
+   "frame": 16954,
+   "name": "kf14"
+  },
+  {
+   "frame": 16990,
+   "name": "kf17"
+  },
+  {
+   "frame": 17110,
+   "name": "kf18"
+  },
+  {
+   "frame": 17125,
+   "name": "kf_in"
+  },
+  {
+   "frame": 17166,
+   "name": "kf_f1"
+  },
+  {
+   "frame": 17204,
+   "name": "kf_f2"
+  },
+  {
+   "frame": 17256,
+   "name": "kf_f3"
+  },
+  {
+   "frame": 17275,
+   "name": "kf40"
+  },
+  {
+   "frame": 17431,
+   "name": "kf41"
+  },
+  {
+   "frame": 17449,
+   "name": "j1"
+  },
+  {
+   "frame": 17468,
+   "name": "j3"
+  },
+  {
+   "frame": 17663,
+   "name": "j5"
+  },
+  {
+   "frame": 17704,
+   "name": "j10"
+  },
+  {
+   "frame": 17719,
+   "name": "j30"
+  },
+  {
+   "frame": 17736,
+   "name": "j30ex"
+  },
+  {
+   "frame": 17751,
+   "name": "j32"
+  },
+  {
+   "frame": 17768,
+   "name": "j32ex"
+  },
+  {
+   "frame": 17786,
+   "name": "j34"
+  },
+  {
+   "frame": 17804,
+   "name": "j34ex"
+  },
+  {
+   "frame": 17820,
+   "name": "j36"
+  },
+  {
+   "frame": 17837,
+   "name": "j36ex"
+  },
+  {
+   "frame": 17854,
+   "name": "j38"
+  },
+  {
+   "frame": 17904,
+   "name": "j38ex"
+  },
+  {
+   "frame": 17919,
+   "name": "j50"
+  },
+  {
+   "frame": 17934,
+   "name": "j50ex"
+  },
+  {
+   "frame": 17951,
+   "name": "j52ex"
+  },
+  {
+   "frame": 17966,
+   "name": "j54ex"
+  },
+  {
+   "frame": 17984,
+   "name": "j56ex"
+  },
+  {
+   "frame": 18078,
+   "name": "j58"
+  },
+  {
+   "frame": 18601,
+   "name": "j59"
+  },
+  {
+   "frame": 18612,
+   "name": "s1S_kihon"
+  },
+  {
+   "frame": 18639,
+   "name": "s1S_pis"
+  },
+  {
+   "frame": 18660,
+   "name": "s1S_EX"
+  },
+  {
+   "frame": 18663,
+   "name": "s1S_EX2w"
+  },
+  {
+   "frame": 18733,
+   "name": "s1S_EX2"
+  },
+  {
+   "frame": 18746,
+   "name": "s1B_kihon"
+  },
+  {
+   "frame": 18774,
+   "name": "s1B_pis"
+  },
+  {
+   "frame": 18805,
+   "name": "s1_momi"
+  },
+  {
+   "frame": 18818,
+   "name": "s1B_EX"
+  },
+  {
+   "frame": 18862,
+   "name": "s1_fini"
+  },
+  {
+   "frame": 18899,
+   "name": "s1_naka"
+  },
+  {
+   "frame": 19004,
+   "name": "s1_finisoto"
+  },
+  {
+   "frame": 19023,
+   "name": "s1k_pis"
+  },
+  {
+   "frame": 19037,
+   "name": "s1K_EX"
+  },
+  {
+   "frame": 19053,
+   "name": "j60ex"
+  },
+  {
+   "frame": 19109,
+   "name": "hf"
+  },
+  {
+   "frame": 19134,
+   "name": "hf_ex"
+  },
+  {
+   "frame": 19164,
+   "name": "fdasi"
+  },
+  {
+   "frame": 19192,
+   "name": "hf2"
+  },
+  {
+   "frame": 19201,
+   "name": "au10"
+  },
+  {
+   "frame": 19216,
+   "name": "au11"
+  },
+  {
+   "frame": 19233,
+   "name": "au12"
+  },
+  {
+   "frame": 19253,
+   "name": "au13"
+  },
+  {
+   "frame": 19280,
+   "name": "au14"
+  },
+  {
+   "frame": 19299,
+   "name": "au15"
+  },
+  {
+   "frame": 19316,
+   "name": "au16"
+  },
+  {
+   "frame": 19331,
+   "name": "au17"
+  },
+  {
+   "frame": 19346,
+   "name": "au18"
+  },
+  {
+   "frame": 19361,
+   "name": "au19"
+  },
+  {
+   "frame": 19414,
+   "name": "au20"
+  },
+  {
+   "frame": 19440,
+   "name": "au21"
+  },
+  {
+   "frame": 19467,
+   "name": "au22"
+  },
+  {
+   "frame": 19482,
+   "name": "au23"
+  },
+  {
+   "frame": 19497,
+   "name": "au24"
+  },
+  {
+   "frame": 19512,
+   "name": "au25"
+  },
+  {
+   "frame": 19680,
+   "name": "au26"
+  },
+  {
+   "frame": 19731,
+   "name": "au26s"
+  },
+  {
+   "frame": 19805,
+   "name": "day4"
+  },
+  {
+   "frame": 19850,
+   "name": "day4nige"
+  },
+  {
+   "frame": 19909,
+   "name": "day1badend"
+  },
+  {
+   "frame": 19926,
+   "name": "op0"
+  },
+  {
+   "frame": 20424,
+   "name": "park1"
+  },
+  {
+   "frame": 20439,
+   "name": "iziru_10"
+  },
+  {
+   "frame": 20442,
+   "name": "iziru_11"
+  },
+  {
+   "frame": 20464,
+   "name": "iziru_12"
+  },
+  {
+   "frame": 20480,
+   "name": "iziru_20"
+  },
+  {
+   "frame": 20493,
+   "name": "iziru_99"
+  },
+  {
+   "frame": 20505,
+   "name": "iziru_100"
+  },
+  {
+   "frame": 20512,
+   "name": "iziru101"
+  },
+  {
+   "frame": 20614,
+   "name": "soto_iku"
+  },
+  {
+   "frame": 20623,
+   "name": "yume50"
+  },
+  {
+   "frame": 20631,
+   "name": "yume51"
+  },
+  {
+   "frame": 20645,
+   "name": "yume53"
+  },
+  {
+   "frame": 20670,
+   "name": "opmH"
+  },
+  {
+   "frame": 20692,
+   "name": "opmh1"
+  },
+  {
+   "frame": 20705,
+   "name": "opmh3"
+  },
+  {
+   "frame": 20753,
+   "name": "opmh5"
+  },
+  {
+   "frame": 20770,
+   "name": "opmh6"
+  },
+  {
+   "frame": 20785,
+   "name": "opmh7"
+  },
+  {
+   "frame": 20817,
+   "name": "opmh7_2"
+  },
+  {
+   "frame": 20841,
+   "name": "opmh5came"
+  },
+  {
+   "frame": 20858,
+   "name": "opmb1"
+  },
+  {
+   "frame": 20870,
+   "name": "opmb3"
+  },
+  {
+   "frame": 20900,
+   "name": "opmb5"
+  },
+  {
+   "frame": 20919,
+   "name": "opmb6"
+  },
+  {
+   "frame": 20936,
+   "name": "opmb7"
+  },
+  {
+   "frame": 20972,
+   "name": "opmb7_1"
+  },
+  {
+   "frame": 20980,
+   "name": "opmb8"
+  },
+  {
+   "frame": 21006,
+   "name": "opmb8_1"
+  },
+  {
+   "frame": 21013,
+   "name": "opmb9"
+  },
+  {
+   "frame": 21041,
+   "name": "opmb9_1"
+  },
+  {
+   "frame": 21060,
+   "name": "opmb5came"
+  },
+  {
+   "frame": 21077,
+   "name": "opmb8came"
+  },
+  {
+   "frame": 21118,
+   "name": "opmb9came"
+  },
+  {
+   "frame": 21229,
+   "name": "strat01"
+  },
+  {
+   "frame": 21241,
+   "name": "opm_v"
+  },
+  {
+   "frame": 21249,
+   "name": "opm_l"
+  },
+  {
+   "frame": 21261,
+   "name": "opm_ll"
+  },
+  {
+   "frame": 21270,
+   "name": "opm_r"
+  },
+  {
+   "frame": 21281,
+   "name": "opm_rr"
+  },
+  {
+   "frame": 21313,
+   "name": "opm_go"
+  },
+  {
+   "frame": 21364,
+   "name": "FN_000"
+  },
+  {
+   "frame": 21366,
+   "name": "fn_snt"
+  },
+  {
+   "frame": 21374,
+   "name": "fn_hh"
+  },
+  {
+   "frame": 21387,
+   "name": "fn_h"
+  },
+  {
+   "frame": 21399,
+   "name": "fn_rr"
+  },
+  {
+   "frame": 21409,
+   "name": "fn_r"
+  },
+  {
+   "frame": 21441,
+   "name": "fn_go"
+  },
+  {
+   "frame": 21447,
+   "name": "ivent1"
+  },
+  {
+   "frame": 21526,
+   "name": "ivent5"
+  },
+  {
+   "frame": 21539,
+   "name": "gameend2"
+  },
+  {
+   "frame": 21564,
+   "name": "gameend"
+  },
+  {
+   "frame": 21631,
+   "name": "cbs8end"
+  }
+ ],
+ "order": [
+  "*internal",
+  "system",
+  "cgoto",
+  "mov",
+  "mov2",
+  "mov5",
+  "mov6",
+  "mov7",
+  "mov8",
+  "mov3",
+  "mov4"
+ ]
+}
