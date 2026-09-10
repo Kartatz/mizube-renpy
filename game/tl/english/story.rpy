@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2026-09-10 00:21
+﻿# TODO: Translation updated at 2026-09-10 00:43
 
 # game/story.rpy:13
 translate english story_flow_330aad53:
@@ -907,37 +907,72 @@ translate english chapter_school_6aea09f6:
     n "But if you help me, Yurika, your big brother's illness will get a little better."
 
 translate english strings:
-    old "知らないよ。今忙しいから後で俺も探してみるよ"
+
+    # game/story.rpy:23
+    old "Dunno. I'm busy right now — I'll go look for her myself later."
     new "Dunno. I'm busy right now — I'll go look for her myself later."
-    old "ゆりかは外出したよ"
+
+    # game/story.rpy:25
+    old "Yurika went out."
     new "Yurika went out."
-    old "ゆりかとトランプしてるんだ。邪魔しないでよ。"
+
+    # game/story.rpy:27
+    old "I'm playing cards with Yurika. Don't bother us."
     new "I'm playing cards with Yurika. Don't bother us."
-    old "悪かった。実はお前がかわいいと思って…"
+
+    # game/story.rpy:32
+    old "My bad. The truth is... I think you're cute."
     new "My bad. The truth is... I think you're cute."
-    old "これは男の「美学」だ。エロい疑惑は一切ない！"
+
+    # game/story.rpy:34
+    old "This is a man's 'aesthetics.' Zero lewd suspicion whatsoever!"
     new "This is a man's 'aesthetics.' Zero lewd suspicion whatsoever!"
-    old "成長していい身体つきになってきたな。"
+
+    # game/story.rpy:36
+    old "You've grown into quite a nice body, you know."
     new "You've grown into quite a nice body, you know."
+
+    # game/story.rpy:41
     old "YES"
     new "YES"
+
+    # game/story.rpy:43
     old "NO"
     new "NO"
-    old "媚薬の効果を親に教え、少量をプレゼントする"
+
+    # game/story.rpy:48
+    old "Tell the parents about the aphrodisiac's effect, and gift them a little of it"
     new "Tell the parents about the aphrodisiac's effect, and gift them a little of it"
-    old "結婚記念に「食事＆ホテル宿泊」をプレゼントする"
+
+    # game/story.rpy:50
+    old "Gift them a dinner and hotel stay for their anniversary"
     new "Gift them a dinner and hotel stay for their anniversary"
-    old "俺のコレクション「エロゲー、エロアニメ」を白日の下に晒し、兄妹愛を教育してみる"
+
+    # game/story.rpy:52
+    old "Expose my collection of eroge and adult anime to broad daylight, and try educating them about sibling love"
     new "Expose my collection of eroge and adult anime to broad daylight, and try educating them about sibling love"
-    old "１：りこを誘拐する！"
+
+    # game/story.rpy:57
+    old "1: Kidnap Riko!"
     new "1: Kidnap Riko!"
-    old "２：混乱時に学校へ侵入！"
+
+    # game/story.rpy:67
+    old "2: Sneak into the school during the chaos!"
     new "2: Sneak into the school during the chaos!"
-    old "舌でぺろぺろしてごらん"
+
+    # game/story.rpy:72
+    old "Try licking it all over with your tongue"
     new "Try licking it all over with your tongue"
-    old "口にくわえて、しゃぶって"
+
+    # game/story.rpy:74
+    old "Take it in your mouth and suck on it"
     new "Take it in your mouth and suck on it"
-    old "乱暴に強引に"
+
+    # game/story.rpy:78
+    old "Rough and forceful"
     new "Rough and forceful"
-    old "優しく誘導しよう"
+
+    # game/story.rpy:80
+    old "Guide her gently"
     new "Guide her gently"
+
