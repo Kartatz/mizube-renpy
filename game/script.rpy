@@ -10,9 +10,11 @@ label start:
     "水辺 (mizube) - native Ren'Py conversion (proof of concept)"
     "The scenario below is the recovered original dialogue, linearized."
     jump story_flow
+    return
 
 label scene_010:
     n "妹を探してるの？そんな事より、さっき妹が真っ赤な顔して２Fへ走ってったぞ。お前何かしたのか？　"
+    return
 
 label scene_015:
     n "さて、どうするか　"
@@ -34,6 +36,7 @@ label scene_015:
     n "犯人は筋金入りの変態だな。よ～し、逮捕してやるぞ～（実は犯人は俺だが）　"
     play sound "audio/Room_door_C.mp3"
     n "　"
+    return
 
 label scene_018:
     n "まさか着替え中だったとは。　"
@@ -62,6 +65,7 @@ label scene_018:
     n "犯人は筋金入りの変態だな。よ～し、逮捕してやるぞ～（実は犯人は俺だが）　"
     play sound "audio/Room_door_C.mp3"
     n "　"
+    return
 
 label scene_020:
     n "コンコン！　"
@@ -79,15 +83,18 @@ label scene_020:
     mother "異性だから、その点も分かってるよね"
     n "　"
     n "うん。　"
+    return
 
 label scene_021:
     n "さてと　"
+    return
 
 label scene_025:
     n "見つかったか？　"
     n "いや、たぶんギリギリ逃げられたはずだ　"
     n "それにしても、いい身体してたな　"
     n "さて　"
+    return
 
 label scene_027:
     n "あいつ、もしかして俺の事　"
@@ -119,12 +126,14 @@ label scene_027:
     n "・・・　"
     play sound "audio/Room_door_C.mp3"
     n "　"
+    return
 
 label scene_030:
     n "あいつ何のつもりだ？　"
     n "何か買ってもらおうとか、おねだりするつもりなのか　"
     n "今朝のゆりかの態度はいつもと、まるっきり違う。　"
     n "ん～まぁいい。朝飯はいただこう　"
+    return
 
 label scene_034:
     n "あいつオナニーの時に必ずやってくる。絶対わざとだ！　"
@@ -161,6 +170,7 @@ label scene_034:
     n "なんだよ、それ。　"
     play sound "audio/Room_door_C.mp3"
     n "　"
+    return
 
 label scene_037:
     n "妹はどこ行った。　"
@@ -175,6 +185,7 @@ label scene_037:
     n "身動きしないで…何か考え込んでるのか？　"
     n "　"
     n "　"
+    return
 
 label scene_039:
     n "ゆりかは親父が居なくなったのを確認してから、複雑な表情で部屋を出て行った。　"
@@ -213,6 +224,7 @@ label scene_039:
     father "私たちは忙しいんだ。頼むぞ"
     n "はいはい　"
     n "　"
+    return
 
 label scene_040:
     n "歩き詰めで疲れた。　"
@@ -223,6 +235,7 @@ label scene_040:
     father "どうも、さっきからゆりかの様子がおかしいんだ"
     father "お前、何かしたのか？"
     n "さぁ、俺はしらない。じゃ　"
+    return
 
 label scene_042:
     n "ついにやってしまった。　"
@@ -238,6 +251,7 @@ label scene_042:
     n "その後は、ゆりかに口止めさせればいいか？それは今と同じ状況だから、もう後戻りできない　"
     n "今のような宙ぶらりんな状況の方がむしろヤバイ。こうなったら、やるしかない！　"
     n "なにかいい作戦はないか？　"
+    return
 
 label scene_050:
     n "媚薬の効果は凄いっ　"
@@ -257,6 +271,7 @@ label scene_050:
     n "飲んでないよ。偶然見つけただけ　"
     father "そうか。じゃそれはお父さんが預かる。そこへ置いていけ"
     n "うん。じゃ。　"
+    return
 
 label scene_051:
     n "結婚記念なら親父らも素直に受け取り、外出するはずだ　"
@@ -273,6 +288,7 @@ label scene_051:
     n "そんな事言わずに、すぐにでも行ってきなよ。楽しいよ　"
     father "ん？やけに勧めるじゃないか？ワシらが家に居ると何か不都合な事でもあるのか？"
     n "な、何だよそれ。まぁ・・いつでもいいから楽しんできてよ。じゃ　"
+    return
 
 label scene_052:
     n "エロゲー、エロアニメの中でも特に選りすぐりのは・・これだ！　"
@@ -296,6 +312,7 @@ label scene_052:
     n "…いや、だから。これプレイしたら２，３日は徹夜で没頭できるんだ。　"
     father "母さんの顔見てみろ。目に光るものが見えるだろ。親を悲しませるな"
     n "・・だめっぽいな　"
+    return
 
 label scene_054:
     n "媚薬を渡した。　"
@@ -308,16 +325,19 @@ label scene_054:
     mother "ねえ、居る？"
     n "うん。何？　　"
     mother "ちょっと出てきて。話があるの"
+    return
 
 label scene_055:
     n "俺の部屋に隠れてる・・とか無さそうだ　"
     n "他を探そう　"
     n "・・・　"
+    return
 
 label scene_060:
     n "ここでもないか　"
     n "外に逃げられると面倒だな　"
     n "・・・　"
+    return
 
 label misc_dialogue:
     n "しまった！見ていた奴がいたようだ　"
@@ -1686,3 +1706,4 @@ label misc_dialogue:
     n "　"
     n "　"
     n "　"
+    return

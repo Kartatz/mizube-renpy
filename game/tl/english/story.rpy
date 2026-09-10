@@ -1,4 +1,4 @@
-﻿# TODO: Translation updated at 2026-09-09 21:18
+﻿# TODO: Translation updated at 2026-09-10 00:21
 
 # game/story.rpy:13
 translate english story_flow_330aad53:
@@ -40,7 +40,7 @@ translate english c554_ba84e469:
 translate english c1431_876124cc:
 
     # n "照れくさいけど、これさ、結婚記念プレゼント"
-    n "\"It's a bit embarrassing, but this — it's an anniversary present.\""
+    n "It's a bit embarrassing, but this — it's an anniversary present."
 
 # game/story.rpy:89
 translate english chapter_opening_9a22f007:
@@ -148,13 +148,13 @@ translate english chapter_end_6b4f3907:
 translate english reply_cute_8ef071d2:
 
     # n "お兄ちゃんの嘘つき！"
-    n "\"You're a liar, big brother!\""
+    n "You're a liar, big brother!"
 
 # game/story.rpy:192
 translate english reply_cute_2cdaba01:
 
     # n "お兄ちゃんっ、変態趣味を妹に強要しないでよ"
-    n "\"Big brother! Don't force your pervert hobbies on your little sister!\""
+    n "Big brother! Don't force your pervert hobbies on your little sister!"
 
 # game/story.rpy:193
 translate english reply_cute_69563969:
@@ -166,7 +166,7 @@ translate english reply_cute_69563969:
 translate english reply_grown_1aca74a0:
 
     # n "でかいおっぱいだ。お前の年齢でここまで発育のいい子は居ないぞ"
-    n "\"What big breasts. No girl your age is this well developed.\""
+    n "What big breasts. No girl your age is this well developed."
 
 # game/story.rpy:206
 translate english reply_grown_81af63e4:
@@ -178,7 +178,7 @@ translate english reply_grown_81af63e4:
 translate english reply_grown_a9f5d08f:
 
     # n "じゃ、ちょっとだけおっぱい触らせて。"
-    n "\"Come on, let me touch your boobs. Just a little.\""
+    n "Come on, let me touch your boobs. Just a little."
 
 # game/story.rpy:216
 translate english breakin_yes_2d687687:
@@ -190,37 +190,37 @@ translate english breakin_yes_2d687687:
 translate english breakin_yes_ba8c4ec5:
 
     # n "【妹部屋の鍵】を使用。ドアの開閉はドアをクリック"
-    n "Used the [[Sister's Room Key]. Click the door to open and close it."
+    n "Used the [[[Sister's Room Key]. Click the door to open and close it."
 
 # game/story.rpy:218
 translate english breakin_yes_8db121fd:
 
     # n "「家宅侵入編"
-    n "\"Chapter: The Break-In\""
+    n "Chapter: The Break-In"
 
 # game/story.rpy:219
 translate english breakin_yes_3e7f6041:
 
     # n "「鍵がかかってない"
-    n "\"It's not locked\""
+    n "It's not locked"
 
 # game/story.rpy:220
 translate english breakin_yes_d59a756b:
 
     # n "「妹部屋の鍵」GET!"
-    n "Got the [[Sister's Room Key]!"
+    n "Got the [[[Sister's Room Key]!"
 
 # game/story.rpy:221
 translate english breakin_yes_a4736130:
 
     # n "盗撮って、どんな事するの。"
-    n "\"What exactly do you do, when you secretly film someone?\""
+    n "What exactly do you do, when you secretly film someone?"
 
 # game/story.rpy:222
 translate english breakin_yes_cb287df0:
 
     # n "勝手に部屋に入って、ゆりかのパンツ盗まないでね"
-    n "\"And don't come into my room and steal Yurika's panties.\""
+    n "And don't come into my room and steal Yurika's panties."
 
 # game/story.rpy:237
 translate english ohs10_56df5957:
@@ -268,13 +268,13 @@ translate english ohs20_c72ed1a6:
 translate english ohs20_876124cc:
 
     # n "照れくさいけど、これさ、結婚記念プレゼント"
-    n "\"It's a bit embarrassing, but this — it's an anniversary present.\""
+    n "It's a bit embarrassing, but this — it's an anniversary present."
 
 # game/story.rpy:254
 translate english ohs20_7f17bbc5:
 
     # n "温泉旅行なんだよ。ぜひ２人で行ってきてよ"
-    n "\"It's a hot spring trip. You two should absolutely go!\""
+    n "It's a hot spring trip. You two should absolutely go!"
 
 # game/story.rpy:255
 translate english ohs20_541e9793:
@@ -298,13 +298,13 @@ translate english ohs30_68133cc7:
 translate english ohs30_7e215806:
 
     # n "俺のお宝コレクションだよ。集めるのに数年もかかったんだ。"
-    n "\"This is my treasure collection. It took me years to build it up.\""
+    n "This is my treasure collection. It took me years to build it up."
 
 # game/story.rpy:267
 translate english ohs30_6530236a:
 
     # n "兄と妹が恋におちて肉体関係へとなだれ込む、超エロエロゲームなんだ"
-    n "\"It's a super-lewd game where brother and sister fall in love and tumble into a physical relationship.\""
+    n "It's a super-lewd game where brother and sister fall in love and tumble into a physical relationship."
 
 # game/story.rpy:276
 translate english route_kidnap_2280b3ac:
@@ -322,7 +322,7 @@ translate english route_kidnap_061a0c9d:
 translate english route_kidnap_ccf0e9a1:
 
     # n "誘拐場所は？"
-    n "\"And the abduction spot?\""
+    n "And the abduction spot?"
 
 # game/story.rpy:279
 translate english route_kidnap_2e8cf94e:
@@ -436,37 +436,37 @@ translate english kidnap_go_63d306bc:
 translate english act_lick_f1381845:
 
     # n "ちゃんとなめないと、どうなるか分かってるんだろうな！？"
-    n "\"You know what happens if you don't lick it properly, don't you!?\""
+    n "You know what happens if you don't lick it properly, don't you!?"
 
 # game/story.rpy:328
 translate english act_lick_80de78bf:
 
     # n "手をそえるんだ"
-    n "\"Rest your hand on it.\""
+    n "Rest your hand on it."
 
 # game/story.rpy:329
 translate english act_lick_d7748606:
 
     # n "じゃ、キャンデーを舐めるように、口に入れるんだ。"
-    n "\"Now — put it in your mouth, like you'd suck on a piece of candy.\""
+    n "Now — put it in your mouth, like you'd suck on a piece of candy."
 
 # game/story.rpy:338
 translate english act_suck_7a36ad2f:
 
     # n "もっと奥までくわえてごらん。"
-    n "\"Try taking it in deeper.\""
+    n "Try taking it in deeper."
 
 # game/story.rpy:339
 translate english act_suck_81895222:
 
     # n "そうだ。フェラチオ教えたら、ちゃんと上手に覚えるかな？"
-    n "\"Say — if I taught her to give head, would she learn to do it well?\""
+    n "Say — if I taught her to give head, would she learn to do it well?"
 
 # game/story.rpy:340
 translate english act_suck_c0b9cd13:
 
     # n "じゃ、口に入れてごらん"
-    n "\"Now, go ahead and put it in your mouth.\""
+    n "Now, go ahead and put it in your mouth."
 
 # game/story.rpy:349
 translate english act_rough_bf7c9da9:
@@ -532,7 +532,7 @@ translate english chapter_confinement_c4a4dec8:
 translate english chapter_confinement_185090dc:
 
     # n "生の本番動画は初めて見たんだろう？"
-    n "\"First time seeing the real thing on video, was it?\""
+    n "First time seeing the real thing on video, was it?"
 
 # game/story.rpy:377
 translate english chapter_confinement_eb62dda4:
@@ -610,7 +610,7 @@ translate english chapter_school_ddd296f5:
 translate english chapter_school_c9c42ca2:
 
     # n "授業中なんだ、ゆっくりと"
-    n "\"We're in class — slowly now.\""
+    n "We're in class — slowly now."
 
 # game/story.rpy:400
 translate english chapter_school_ac2ea25a:
@@ -892,87 +892,52 @@ translate english chapter_school_f3f5072c_1:
 translate english chapter_school_56a33365:
 
     # n "そうすれば、お兄ちゃんの病気が良くなるんだよね"
-    n "\"And if I do, your illness will get better, right, big brother?\""
+    n "And if I do, your illness will get better, right, big brother?"
 
 # game/story.rpy:447
 translate english chapter_school_0ec7c547:
 
     # n "仕方ない！お兄ちゃんの秘密を教えよう。実は病気なんだ。しかもいろんな意味で重病だ"
-    n "\"Alright, fine! I'll tell you big brother's secret. The truth is — I'm ill. And in more ways than one, it's serious.\""
+    n "Alright, fine! I'll tell you big brother's secret. The truth is — I'm ill. And in more ways than one, it's serious."
 
 # game/story.rpy:448
 translate english chapter_school_6aea09f6:
 
     # n "でも、ゆりかが手伝ってくれるなら、お兄ちゃんの病気は少し良くなるんだ"
-    n "\"But if you help me, Yurika, your big brother's illness will get a little better.\""
+    n "But if you help me, Yurika, your big brother's illness will get a little better."
 
 translate english strings:
-
-    # game/story.rpy:23
-    old "Dunno. I'm busy right now — I'll go look for her myself later."
+    old "知らないよ。今忙しいから後で俺も探してみるよ"
     new "Dunno. I'm busy right now — I'll go look for her myself later."
-
-    # game/story.rpy:25
-    old "Yurika went out."
+    old "ゆりかは外出したよ"
     new "Yurika went out."
-
-    # game/story.rpy:27
-    old "I'm playing cards with Yurika. Don't bother us."
+    old "ゆりかとトランプしてるんだ。邪魔しないでよ。"
     new "I'm playing cards with Yurika. Don't bother us."
-
-    # game/story.rpy:32
-    old "My bad. The truth is... I think you're cute."
+    old "悪かった。実はお前がかわいいと思って…"
     new "My bad. The truth is... I think you're cute."
-
-    # game/story.rpy:34
-    old "This is a man's 'aesthetics.' Zero lewd suspicion whatsoever!"
+    old "これは男の「美学」だ。エロい疑惑は一切ない！"
     new "This is a man's 'aesthetics.' Zero lewd suspicion whatsoever!"
-
-    # game/story.rpy:36
-    old "You've grown into quite a nice body, you know."
+    old "成長していい身体つきになってきたな。"
     new "You've grown into quite a nice body, you know."
-
-    # game/story.rpy:41
     old "YES"
     new "YES"
-
-    # game/story.rpy:43
     old "NO"
     new "NO"
-
-    # game/story.rpy:48
-    old "Tell the parents about the aphrodisiac's effect, and gift them a little of it"
+    old "媚薬の効果を親に教え、少量をプレゼントする"
     new "Tell the parents about the aphrodisiac's effect, and gift them a little of it"
-
-    # game/story.rpy:50
-    old "Gift them a dinner and hotel stay for their anniversary"
+    old "結婚記念に「食事＆ホテル宿泊」をプレゼントする"
     new "Gift them a dinner and hotel stay for their anniversary"
-
-    # game/story.rpy:52
-    old "Expose my collection of eroge and adult anime to broad daylight, and try educating them about sibling love"
+    old "俺のコレクション「エロゲー、エロアニメ」を白日の下に晒し、兄妹愛を教育してみる"
     new "Expose my collection of eroge and adult anime to broad daylight, and try educating them about sibling love"
-
-    # game/story.rpy:57
-    old "1: Kidnap Riko!"
+    old "１：りこを誘拐する！"
     new "1: Kidnap Riko!"
-
-    # game/story.rpy:67
-    old "2: Sneak into the school during the chaos!"
+    old "２：混乱時に学校へ侵入！"
     new "2: Sneak into the school during the chaos!"
-
-    # game/story.rpy:72
-    old "Try licking it all over with your tongue"
+    old "舌でぺろぺろしてごらん"
     new "Try licking it all over with your tongue"
-
-    # game/story.rpy:74
-    old "Take it in your mouth and suck on it"
+    old "口にくわえて、しゃぶって"
     new "Take it in your mouth and suck on it"
-
-    # game/story.rpy:78
-    old "Rough and forceful"
+    old "乱暴に強引に"
     new "Rough and forceful"
-
-    # game/story.rpy:80
-    old "Guide her gently"
+    old "優しく誘導しよう"
     new "Guide her gently"
-

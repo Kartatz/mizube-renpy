@@ -21,8 +21,9 @@ def normalize(s):
 
 
 def esc(s):
-    return (s.replace('\\', '\\\\').replace('"', '\\"')
-            .replace('[', '[['))
+    s = s.replace('\\', '\\\\').replace('"', '\\"')
+    # escape single [ that are not already part of [[
+    return re.sub(r'\[(?!\[)', '[[', s)
 
 
 def unesc(s):
@@ -51,7 +52,8 @@ def main():
         m = SAY_RE.match(line.rstrip('\n').rstrip('\r'))
         if m and not line.lstrip().startswith('#'):
             total += 1
-            indent, speaker, orig = m.group(1), m.group(2) or '', unesc(m.group(3))
+            indent, speaker, orig = m.group(1), m.group(2) or '', unesc(m.group(3)).replace('[[', '[')
+
             if orig in trans:
                 new = trans[orig]
                 filled += 1
