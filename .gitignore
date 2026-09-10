@@ -9,3 +9,6 @@ log.txt
 traceback.txt
 *.bak
 __pycache__/
+# RAPT build artifacts (CI-generated throwaway signing keys)
+android.keystore
+bundle.keystore

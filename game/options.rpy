@@ -5,6 +5,9 @@ define config.screen_width = 960
 define config.screen_height = 720
 define config.save_directory = "mizube-renpy"
 
+# Distribution naming (used by the launcher/android builds)
+define build.name = "mizube"
+
 init python:
     gui.text_font = "fonts/main.ttf"
     gui.interface_text_font = "fonts/main.ttf"

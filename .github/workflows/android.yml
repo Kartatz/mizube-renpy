@@ -1,0 +1,123 @@
+# Builds the Android APK on every push, using the Ren'Py SDK + RAPT
+# (the Ren'Py Android Packaging Tool, distributed alongside renpy-build).
+#
+# Flow (validated locally against Ren'Py 8.5.3):
+#   1. JDK 21 (RAPT requirement: rapt/buildlib/rapt/plat.py jdk_requirement)
+#   2. Ren'Py SDK 8.5.3 + the RAPT DLC zip, extracted into the SDK root
+#   3. Android SDK (cmdline-tools, platform-tools, android-36) installed
+#      headlessly through rapt.install_sdk with RAPT_NO_TERMS=1
+#   4. Throwaway signing keys with RAPT's standard parameters
+#      (alias/password "android") - fine for CI and sideloading, NOT for
+#      Play Store uploads; keep real keys out of the repo and build
+#      store releases locally with them
+#   5. renpy.sh launcher android_build <repo> --destination dist
+#
+# The Android SDK (~462MB) and Gradle caches (~765MB) are cached between
+# runs; the SDK/RAPT archives (~220MB) re-download each time.
+#
+# Note: the APK is ~1.7GB because the conversion ships every extracted
+# frame; that stays within the 2GB universal-APK limit.
+
+name: Android APK
+
+on:
+  push:
+  workflow_dispatch:
+
+env:
+  RENPY_VERSION: "8.5.3"
+  RAPT_NO_TERMS: "1"
+
+jobs:
+  build-apk:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    steps:
+      - name: Check out the project
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 21
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+
+      - name: Cache the Android SDK and Gradle dependencies
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/renpy-toolchain/renpy-8.5.3-sdk/rapt/Sdk
+            ~/.gradle/caches
+            ~/.gradle/wrapper
+          key: renpy-8.5.3-android-sdk-v1
+
+      - name: Install the Ren'Py SDK and RAPT
+        run: |
+          set -euxo pipefail
+          TC="$HOME/renpy-toolchain"
+          SDK="$TC/renpy-$RENPY_VERSION-sdk"
+          mkdir -p "$TC"
+          if [ ! -d "$SDK" ]; then
+            curl -fsSL -o "$TC/renpy.tar.bz2" \
+              "https://www.renpy.org/dl/$RENPY_VERSION/renpy-$RENPY_VERSION-sdk.tar.bz2"
+            tar -xjf "$TC/renpy.tar.bz2" -C "$TC"
+          fi
+          if [ ! -d "$SDK/rapt" ]; then
+            curl -fsSL -o "$TC/rapt.zip" \
+              "https://www.renpy.org/dl/$RENPY_VERSION/renpy-$RENPY_VERSION-rapt.zip"
+            unzip -q -o "$TC/rapt.zip" -d "$SDK"
+          fi
+
+      - name: Install the Android SDK (headless RAPT install)
+        run: |
+          set -euxo pipefail
+          TC="$HOME/renpy-toolchain"
+          SDK="$TC/renpy-$RENPY_VERSION-sdk"
+          cat > "$TC/install_sdk.py" <<'PYEOF'
+          import os
+          import sys
+
+          sdk = os.environ["RENY_SDK"]
+          sys.path.insert(0, sdk)  # the renpy package (renpy.compat)
+          sys.path.insert(0, os.path.join(sdk, "rapt", "buildlib"))
+
+          import renpy  # noqa: F401
+          import rapt.interface
+          import rapt.install_sdk
+          import rapt.plat
+
+          rapt.plat.renpy = True
+          rapt.install_sdk.install_sdk(rapt.interface.Interface())
+          print("Android SDK install complete")
+          PYEOF
+          RENY_SDK="$SDK" "$SDK/lib/py3-linux-x86_64/python" "$TC/install_sdk.py"
+
+      - name: Generate the signing keys
+        # CI-only throwaway keystore (RAPT-standard alias/passwords).
+        # Both android.keystore and bundle.keystore must exist or the
+        # build refuses to run. They are gitignored.
+        run: |
+          set -euxo pipefail
+          if [ ! -f android.keystore ]; then
+            keytool -genkey -keystore android.keystore -alias android \
+              -keyalg RSA -keysize 2048 -keypass android -storepass android \
+              -dname "CN=mizube-renpy CI" -validity 20000
+          fi
+          [ -f bundle.keystore ] || cp android.keystore bundle.keystore
+
+      - name: Build the APK
+        run: |
+          set -euxo pipefail
+          TC="$HOME/renpy-toolchain"
+          SDK="$TC/renpy-$RENPY_VERSION-sdk"
+          mkdir -p dist
+          cd "$SDK"
+          ./renpy.sh launcher android_build "$GITHUB_WORKSPACE" --destination "$GITHUB_WORKSPACE/dist"
+
+      - name: Upload the APK artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: mizube-android-apk
+          path: dist/*.apk
+          if-no-files-found: error
