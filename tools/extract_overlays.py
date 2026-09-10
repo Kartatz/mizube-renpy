@@ -117,12 +117,15 @@ def main():
             if m['type'] != 1:
                 continue
             w, h = m.get('width', 0), m.get('height', 0)
-            if not w or not h or w > 420 or h > 470:
+            if not w or not h or w > 1000 or h > 800:
                 continue
             meds = {f: sid for sid, f in m['media'] if f in ('BITD', 'ALFA', 'ediM') and sid in cast.rifx.chunks}
             if 'BITD' not in meds and 'ediM' not in meds:
                 continue
-            img = decode_sprite(cast.rifx, meds, w, h)
+            try:
+                img = decode_sprite(cast.rifx, meds, w, h)
+            except Exception:
+                continue
             if not img:
                 continue
             fn = safe(m['name'], f'member{num:04d}')
