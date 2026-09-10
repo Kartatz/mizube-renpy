@@ -52,7 +52,18 @@ label day1_park:
     n "I get my, pride and joy, a long ranged camera ready"
     n "Hiding in my bag the expensive hi-tech video camera which I purchased for this purpose exclusively, I stealthily expose only the lens. My target, a girl playing at the waterside!!"
     n "Cautious of my surroundings, I pressed the record button."
+    hide bg
+    hide ov_grandpa
+    hide ov_brother
+    show cam_record as bg
+    with fade
     n "She turned around and before her was an elderly man and a young boy."
+    hide cam_record
+    scene black
+    show expression "images/mov2/X_3.jpg" as bg
+    with fade
+    show ov_grandpa at npc_left
+    show ov_brother at npc_right
     n "The elderly man is talking and the girl simply replies, Yes. Yes. while nodding."
     n "The young boy is likewise saying something to her..."
     n "With a miffed expression she says something back"

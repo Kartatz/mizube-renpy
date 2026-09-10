@@ -5500,3 +5500,51 @@ image op_event3:
         "images/mov/00045.jpg"
         0.14
         repeat
+
+# The camera-recording sequence: the viewfinder POV as the girl appears
+# (mov2 'a10' 960x720 frames + the 撮影ファインダー viewfinder overlay member 20)
+image cam_record:
+    block:
+        "overlays/mov2_a10_00000.png"
+        0.12
+        "overlays/mov2_a10_00001.png"
+        0.12
+        "overlays/mov2_a10_00002.png"
+        0.12
+        "overlays/mov2_a10_00003.png"
+        0.12
+        "overlays/mov2_a10_00004.png"
+        0.12
+        "overlays/mov2_a10_00005.png"
+        0.12
+        "overlays/mov2_a10_00006.png"
+        0.12
+        "overlays/mov2_a10_00007.png"
+        0.12
+        "overlays/mov2_a10_00008.png"
+        0.12
+        "overlays/mov2_a10_00009.png"
+        0.12
+        "overlays/mov2_a10_00010.png"
+        0.12
+        "overlays/mov2_a10_00011.png"
+        0.12
+        "overlays/mov2_a10_00012.png"
+        0.12
+        "overlays/mov2_a10_00013.png"
+        0.12
+        "overlays/mov2_a10_00014.png"
+        0.12
+        "overlays/mov2_a10_00015.png"
+        0.12
+        "overlays/mov2_a10_00016.png"
+        0.12
+        "overlays/mov2_a10_00017.png"
+        0.12
+        "overlays/mov2_a10_00018.png"
+        0.12
+        "overlays/mov2_a10_00019.png"
+        0.12
+        "overlays/mov2_a10_00020.png"
+        0.12
+        repeat
