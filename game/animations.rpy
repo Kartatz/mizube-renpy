@@ -5443,3 +5443,80 @@ image anim_mov8_new_x2_00012:
         "images/mov8/new_x2_00012_5.jpg"
         0.1
     repeat
+
+# Opening animations: "scenes of the main character" montage
+image op_walk:
+    # the protagonist walking (mov '歩行', 800x600, frames 00036-00090)
+    block:
+        "images/mov/00036.jpg"
+        0.12
+        "images/mov/00037.jpg"
+        0.12
+        "images/mov/00038.jpg"
+        0.12
+        "images/mov/00039.jpg"
+        0.12
+        "images/mov/00040.jpg"
+        0.12
+        "images/mov/00041.jpg"
+        0.12
+        "images/mov/00042.jpg"
+        0.12
+        "images/mov/00043.jpg"
+        0.12
+        "images/mov/00044.jpg"
+        0.12
+        "images/mov/00045.jpg"
+        0.12
+        "images/mov/00046.jpg"
+        0.12
+        "images/mov/00047.jpg"
+        0.12
+        "images/mov/00048.jpg"
+        0.12
+        repeat
+
+image op_event3:
+    # Event 3 montage (mov7, 960x720, 239 frames) - sampled
+    block:
+        "images/mov7/00001.jpg"
+        0.18
+        "images/mov7/00002.jpg"
+        0.18
+        "images/mov7/00003.jpg"
+        0.18
+        "images/mov7/00004.jpg"
+        0.18
+        "images/mov7/00005.jpg"
+        0.18
+        "images/mov7/00006.jpg"
+        0.18
+        "images/mov7/00007.jpg"
+        0.18
+        "images/mov7/00008.jpg"
+        0.18
+        "images/mov7/00009.jpg"
+        0.18
+        "images/mov7/00010.jpg"
+        0.18
+        "images/mov7/00011.jpg"
+        0.18
+        "images/mov7/00012.jpg"
+        0.18
+        "images/mov7/00013.jpg"
+        0.18
+        "images/mov7/00014.jpg"
+        0.18
+        "images/mov7/00015.jpg"
+        0.18
+        "images/mov7/00016.jpg"
+        0.18
+        "images/mov7/00017.jpg"
+        0.18
+        "images/mov7/00018.jpg"
+        0.18
+        "images/mov7/00019.jpg"
+        0.18
+        "images/mov7/00020.jpg"
+        0.18
+        repeat

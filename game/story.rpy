@@ -84,12 +84,19 @@ label story_flow:
 
 label chapter_opening:
     scene black
+    $ renpy.pause(0.6)
+    show op_event3 as bgop
+    with fade
+    window hide
+    n "禁断の果物を奪いかけた・・味を知ってしまった。"
+    n "決して触れてはいけない。そう分かっていながら、俺は……"
+    n "PCからジャックが抜けたヘッドフォンが床に投げ捨てられている"
+    window show
+    hide bgop
     show expression "images/mov5/member0012.jpg" as bg
     with fade
-    n "PCからジャックが抜けたヘッドフォンが床に投げ捨てられている"
     n "■これが最近一緒に暮らしだした俺の妹だ■"
     n "■妹といっても父の再婚相手の娘だから血はつながって居ない■"
-    n "■突然、この見知らぬ少女とひとつ屋根の下暮らす幸運に恵まれたのだ■"
     n "■最初は人見知りしておどおどしてたんだが、最近は何かと俺に甘えてくる■"
     return
 
