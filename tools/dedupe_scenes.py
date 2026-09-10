@@ -87,7 +87,8 @@ def main():
                 print(f"[dedupe] {scn}: {before - after} duplicate lines removed")
             dropped += before - after
 
-    out = []
+    # parts[0] is everything before the first label (header, defines) - keep it!
+    out = [parts[0]]
     for name in order:
         out.append(labels[name])
     open(path, 'w', encoding='utf-8').write(''.join(out))

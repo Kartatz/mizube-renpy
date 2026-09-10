@@ -1,3 +1,9 @@
+# Automatic conversion of the "mizube" scenario (Lingo -> Ren'Py).
+# Dialogue lines are the original stn() strings, grouped by the
+# original scene counter (qq1) and click step (ssina).
+
+define n = Character(None)
+
 label start:
     scene black
     show expression "images/mov/00036.jpg" as bg

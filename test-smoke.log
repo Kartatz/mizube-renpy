@@ -1,0 +1,49 @@
+[rpytest] [log] Running 1 test(s) marked with 'only' flag.
+[rpytest] [log] - global::smoke
+
+[rpytest] Starting test run
+[rpytest] Platform:      Linux-6.17.0-1022-azure-x86_64-with-glibc2.39
+[rpytest] Python:        3.12.8
+[rpytest] Ren'Py:        Ren'Py 8.5.3.26051504
+[rpytest] Game Version:  0.1
+
+[rpytest] [exc] + global
+[rpytest] [exc]   - smoke
+
+Full traceback:
+  File "renpy/test/testexecution.py", line 549, in update
+    node_executor.execute()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "renpy/test/testexecution.py", line 462, in execute
+    self.check_for_timeout(now)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "renpy/test/testexecution.py", line 508, in check_for_timeout
+    raise RenpyTestTimeoutError(f"TestCase timed out after {_test.timeout} seconds.")
+renpy.test.types.RenpyTestTimeoutError: TestCase timed out after 300.0 seconds.
+
+While running game code:
+renpy.test.types.RenpyTestTimeoutError: TestCase timed out after 300.0 seconds.
+File "/home/runner/game/mizube-renpy/game/tl/english/script.rpy", line 7, in script
+  "Mizube — native Ren'Py conversion (proof of concept)"
+
+During testcase execution:
+  File "/home/runner/game/mizube-renpy/game/testcases.rpy", line 1, in None
+    testsuite global:
+  File "/home/runner/game/mizube-renpy/game/testcases.rpy", line 4, in testsuite global
+    testcase smoke:
+  File "/home/runner/game/mizube-renpy/game/testcases.rpy", line 7, in testcase smoke
+    click "Start" raw
+
+====================
+[rpytest] [exc]   - smoke (300.066 s [05:00])
+[rpytest] [exc]   - smoke (300.066 s [05:00])
+
+[rpytest] Test outcomes (Summary)
+[rpytest] Test suites:     1 |     0 passed |     0 xfailed |     1 failed |     0 xpassed |     0 skipped |     0 not run
+[rpytest] Test cases :     1 |     0 passed |     0 xfailed |     1 failed |     0 xpassed |     0 skipped |     0 not run
+[rpytest] Test hooks :     1 |     1 passed |     0 xfailed |     0 failed |     0 xpassed |     0 skipped |     0 not run
+[rpytest] Assertions :     0 |     0 passed |     0 xfailed |     0 failed |     0 xpassed | 
+
+[rpytest] Time: 300.751 s [05:00]
+[rpytest] Status: FAILED 
+
