@@ -282,3 +282,48 @@ Session totals on the fork (igorlira/dirplayer-rs <- Kartatz fork main):
 Next steps, all engine-side now: menu semantics (which button does
 what), the 17 audio Xtras, and the tempo-0 click-wait behavior at the
 title cards.
+
+
+## Update 8 (2026-09-11, session 4): menu mapped, frame-694 hold diagnosed
+
+Menu button sweep (fresh run per button, canvas clicked at the authored
+coordinates):
+
+| button | stage pos | result |
+|-------|----------|--------|
+| bn | (461,458) | NEW GAME -> opening movie (19926-20423) -> intro @694 |
+| bv | (457,524) | hold @515 (save screen) |
+| bm | (455,586) | hold @599 (load screen) |
+| bg | (453,642) | hold @457 (menu) |
+
+The New Game path renders the full opening movie then the intro at
+frame 694 (park background, EN title "The Blind Spot in the Park"
+rendered as text, kurikku click cue, dialogue box) — but clicking
+anywhere does not advance, and the frame holds.
+
+**The hold, diagnosed with the extended probe (fork @ 7766133):**
+- On entry to 694 the score transition (fade-in) arms a playhead hold;
+  the frame oscillates through a re-arm loop (transHold true at every
+  sample; the frame script at 695 likely bounces back to 694).
+- Frame 694's tempo channel value is 0 — Director's WAIT-FOR-CLICK
+  code — which the engine does not implement as a hold; the loop keeps
+  cycling instead of parking.
+- No sprite on frame 694 has behaviors (in-engine:
+  `sprite(47).scriptInstanceList == []`), so the click-advance comes
+  from the frame script. The score's script member for 694 is
+  system#9 "待機goto frame" — a type-11 SCRIPT member whose body is NOT
+  in the cast's KEY* table. The actual bodies live in system.cxt's
+  LctX: **1904 Lscr chunks** (verified header: entryCount 1942,
+  entriesOffset 96, 96 + 1942*12 = 23400 = exact chunk length; lnam
+  section 231986; validCount 1904). The flow handlers are visible in
+  the Lscr strings: `start`, `demo`, `help`, `save`, `load`,
+  `lookdata` (the marker-look tables), plus 1300+ distinct strings.
+
+**Next steps for playability (all one area: script member -> Lscr
+resolution + tempo-0 hold):**
+1. Resolve type-11 script members to their Lctx Lscr sections so
+   frame scripts like "待機goto frame" execute (wait-for-click loops,
+   marker jumps).
+2. Implement the tempo-0 = hold-until-click/key playhead semantics.
+3. The transition re-arm loop needs the fade to complete via the
+   renderer rather than re-arming on each cycle.
