@@ -127,3 +127,27 @@ Design notes for the eventual upstream PR: `get_bitmap` became
 for read-only contexts; dimension-only call sites were switched to the
 meta accessor; the internal-cast path keeps a non-releasing apply
 variant (the movie file is immutably borrowed during load).
+
+
+## Update 3 (2026-09-10, session 4): lazy GIF decode; the remaining wall is raw data size
+
+- **Lazy GIF decode** (fork main @ 2344c0e): GIF members no longer decode
+  their whole frame set at cast apply. `BitmapMember::pending_gif` carries
+  the raw GIF bytes; the Canvas2D and WebGL2 first-draw paths call
+  `gif::ensure_gif_decoded`, which decodes, registers the animation and
+  swaps in frame 0. `is_gif_member` reports true for pending members.
+
+- **The remaining blocker is data size, not waste**: mizube's eleven casts
+  decompress to ~3-4 GB of 32-bit BITD planes (zlib'd to ~450 MB on disk —
+  mov7 alone: 14 MB on disk -> ~580 MB decompressed, 280 members x 2.7 MB).
+  The lazy-bitmap pending sources retain the DECOMPRESSED bytes, so all
+  casts load at ~4041 MB and the first frame cannot decode (needs ~100 MB
+  of headroom).
+
+- **Next step (design)**: keep the pending payloads compressed — carry the
+  (file offset, length, zlib GUID) source reference plus the decompressed
+  length instead of the inflated bytes, and inflate inside decode_pending.
+  This requires the raw file bytes to outlive preload (currently released
+  by take_task_result after apply), e.g. a per-cast compressed-slab that
+  the pending borrows from. Roughly a day of careful work; everything
+  else in the load path is already lazy.
