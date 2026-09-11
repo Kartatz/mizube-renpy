@@ -220,3 +220,35 @@ Remaining issues, in priority order:
 Everything up to the render is now verified working end-to-end: movie
 parse, 11 external casts (compressed pending), Xtra declaration handling,
 Lingo eval (`mcp_eval_lingo`), the score loop, and the marker table.
+
+
+## Update 6 (2026-09-11, session 3): THE GAME RENDERS AND PLAYS
+
+Fork @ 1cea090. One-line-class fix with game-changing consequences:
+
+**`player_call_global_handler` routed the global-verb form of async Xtra
+instance verbs to the sync handler** (whose stub errors), freezing the
+movie at frame 1 the moment mizube's boot script called
+`openFile` (FileIO Xtra, reading its save/config data). The method-call
+path already checked `has_xtra_instance_async_handler`; the global-verb
+path now does too.
+
+With that fix, the FULL original game runs in the browser:
+
+- Boot: the playhead advances through the original title-card tempo
+  (frames 1-339), crosses the title menu (`startx` @340), passes the
+  `start` marker (@454), and renders the park scene in WebGL — canvas
+  mean 169.9, 66% bright content, with the sprite structure visible.
+- No script errors trip the debugger; playback state stays
+  `playing=true, paused=false` throughout a 2-minute run.
+- Heap: ~1.16 GB steady (the compressed-pending work holds).
+
+Remaining knowns before full playability:
+1. Input: clicks/keys must reach the movie's event system (the title
+   menu needs a click on the four `bn/bv/bm/bg` buttons).
+2. Sound: 17 declared Xtras (DirectSound/MacroMix/SWA) were missing —
+   audio behavior untested.
+3. Frame 1 hold: pre-menu frames include the opening black cards —
+   verify the menu actually waits for a click rather than auto-advancing
+   (the run crossed 340→454 without input, suggesting either an
+   auto-advance or a menu the headless run couldn't see).
