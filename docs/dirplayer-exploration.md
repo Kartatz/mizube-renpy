@@ -400,3 +400,54 @@ that's how the dead-looking dispatch was traced to actually running
   even though the cycle works).
 - `wake` (system#9) final block: `if fra == -10000 then qq14 = 0;
   go <const 1>` — the -10000 sentinel path is untested.
+
+## Update 10 — Movie-internal cast members never loaded; the dialogue box now renders
+
+Engine fork commit `e576c41`.
+
+### The bug
+
+`member("main")` — the intro dialogue field — resolved to `#empty`
+(number -1). The dialogue click-cycle (behavior 1053's `mouseUp`) ran
+perfectly and wrote `member("main").text` four times per intro card,
+but every write went to a dummy member and nothing ever appeared.
+
+Root cause: **`apply_cast_def_keep` had no callers.** When
+`CastManager::load_from_dir` built the CastLib shells from the MCsL,
+each internal entry got its `lctx` (scripts) connected — which is why
+every script in the game worked — but the member map was left empty.
+External casts populate via their own preload-result handler; the
+movie-internal cast had nothing. CastLib 1 ("内蔵", id 66560, 47
+members) stayed an empty shell.
+
+Fix: for non-external MCsL entries whose cast def exists in the
+movie's own parsed casts, apply the def (`apply_cast_def_keep`) right
+after the shells are built.
+
+### Verified live
+
+- `member(11, 1).type` = `#text`; `the number of member "main"` = 11.
+- Sprite 138 renders: `[TEXT_RECT] sprite#138 ... info=844x104`.
+- The intro dialogue cycles on click:
+  1. "While usually a quiet park with no-one around, it's currently
+     bustling families enjoying the Summer."
+  2. "I get my, pride and joy, a long ranged camera ready"
+  3. "Hiding in my bag the expensive hi-tech video camera ... a girl
+     playing at the waterside!!"
+  4. "Cautious of my surroundings, I pressed the record button."
+  5th click: reset + `go the frame + 1` → 695 → the 248 gate at 696.
+
+Note the raw CASt type ids: 15 = D11.5 rich #text (styled-text XMED
+children; dirplayer's `MemberType::Ole` arm handles them), 3 = legacy
+field/text, 11 = script, 8 = Flash. The MCsL min/max member windows
+per cast lib are in the MCsL dump above.
+
+### Session tooling note
+
+The debug-log probes must wait the full ~60-90s cast preload before
+concluding a log line never fires — several earlier probes sampled at
+20s and misread "not yet" as "never" (cast_manager/cast_lib lines all
+appear late in the load). Also, a `build-vm-dev` output must be
+checked for the new debug strings (`strings pkg/vm_rust_bg.wasm`)
+before testing — one build this session ran against a stale pkg while
+the patch had not landed, costing a full round of false negatives.
