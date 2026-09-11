@@ -252,3 +252,33 @@ Remaining knowns before full playability:
    verify the menu actually waits for a click rather than auto-advancing
    (the run crossed 340→454 without input, suggesting either an
    auto-advance or a menu the headless run couldn't see).
+
+
+## Update 7 (2026-09-11, session 3 end): INTERACTIVE — clicks drive the movie
+
+Verified in the same headless harness: a physical mouse click on the
+canvas at the authored `bn` menu-button coordinates (461,458 stage →
+621,578 page) was routed into the movie's event system; a script
+responded and the playhead JUMPED (frame 461 -> 19948 -> playing
+through the opm*/fn_* opening-movie ranges -> 680+). The game is not
+merely rendering — it is INTERACTIVE, scripts execute, and marker-based
+`go` flow works end-to-end.
+
+The original mizube.exe's data — movie + eleven castLibs + FileIO
+boot script — now runs in a stock browser through dirplayer-rs with no
+Wine, no Director, and no reimplementation.
+
+Session totals on the fork (igorlira/dirplayer-rs <- Kartatz fork main):
+1. KEY* owner index (fixes O(members x entries) scans)
+2. Hex-dump gating/capping (per-byte 10x amplification)
+3. Heap instrumentation
+4. Lazy bitmap decode + borrow model
+5. Lazy GIF decode
+6. Compressed pending sources (Arc slab + provenance + flate2 on demand)
+7. Palette-resolution meta path
+8. Log-level selector, playback/frame probes
+9. Global-verb async Xtra instance dispatch (the openFile boot freeze)
+
+Next steps, all engine-side now: menu semantics (which button does
+what), the 17 audio Xtras, and the tempo-0 click-wait behavior at the
+title cards.
