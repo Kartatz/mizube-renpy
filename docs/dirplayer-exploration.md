@@ -327,3 +327,76 @@ resolution + tempo-0 hold):**
 2. Implement the tempo-0 = hold-until-click/key playhead semantics.
 3. The transition re-arm loop needs the fade to complete via the
    renderer rather than re-arming on each cycle.
+
+## Update 9 — Tempo 247/248 + the frame-694 mystery fully solved; intro is playable
+
+Engine fork commit `451d43c` (on top of `7766133`).
+
+### Tempo channel semantics (definitive)
+
+Full-movie tempo dump (21973 frames): **only 4 frames use mode 248**
+(wait for click: 8, 696, 2097, 14691), 101 use 247 (delay N seconds),
+155 use 246 (FPS from cue). Entries are **per-frame settings, not
+keyframe spans** — the next entry after 248@696 is 247@854, so span
+inheritance would demand ~150 clicks to leave the intro (matches
+ScummVM, which attaches TempoChannelData to the frame record it
+appears in; consecutive 247 entries at 1230/1231 also confirm this).
+
+Implemented in the fork:
+- `get_frame_tempo_entry(frame)` — exact-frame entry lookup.
+- `begin_all_sprites` arms `tempo_wait_click` (248) and sets
+  `delay_until` (247, cue seconds) on frame entry.
+- `run_single_frame` holds the tick before exitFrame while armed;
+  any mouseUp/KeyDown releases for one advance (set in the
+  commands.rs handlers, before script dispatch).
+- Normal advance clears both flags; re-entry re-arms.
+
+Verified live: title card 8 holds until click; delay cards 32/56/58
+hold 2s/2s/4s; intro gate 696 holds until click.
+
+### Frame 694 — the whole mechanism, decoded
+
+The pin at 694 was **not** a bug: it is the game's design.
+- Every ~100ms a **timeout heartbeat** (handlers `tim1`/`tim100`
+  present in dozens of system scene scripts) re-anchors the playhead
+  with `go fra` (global `fra` = scene anchor frame = 694 during the
+  intro). Debug log: `go() called: current_frame=694 datum=694` ~23/s.
+- The intro dialogue advance lives in **system script 1053 `mouseUp`**
+  (attached to sprite 48 via its member 1798; kurikku icon = ch47):
+  - if `_key.keyPressed('s')` → skip: `ssina = 0`,
+    `member("main").text = <intro line 1>`, `go the frame + 1`
+  - else `ssina = ssina + 1; nt()` and `member("main").text` cycles
+    through 4 intro lines; on `ssina == 5`: reset + `go the frame + 1`.
+  - 695's exitFrame (system#48): `if pp10 < 3 then pp10 = 4;
+    mainsave()` — mainsave has no handler anywhere (silently ignored);
+    pass-through requires `pp10 >= 3` which the cycle satisfies.
+- 696 is tempo 248 — the wait-click gate into the scene sequence.
+
+End-to-end live trace: 694 (5 dialogue clicks) → 695 → 696 (248 hold)
+→ release click → 726 → scene clicks advance 727→745→763→781→799→818→
+837→854→862 (~18 frames per card). The intro is now **fully playable**.
+
+### Tooling added
+
+`/tmp/opencode/dp/disasm.py` — Lingo bytecode disassembler for the
+system Lctx (D11.5 opcode remap `op >= 0x40 -> 0x40 + op % 0x40`,
+operand widths by raw op >= 0xc0/0x80/0x40, extCall/getGlobal name
+annotation against the cast Lnam, literal-pool dump incl. strings).
+Used to decode: wake (9), exitFrame (48), mouseUp (1053), tim1/tim100
+scene heartbeats. Copied to mizube-renpy/tools/lingo_disasm.py.
+
+Also instrumented the mouseUp cast-member-script fallback branch in
+commands.rs (was silent through `?`; mouseDown's mirror path logs) —
+that's how the dead-looking dispatch was traced to actually running
+1053's mouseUp.
+
+### Known-open
+
+- `mainsave` handler referenced by 695's exitFrame does not exist in
+  any cast (silently ignored — no crash, pp10 gate still passes).
+- The dialogue text field (lib1 m11 "main", sprite ch138) does not
+  appear in TEXT_RECT draw logs — the `member("main").text` update
+  may not be rendering; needs a look (dialogue might be invisible
+  even though the cycle works).
+- `wake` (system#9) final block: `if fra == -10000 then qq14 = 0;
+  go <const 1>` — the -10000 sentinel path is untested.
