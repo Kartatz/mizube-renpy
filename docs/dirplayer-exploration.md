@@ -151,3 +151,38 @@ variant (the movie file is immutably borrowed during load).
   by take_task_result after apply), e.g. a per-cast compressed-slab that
   the pending borrows from. Roughly a day of careful work; everything
   else in the load path is already lazy.
+
+
+## Update 4 (2026-09-11): compressed pending sources — the movie BOOTS
+
+Two commits on the fork (d2d205c, 1e16607), full rewrite of the lazy
+media path to keep payloads zlib-compressed until first render:
+
+- `PendingBitmap::CompressedBitd` / `CompressedJpegWithAlfa` carry
+  (Arc slab, offset, len, compression id) instead of inflated bytes;
+  the DirectorFile wraps the raw file bytes in an Arc slab, each
+  member's children record their (offset, len) provenance at parse
+  time (`child_sources`), and `decode_pending` inflates with flate2 on
+  first use.
+- The eagerly-decoding `resolve_unresolved_palette_refs` pass at movie
+  start switched to `get_bitmap_meta` (pending shells are skipped —
+  they carry a BuiltIn palette ref).
+
+Measured: all 11 casts preload in **~1.16 GB** of the 4 GB wasm32 heap
+(was: OOM). The movie then BOOTS: live 960x720 canvas, WebGL renderer
+active, score loop running (`__dirplayerFrameTempo=12`), React chrome
+hidden.
+
+**Current blocker: the playhead holds frame 1.** The opening
+title-card frames use the movie's special tempo channel (frames 8/9
+hold tempo 248/247 = wait-in-ticks); frame 1 sits at a hold tempo and
+neither real canvas clicks nor `mcp_eval_lingo('go 340')` (which
+reports success) advance it. Next investigation: dirplayer's
+`run_frame_loop` tempo-0/wait-tick semantics and its `go` dispatch —
+the frame-1 script member (system 1828) has an empty CASt, so this is
+engine-behavior debugging, not format work.
+
+Debug aids added along the way: `window.__dirplayerLogLevel='debug'`
+selects the wasm log level pre-load; `window.__dirplayerFrame`
+publishes the playhead; `window.__vm` (the app's module handle)
+exposes `mcp_eval_lingo` for headless Lingo probes.
