@@ -186,3 +186,37 @@ Debug aids added along the way: `window.__dirplayerLogLevel='debug'`
 selects the wasm log level pre-load; `window.__dirplayerFrame`
 publishes the playhead; `window.__vm` (the app's module handle)
 exposes `mcp_eval_lingo` for headless Lingo probes.
+
+
+## Update 5 (2026-09-11, session 2): THE MOVIE RUNS
+
+The "playhead holds frame 1" mystery had a mundane root: **the LoadMovie
+UI's Auto-play checkbox defaults OFF** — `play()` was never called, so
+no frame loop ever ran and `go()`'s next_frame sat unconsumed. A new
+`window.__vm.dirplayer_playbackState()` probe exposed (is_playing=…) and
+settled it in one measurement.
+
+With `play()` invoked (fork @ 626466a):
+
+- **The playhead advances through the original title-card sequence** at
+  the authored tempo (frames hold ~247/248 wait-ticks ≈ 4s per card —
+  matching the original game's opening observed under Wine), reaching
+  frame 9 within ~20s of play on a settled load, and `go(340)` jumps
+  to the `startxa` marker exactly as authored.
+- `begin_all_sprites` runs; the score's 1506 sprite channels apply.
+
+Remaining issues, in priority order:
+1. **The renderer never draws** — the 960x720 canvas stays pure black
+   while the frame loop runs (WebGL2 backend; a "GPU stall due to
+   ReadPixels" shows activity but no output). Renderer scheduling /
+   stage_dirty propagation is the next investigation.
+2. **play() takes ~60s to become active** — the init re-parses every
+   cast's film-loop scores at play time ("Finished processing 56/15/66/62
+   frames" logs) on top of the 21973-frame pre-scan; a settled load +
+   play advances within seconds.
+3. The headless Auto-play default should be ON (or play() auto-invoked
+   post-`whenMovieLoaded`) — one-line app change.
+
+Everything up to the render is now verified working end-to-end: movie
+parse, 11 external casts (compressed pending), Xtra declaration handling,
+Lingo eval (`mcp_eval_lingo`), the score loop, and the marker table.
