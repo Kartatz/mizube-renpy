@@ -109,3 +109,25 @@ natively:
   mirroring the original icon screen's activate/deactivate behavior
 - **NPC sprites** — the grandpa and little brother sprites wander the
   day-2 scenes (the readme's "family will catch on" mechanic)
+
+
+## Playing the ORIGINAL game directly (dirplayer-rs)
+
+The original Director movie now runs natively in a browser via
+[dirplayer-rs](https://github.com/igorlira/dirplayer-rs) — no Wine, no
+reimplementation. Our fork carries the fixes that make this specific
+game load and play (see `docs/dirplayer-exploration.md` for the full
+saga):
+
+```bash
+# prereqs: Rust + wasm32 target, wasm-pack 0.13, Node 18+
+./tools/run-dirplayer.sh /path/to/RE227368
+```
+
+Then open http://localhost:3000, enter
+`http://127.0.0.1:8000/movie.dcr` as the movie URL, **check
+"Auto-play"**, and click Load Movie. The original title cards play at
+their authored tempo (~60s to the menu); click the menu to play.
+
+The Ren'Py conversion (below) remains the Android-native track; the
+dirplayer track runs the authentic original from its own data.
