@@ -451,3 +451,70 @@ appear late in the load). Also, a `build-vm-dev` output must be
 checked for the new debug strings (`strings pkg/vm_rust_bg.wasm`)
 before testing — one build this session ran against a stale pkg while
 the patch had not landed, costing a full round of false negatives.
+
+## Update 9 — Playthrough verified: title → menu → New Game → opening → intro → scene sequence
+
+The runtime is playable end-to-end on the fork as committed
+(`e576c41`). No engine changes were needed this session — the missing
+piece was the click target.
+
+### The intro's click target is the kurikku (クリック) cue, not the dialogue box
+
+The intro scene (cgmoad, 659–1093) has a click cue sprite — **ch47,
+system#324 "kurikku"** at stage (70,646), 71×67 → browser page
+(230,766)-(300,833), click its center at **(265,799)**. Clicks there
+advance the dialogue; clicks on the dialogue box (page 660,780) hit
+the ch45 shape strip (`[mouseDown] mouse_down_sprite=-1`, then
+"[mouseUp] no sprite to dispatch to") and do nothing.
+
+### The intro hold is an authored `go(the frame)` loop, not a hang
+
+Frame 694's hold is **sprite 48's member script** (system#1798): a
+7-byte `exitFrame → go(the frame)`. The tick re-enters 694 every frame
+(`go() called: current_frame=694 datum=694` at ~30 Hz in the debug
+log) while the renderer keeps drawing. The `dirplayer_playbackState`
+probe during the hold: `is_playing=true, frame=694, trans_active`
+flips true for ~2s on entry (a score transition arms and its
+wall-clock failsafe clears it), then false — while the frame stays
+694 because of the go-loop. Frame 695 carries tempo 246 (wait media)
+and a transition member 2:180; frame 696 is the tempo-248
+wait-for-click gate; both release per kurikku click into the scene
+sequence (719, 740, 763, 790, 813, ...).
+
+### Full intro walkthrough (26 kurikku clicks, headless)
+
+| frames | line |
+|---|---|
+| 694 ×4 | "While usually a quiet park..." / "I get my, pride and joy..." / "Hiding in my bag..." / "Cautious of my surroundings, I pressed the record button." |
+| 696–740 | "Alrighty, time to find me some game..." |
+| 763–832 | "Should I record that girl over there...?" (viewfinder scene renders) |
+| 850–865 | "MmM!?" |
+| 880–957 | "GULP…" |
+| 978–1084 | "So erotic..." |
+
+Screenshots: the camera-viewfinder overlay (REC/TCG/Focus HUD), the
+dialogue box with speech-bubble icon and EN text, the girl sprite —
+all rendered correctly (see `docs/menu.png` lineage; new shots in the
+session notes).
+
+### Driver recipe (headless, deterministic)
+
+The old click-loop drivers were flaky (blind clicks ate gates). The
+reliable state machine polls `__vm.dirplayer_playbackState()[2]` every
+700 ms and:
+
+1. Boot: fill the URL input, check `#autoPlay` (or call
+   `window.__vm.play()`), click Load Movie, wait for frame ≥ 8.
+2. Title gates: click center (640,480) whenever the frame hasn't
+   changed for >2.6 s (tempo-247 delays 2/2/4 s and 248 gates).
+3. Menu: when the frame is inside 454–500, re-check after 3 s (the
+   menu viewfinder-strip oscillates 454–467, so "stuck" detection
+   never fires there — range-match instead), then click **bn**
+   New Game at (621,578) once.
+4. Opening movie: wait for the frame to enter 694–716.
+5. Intro/scene dialogue: click the kurikku cue at **(265,799)**
+   every ~1.9 s; read the line via
+   `mcp_eval_lingo('member(11, 1).text')`.
+
+Driver scripts live in `/tmp/opencode/dp/*.cjs` (wiped on VM
+restarts); the recipe above is the durable record.
